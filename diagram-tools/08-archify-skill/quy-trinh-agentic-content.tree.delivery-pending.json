@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "command": "deliver",
-  "status": "pending",
-  "receiptId": "56cfd95a-7719-45ba-909d-a0fc5bb3522a",
-  "input": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/tree.candidate.json",
-  "output": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.html"
-}

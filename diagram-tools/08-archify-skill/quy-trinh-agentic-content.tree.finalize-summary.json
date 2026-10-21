@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "ok": false,
+  "ok": true,
   "command": "finalize",
-  "status": "running",
+  "status": "pass",
   "type": "tree",
   "quality": "showcase",
   "specification": {
@@ -11,13 +11,15 @@
     "bytes": 35831
   },
   "artifact": {
-    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.html"
+    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.html",
+    "sha256": "d4db5942d053fa111dc098a8054e70cd7020999416d52a26487b87677b20233a",
+    "bytes": 837204
   },
   "gates": {
-    "validate": "not-run",
-    "deliver": "not-run",
-    "check": "not-run",
-    "browser-check": "not-run"
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
   },
   "diagnostics": [],
   "diagnosticSummary": {
@@ -27,11 +29,13 @@
   },
   "evidence": {
     "receipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.finalize.json",
-    "summaryReceipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.finalize-summary.json"
+    "summaryReceipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.finalize-summary.json",
+    "browserCheckReceipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.browser-check.json"
   },
   "visualReview": "not-requested",
+  "durationMs": 5448,
   "browserCheck": {
     "requested": true,
-    "ran": false
+    "ran": true
   }
 }
