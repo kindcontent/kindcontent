@@ -1,0 +1,46 @@
+flowchart TB
+  subgraph G1["Giai đoạn 1 — Chiến lược (Strategy)"]
+    direction LR
+    S1["`**1.** Agent Nghiên cứu
+phân tích thị trường, đối thủ, insight khách hàng`"] --> S2["`**2.** Agent SEO & Từ khóa
+từ khóa, search intent, khoảng trống nội dung`"]
+    S2 --> S3["`**3.** Agent Kế hoạch
+persona, content pillar, lịch nội dung`"]
+    S3 --> H1{"`**4.** 👤 Người duyệt
+chiến lược`"}
+  end
+  subgraph G2["Giai đoạn 2 — Thực thi (Execution)"]
+    direction LR
+    E5["`**5.** Agent Brief
+dàn ý, outline, thông điệp chính`"] --> E6["`**6.** Agent Viết
+bản nháp blog, fanpage, PR`"]
+    E6 --> E7["`**7.** Agent Hình ảnh & Video
+visual, thumbnail, kịch bản video ngắn`"]
+    E7 --> E8["`**8.** Agent Biên tập
+SEO on-page, kiểm chứng, giọng thương hiệu`"]
+    E8 --> H2{"`**9.** 👤 Người duyệt
+nội dung`"}
+    H2 -->|"Chưa đạt → sửa lại"| E6
+  end
+  subgraph G3["Giai đoạn 3 — Phân phối (Distribution)"]
+    direction LR
+    D10["`**10.** Agent Chuyển thể
+1 bài gốc → nhiều định dạng (post, reel, email)`"] --> D11["`**11.** Agent Đăng bài
+Website, Fanpage, TikTok, YouTube, Email`"]
+    D11 --> D12["`**12.** Agent Đo lường
+traffic, tương tác, chuyển đổi`"]
+  end
+  G1 -->|"Đã duyệt"| G2
+  G2 -->|"Đạt"| G3
+  G1 <-.-|"Kết quả đo lường → tối ưu chu kỳ sau"| G3
+  classDef s fill:#a5d8ff,stroke:#1971c2
+  classDef e fill:#b2f2bb,stroke:#2f9e44
+  classDef d fill:#d0bfff,stroke:#6741d9
+  classDef h fill:#ffec99,stroke:#e8590c
+  class S1,S2,S3 s
+  class E5,E6,E7,E8 e
+  class D10,D11,D12 d
+  class H1,H2 h
+  style G1 fill:#e7f5ff,stroke:#1971c2
+  style G2 fill:#ebfbee,stroke:#2f9e44
+  style G3 fill:#f3f0ff,stroke:#6741d9
