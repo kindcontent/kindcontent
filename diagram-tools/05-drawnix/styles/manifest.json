@@ -1,0 +1,200 @@
+[
+  {
+    "file": "style-mind-theme-colorful.png",
+    "name": "Mind map — chủ đề Đầy màu sắc",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Đầy màu sắc»",
+    "note": "Đẹp nhất cho content: mỗi giai đoạn một màu rực (đỏ/cam/vàng/xanh lá), node gốc nền đen nổi bật, chữ Việt rõ."
+  },
+  {
+    "file": "style-mind-theme-default.png",
+    "name": "Mind map — chủ đề Mặc định",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Mặc định»",
+    "note": "Gọn gàng, màu pastel tím-xanh, an toàn cho mọi nền slide/bài viết."
+  },
+  {
+    "file": "style-mind-theme-soft.png",
+    "name": "Mind map — chủ đề Nhẹ nhàng",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Nhẹ nhàng»",
+    "note": "Màu nhạt nhẹ trên nền xám rất nhạt, hợp phong cách tối giản nhưng hơi thiếu tương phản khi thu nhỏ."
+  },
+  {
+    "file": "style-mind-theme-retro.png",
+    "name": "Mind map — chủ đề Cổ điển",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Cổ điển»",
+    "note": "Nền kem, node gốc xanh navy, màu đất (xanh rêu/nâu/cam) — cảm giác cổ điển, ấm."
+  },
+  {
+    "file": "style-mind-theme-dark.png",
+    "name": "Mind map — chủ đề Tối",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Tối»",
+    "note": "Nền đen, viền màu neon; đẹp cho video/thumbnail tối, chữ trắng đọc tốt."
+  },
+  {
+    "file": "style-mind-theme-starry.png",
+    "name": "Mind map — chủ đề Bầu trời sao",
+    "how": "Công cụ mở rộng → Markdown sang Drawnix → dán dàn ý → Chèn; rồi ô chọn chủ đề góc dưới bên phải → «Bầu trời sao»",
+    "note": "Nền xanh navy đậm, viền đỏ/xanh lá/vàng — hợp slide nền tối, trông 'công nghệ'."
+  },
+  {
+    "file": "style-mind-layout-standard.png",
+    "name": "Mind map — Bố cục hai bên (standard)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"standard\" và \"rightNodeCount\": 2 vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Cân đối hai phía quanh node gốc; ảnh rất ngang (tỉ lệ ~4:1) nên chữ nhỏ khi đăng mạng xã hội."
+  },
+  {
+    "file": "style-mind-layout-left.png",
+    "name": "Mind map — Bố cục sang trái (left)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"left\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Giống bố cục mặc định nhưng lật gương sang trái; ít khi cần cho người đọc trái→phải."
+  },
+  {
+    "file": "style-mind-layout-right-bottom-indented.png",
+    "name": "Mind map — Bố cục thụt lề xuống — phải (logic/outline)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"right-bottom-indented\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Dạng dàn ý thụt lề dọc như mục lục, đọc từ trên xuống rất tự nhiên; ảnh dài, hợp đăng dạng carousel/infographic dọc."
+  },
+  {
+    "file": "style-mind-layout-right-top-indented.png",
+    "name": "Mind map — Bố cục thụt lề lên — phải",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"right-top-indented\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Như dàn ý thụt lề nhưng thứ tự lộn ngược (gốc ở dưới, bước 12 lên đầu) — dễ gây khó hiểu cho quy trình."
+  },
+  {
+    "file": "style-mind-layout-left-bottom-indented.png",
+    "name": "Mind map — Bố cục thụt lề xuống — trái",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"left-bottom-indented\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Dàn ý thụt lề canh phải; lạ mắt nhưng khó đọc với tiếng Việt (trái→phải)."
+  },
+  {
+    "file": "style-mind-layout-left-top-indented.png",
+    "name": "Mind map — Bố cục thụt lề lên — trái",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"left-top-indented\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Gốc ở dưới bên phải, mọi thứ lộn ngược — ít giá trị thực tế."
+  },
+  {
+    "file": "style-mind-layout-downward.png",
+    "name": "Mind map — Bố cục cây đổ xuống (downward / org chart)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"downward\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Kiểu sơ đồ tổ chức; với 34 node lá thì ảnh cực ngang (~12:1), chỉ hợp khi nội dung ít node."
+  },
+  {
+    "file": "style-mind-layout-upward.png",
+    "name": "Mind map — Bố cục cây mọc lên (upward)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"layout\": \"upward\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Như downward nhưng gốc ở dưới; cũng cực ngang, ít dùng."
+  },
+  {
+    "file": "style-mind-branch-polyline.png",
+    "name": "Mind map — nhánh gấp khúc (polyline)",
+    "how": "KHÔNG có trong giao diện: mở file .drawnix bằng trình soạn thảo, thêm \"branchShape\": \"polyline\" vào node gốc, rồi ☰ Menu → Mở (chủ đề «Đầy màu sắc»)",
+    "note": "Nhánh vuông góc thay cho đường cong, trông như sơ đồ kỹ thuật, gọn và nghiêm túc."
+  },
+  {
+    "file": "style-mind-shape-underline.png",
+    "name": "Mind map — node gạch chân (underline)",
+    "how": "KHÔNG có trong giao diện: trong file .drawnix đặt \"shape\": \"underline\" cho mọi node con (không đặt cho node gốc, nếu không chữ gốc bị mất), rồi ☰ → Mở",
+    "note": "Bỏ khung, chỉ gạch chân dưới chữ — thoáng, giống XMind/Notion; rất hợp khi nhiều chữ."
+  },
+  {
+    "file": "style-mind-underline-polyline.png",
+    "name": "Mind map — gạch chân + nhánh gấp khúc",
+    "how": "KHÔNG có trong giao diện: kết hợp \"shape\": \"underline\" (node con) và \"branchShape\": \"polyline\" (node gốc) trong file .drawnix",
+    "note": "Phong cách 'dàn ý kỹ thuật' tối giản; điểm nối nhánh hơi rời rạc ở node gốc."
+  },
+  {
+    "file": "style-flow-themecolor-colorful.png",
+    "name": "Flowchart (màu theo chủ đề) — Đầy màu sắc",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Đầy màu sắc»",
+    "note": "Sau khi đổi về «Màu chủ đề»: viền và mũi tên xanh ngọc đồng bộ, sạch, dễ đọc — bản flowchart đẹp nhất."
+  },
+  {
+    "file": "style-flow-themecolor-default.png",
+    "name": "Flowchart (màu theo chủ đề) — Mặc định",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Mặc định»",
+    "note": "Đen trắng tối giản, rõ ràng, in ấn tốt."
+  },
+  {
+    "file": "style-flow-themecolor-soft.png",
+    "name": "Flowchart (màu theo chủ đề) — Nhẹ nhàng",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Nhẹ nhàng»",
+    "note": "Nền xám nhạt, viền tím nhạt — nhẹ nhàng nhưng hơi mờ."
+  },
+  {
+    "file": "style-flow-themecolor-retro.png",
+    "name": "Flowchart (màu theo chủ đề) — Cổ điển",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Cổ điển»",
+    "note": "Nền kem, viền vàng đất, cảm giác cổ điển."
+  },
+  {
+    "file": "style-flow-themecolor-dark.png",
+    "name": "Flowchart (màu theo chủ đề) — Tối",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Tối»",
+    "note": "Nền đen, chữ & viền trắng — đọc tốt (khác hẳn bản màu Mermaid gốc)."
+  },
+  {
+    "file": "style-flow-themecolor-starry.png",
+    "name": "Flowchart (màu theo chủ đề) — Bầu trời sao",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn; Ctrl+A → Màu tô → «Màu chủ đề» và Đường viền → «Màu chủ đề»; rồi ô chọn chủ đề góc dưới bên phải → «Bầu trời sao»",
+    "note": "Nền navy, viền xanh — hợp slide nền tối."
+  },
+  {
+    "file": "style-flow-mermaid-default.png",
+    "name": "Flowchart (màu Mermaid gốc) — Mặc định",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Mặc định»",
+    "note": "Màu Mermaid gốc (khung vàng, ô tím nhạt) — chủ đề không đổi được màu ô."
+  },
+  {
+    "file": "style-flow-mermaid-colorful.png",
+    "name": "Flowchart (màu Mermaid gốc) — Đầy màu sắc",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Đầy màu sắc»",
+    "note": "Chỉ mũi tên đổi sang xanh ngọc, ô vẫn vàng/tím của Mermaid — lệch tông."
+  },
+  {
+    "file": "style-flow-mermaid-soft.png",
+    "name": "Flowchart (màu Mermaid gốc) — Nhẹ nhàng",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Nhẹ nhàng»",
+    "note": "Nền xám nhạt, ô vẫn màu Mermaid; khác biệt rất ít."
+  },
+  {
+    "file": "style-flow-mermaid-retro.png",
+    "name": "Flowchart (màu Mermaid gốc) — Cổ điển",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Cổ điển»",
+    "note": "Nền kem, mũi tên vàng đất; ô vẫn màu Mermaid."
+  },
+  {
+    "file": "style-flow-mermaid-dark.png",
+    "name": "Flowchart (màu Mermaid gốc) — Tối",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Tối»",
+    "note": "LỖI: chữ chuyển trắng nhưng ô vẫn nền sáng → gần như không đọc được."
+  },
+  {
+    "file": "style-flow-mermaid-starry.png",
+    "name": "Flowchart (màu Mermaid gốc) — Bầu trời sao",
+    "how": "Công cụ mở rộng → Mermaid sang Drawnix → Chèn (giữ màu gốc); rồi ô chọn chủ đề góc dưới bên phải → «Bầu trời sao»",
+    "note": "LỖI: giống chủ đề Tối — chữ trắng trên ô sáng, không đọc được."
+  },
+  {
+    "file": "style-flow-arrow-elbow.png",
+    "name": "Flowchart — mũi tên vuông góc (elbow)",
+    "how": "KHÔNG đổi được cho mũi tên có sẵn trong giao diện (chỉ chọn kiểu khi vẽ mũi tên mới); ở đây đổi \"shape\": \"elbow\" trong file .drawnix rồi ☰ → Mở",
+    "note": "Tự định tuyến vuông góc nhưng khá rối: đường «Chưa đạt» cắt ngang ô Agent Biên tập."
+  },
+  {
+    "file": "style-catalog-shapes-arrows-pen-default.png",
+    "name": "Bảng mẫu hình, mũi tên, nét, bút — Mặc định",
+    "how": "Vẽ tay bằng thanh công cụ: Hình dạng (9 loại), Mũi tên (Thẳng/Vuông góc/Cong), chọn mũi tên → Đường viền → Nét liền/đứt/chấm, Bút vẽ (3 mẫu nét); nhấp đúp để gõ chữ; rồi ô chọn chủ đề góc dưới bên phải → «Mặc định»",
+    "note": "Bảng mẫu đầy đủ: 9 hình, 3 kiểu mũi tên, 3 kiểu nét, 3 mẫu bút (mảnh đen / vừa đỏ / dày xanh)."
+  },
+  {
+    "file": "style-catalog-shapes-arrows-pen-colorful.png",
+    "name": "Bảng mẫu hình, mũi tên, nét, bút — Đầy màu sắc",
+    "how": "Vẽ tay bằng thanh công cụ: Hình dạng (9 loại), Mũi tên (Thẳng/Vuông góc/Cong), chọn mũi tên → Đường viền → Nét liền/đứt/chấm, Bút vẽ (3 mẫu nét); nhấp đúp để gõ chữ; rồi ô chọn chủ đề góc dưới bên phải → «Đầy màu sắc»",
+    "note": "Cùng bảng mẫu ở chủ đề Đầy màu sắc: hình & mũi tên chuyển xanh ngọc, hình Terminal được tô nền."
+  },
+  {
+    "file": "style-catalog-shapes-arrows-pen-dark.png",
+    "name": "Bảng mẫu hình, mũi tên, nét, bút — Tối",
+    "how": "Vẽ tay bằng thanh công cụ: Hình dạng (9 loại), Mũi tên (Thẳng/Vuông góc/Cong), chọn mũi tên → Đường viền → Nét liền/đứt/chấm, Bút vẽ (3 mẫu nét); nhấp đúp để gõ chữ; rồi ô chọn chủ đề góc dưới bên phải → «Tối»",
+    "note": "Cùng bảng mẫu ở chủ đề Tối: mọi nét chuyển trắng, bút màu giữ nguyên đỏ/xanh."
+  }
+]
