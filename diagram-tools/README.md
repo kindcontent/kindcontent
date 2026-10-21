@@ -3,17 +3,15 @@
 Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Agentic Content, 12 bước). Mỗi thư mục có ảnh kết quả và `NHAN-XET.md` chi tiết.
 
 ## Top 3 để đăng bài truyền thông
-Tiêu chí: người thường hiểu được, clean – hiện đại – tối giản, đúng đủ dữ liệu. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
+Chấm trên cả kho của repo (mọi style/theme/template trong `styles/`), không chỉ 1 ảnh. Điểm cao = tốt (Đơn giản: cao = ít bước). Tổng = trung bình 8 mục. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
 
-Điểm cao = tốt hơn (Độ phức tạp: cao = đơn giản). Tổng = trung bình 5 mục.
+| Hạng | Repo | Kho style | Tỷ lệ dùng được | Clean | Tiếng Việt | Đúng đủ | Đơn giản | Gọn nhẹ | Dễ hiểu | Tổng |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | draw.io + next-ai-draw-io | 10 | 7 | 7 | 8 | 10 | 8 | 7 | 9 | **8.3** |
+| 2 | Excalidraw | 6 | 8 | 8 | 6 | 10 | 8 | 9 | 9.5 | **8.1** |
+| 3 | fireworks-tech-graph | 5 | 6 | 9.5 | 9 | 10 | 5 | 8 | 8.5 | **7.6** |
 
-| Hạng | Bản | Dễ hiểu | Clean | Đúng đủ | Độ phức tạp | Gọn nhẹ | Tổng |
-|---|---|---|---|---|---|---|---|
-| 1 | Excalidraw · Gọn gàng (`04-excalidraw/styles/preset-gon-gang.png`) | 9.5 | 8 | 10 | 8 | 9 | **8.9** |
-| 2 | fireworks-tech-graph · Notion Clean (`10-.../styles/style-04-notion-clean.png`) | 8.5 | 9.5 | 10 | 5 | 8 | **8.2** |
-| 3 | draw.io · pastel (`07-.../styles/style-palette-1-pastel.png`) | 9 | 7 | 10 | 8 | 7 | **8.2** |
-
-Chỉ xét đẹp/tối giản thì fireworks đứng đầu; tự làm và sửa thường xuyên thì Excalidraw.
+AntV Infographic nếu chấm theo kho được ~7.8 (276 mẫu, 249 dùng được) nhưng bị loại vì mẫu đẹp không vẽ được vòng lặp.
 
 ## Nên dùng gì
 
