@@ -10,6 +10,7 @@
 - [x] Tổng hợp so sánh + chấm điểm → `diagram-tools/README.md` + gallery https://claude.ai/artifact/BsaCNoPNYXfZ3ZkifGSFkA
 - [x] Render tất cả style/theme/template của từng repo diagram (328 ảnh + 276 mẫu AntV) → `diagram-tools/NN-*/styles/` + gallery mục "Tất cả style"
 - [x] Lọc Top 3 cho đăng bài (clean, ai cũng hiểu): chấm theo cả kho repo (8 tiêu chí) → draw.io 8.3 > Excalidraw 8.1 > fireworks 7.6
+- [ ] Xuất 11 CẤU TRÚC bố cục (không phải biến thể màu) × top 3 repo, 1 look clean, đủ dữ liệu → `NN-*/structures/`
 - [x] Nghiên cứu lip sync (khớp môi) + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 
@@ -19,5 +20,6 @@
 - Tool: 01 markmap, 02 mermaid, 03 d2, 04 excalidraw, 05 drawnix, 06 antv-infographic, 07 next-ai-draw-io (+draw.io), 08 archify-skill, 09 diagram-design-skill, 10 fireworks-tech-graph-skill.
 - Lip sync: user từng thử, môi không khớp. Cần giọng tiếng Việt clone từ giọng user. Đề xuất: video thật → LatentSync 1.6; giọng: VieNeu-TTS / VoxCPM2 (Apache-2.0, có tiếng Việt). Test thật cần GPU + mở huggingface.co + file giọng/video của user.
 - Styles: mỗi `styles/` có `manifest.json` [{file,name,how,note}] + `STYLES.md`; gallery dựng từ manifest (nguồn: `diagram-tools/gallery/` — chép index.html + build.py vào scratchpad rồi chạy build.py; artifact giữ nguyên URL, publish chia 2 lô vì giới hạn 255 file).
+- "Style" với user = CẤU TRÚC bố cục (cột, hàng, timeline, vòng tròn, metro…), không phải đổi màu. 11 cấu trúc S01–S11: cột dọc, hàng ngang, timeline ngang, timeline dọc, rắn lượn, vòng tròn, trục trung tâm, metro, làn vai trò, bậc thang, chevron. Bắt buộc đủ 12 bước, 2 điểm duyệt, 2 mũi tên vòng lặp; nhãn đời thường.
 - Kết luận diagram: Excalidraw (font Normal), draw.io + next-ai-draw-io MCP, AntV Infographic, Drawnix/markmap cho mind map, fireworks-tech-graph nếu dùng Claude Code.
 - Môi trường cloud: không GPU, huggingface.co bị chặn, không có API key LLM; tải release GitHub bị chặn (npm, pypi, proxy.golang.org, git clone OK). Cài đặt vào scratchpad, không để node_modules trong repo.
