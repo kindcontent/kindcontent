@@ -1,0 +1,32 @@
+infographic hierarchy-mindmap-branch-gradient-capsule-item
+data
+  title Quy trình Agentic Content — bản đồ Agent
+  root
+    label Agentic Content
+    children
+      - label Chiến lược
+        icon lucide/compass
+        children
+          - label Agent Nghiên cứu
+          - label Agent SEO & Từ khóa
+          - label Agent Kế hoạch
+          - label Người duyệt chiến lược
+      - label Thực thi
+        icon lucide/pen-tool
+        children
+          - label Agent Brief
+          - label Agent Viết
+          - label Agent Hình ảnh & Video
+          - label Agent Biên tập
+          - label Người duyệt nội dung
+      - label Phân phối
+        icon lucide/send
+        children
+          - label Agent Chuyển thể
+          - label Agent Đăng bài
+          - label Agent Đo lường
+theme
+  palette #334155 #2563eb #7c3aed #059669
+  base
+    text
+      font-family Inter

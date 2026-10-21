@@ -25,7 +25,7 @@
 
 ## Giai đoạn 3 — Phân phối
 ### 10. Agent Chuyển thể
-- 1 bài gốc → nhiều định dạng (post, reel, email)
+- 1 bài gốc → nhiều định dạng: post, reel, email
 ### 11. Agent Đăng bài
 - Website, Fanpage, TikTok, YouTube, Email
 ### 12. Agent Đo lường

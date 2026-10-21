@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "workflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/workflow.candidate.json",
+    "sha256": "930fc6c27d6fde9d8d3a5ba7e4c261f7fd1d928c0925898497910d6c26f5c064",
+    "bytes": 38625
+  },
+  "artifact": {
+    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.workflow.html",
+    "sha256": "6a92dce2f6d30a28262bb9163a6d2b26604fb69548c37dea8973f977289104ae",
+    "bytes": 833739
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/review-2/quy-trinh-agentic-content.workflow.finalize.json",
+    "summaryReceipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/review-2/quy-trinh-agentic-content.workflow.finalize-summary.json",
+    "browserCheckReceipt": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/review-2/quy-trinh-agentic-content.workflow.browser-check.json"
+  },
+  "visualReview": "not-requested",
+  "durationMs": 4970,
+  "browserCheck": {
+    "requested": true,
+    "ran": true
+  }
+}

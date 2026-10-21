@@ -1,0 +1,63 @@
+# Quy trình Agentic Content — D2
+grid-columns: 3
+horizontal-gap: 140
+vars: {
+  d2-config: {
+    layout-engine: elk
+  }
+}
+
+title: |md
+  # Quy trình Agentic Content
+  Từ Chiến lược đến Thực thi và Phân phối
+| {near: top-center}
+
+classes: {
+  agent: {
+    style: {border-radius: 8; font-size: 18; stroke-width: 2}
+  }
+  human: {
+    shape: hexagon
+    style: {fill: "#FEF3C7"; stroke: "#D97706"; font-color: "#78350F"; stroke-width: 2; bold: true; font-size: 18}
+  }
+}
+
+s1: "GIAI ĐOẠN 1 — CHIẾN LƯỢC (Strategy)" {
+  direction: down
+  style: {fill: "#F0F9FF"; stroke: "#0284C7"; font-size: 22; stroke-width: 2}
+  a1: "1. Agent Nghiên cứu\nphân tích thị trường, đối thủ,\ninsight khách hàng" {class: agent}
+  a2: "2. Agent SEO & Từ khóa\ntừ khóa, search intent,\nkhoảng trống nội dung" {class: agent}
+  a3: "3. Agent Kế hoạch\npersona, content pillar,\nlịch nội dung" {class: agent}
+  h1: "👤 4. Người duyệt\nchiến lược" {class: human}
+  a1 -> a2 -> a3 -> h1
+}
+
+s2: "GIAI ĐOẠN 2 — THỰC THI (Execution)" {
+  direction: down
+  style: {fill: "#F0FDF4"; stroke: "#16A34A"; font-size: 22; stroke-width: 2}
+  b5: "5. Agent Brief\ndàn ý, outline,\nthông điệp chính" {class: agent}
+  b6: "6. Agent Viết\nbản nháp blog,\nfanpage, PR" {class: agent}
+  b7: "7. Agent Hình ảnh & Video\nvisual, thumbnail,\nkịch bản video ngắn" {class: agent}
+  b8: "8. Agent Biên tập\nSEO on-page, kiểm chứng,\ngiọng thương hiệu" {class: agent}
+  h2: "👤 9. Người duyệt\nnội dung — Đạt chưa?" {
+    shape: diamond
+    style: {fill: "#FEF3C7"; stroke: "#D97706"; font-color: "#78350F"; stroke-width: 2; bold: true; font-size: 18}
+  }
+  b5 -> b6 -> b7 -> b8 -> h2
+  h2 -> b6: "❌ Chưa đạt → sửa lại" {style: {stroke: "#DC2626"; stroke-width: 3; font-color: "#DC2626"; font-size: 17}}
+}
+
+s3: "GIAI ĐOẠN 3 — PHÂN PHỐI (Distribution)" {
+  direction: down
+  style: {fill: "#FDF2F8"; stroke: "#DB2777"; font-size: 22; stroke-width: 2}
+  c10: "10. Agent Chuyển thể\n1 bài gốc → nhiều định dạng\n(post, reel, email)" {class: agent}
+  c11: "11. Agent Đăng bài\nlên lịch & đăng: Website,\nFanpage, TikTok, YouTube, Email" {class: agent}
+  c12: "12. Agent Đo lường\ntraffic, tương tác,\nchuyển đổi" {class: agent}
+  c10 -> c11 -> c12
+}
+
+s1.h1 -> s2.b5: "✅ Duyệt" {style: {stroke-width: 3; font-size: 17}}
+s2.h2 -> s3.c10: "✅ Đạt" {style: {stroke-width: 3; font-size: 17}}
+s3.c12 -> s1.a1: "🔁 Vòng lặp: kết quả đo lường → tối ưu chu kỳ sau" {
+  style: {stroke: "#7C3AED"; stroke-dash: 5; stroke-width: 3; font-color: "#6D28D9"; font-size: 17}
+}

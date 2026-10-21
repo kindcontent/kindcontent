@@ -2,13 +2,13 @@
 title: Quy trình Agentic Content — Từ Chiến lược đến Thực thi và Phân phối
 ---
 flowchart LR
-    subgraph S1["🧭 GIAI ĐOẠN 1 — CHIẾN LƯỢC (Strategy)"]
+    %% Khai báo ngược S3 → S1 để dagre xếp Giai đoạn 1 bên trái
+    subgraph S3["📣 GIAI ĐOẠN 3 — PHÂN PHỐI (Distribution)"]
         direction TB
-        A1["<b>1. Agent Nghiên cứu</b><br/>phân tích thị trường, đối thủ,<br/>insight khách hàng"]
-        A2["<b>2. Agent SEO & Từ khóa</b><br/>từ khóa, search intent,<br/>khoảng trống nội dung"]
-        A3["<b>3. Agent Kế hoạch</b><br/>persona, content pillar,<br/>lịch nội dung"]
-        H1{{"👤 <b>4. Người duyệt<br/>chiến lược</b>"}}
-        A1 --> A2 --> A3 --> H1
+        C10["<b>10. Agent Chuyển thể</b><br/>1 bài gốc → nhiều định dạng<br/>(post, reel, email)"]
+        C11["<b>11. Agent Đăng bài</b><br/>lên lịch & đăng:<br/>Website · Fanpage · TikTok<br/>YouTube · Email"]
+        C12["<b>12. Agent Đo lường</b><br/>traffic, tương tác,<br/>chuyển đổi"]
+        C10 --> C11 --> C12
     end
 
     subgraph S2["✍️ GIAI ĐOẠN 2 — THỰC THI (Execution)"]
@@ -22,17 +22,18 @@ flowchart LR
         H2 -- "❌ Chưa đạt → sửa lại" --> B6
     end
 
-    subgraph S3["📣 GIAI ĐOẠN 3 — PHÂN PHỐI (Distribution)"]
+    subgraph S1["🧭 GIAI ĐOẠN 1 — CHIẾN LƯỢC (Strategy)"]
         direction TB
-        C10["<b>10. Agent Chuyển thể</b><br/>1 bài gốc → nhiều định dạng<br/>(post, reel, email)"]
-        C11["<b>11. Agent Đăng bài</b><br/>lên lịch & đăng: Website, Fanpage,<br/>TikTok, YouTube, Email"]
-        C12["<b>12. Agent Đo lường</b><br/>traffic, tương tác,<br/>chuyển đổi"]
-        C10 --> C11 --> C12
+        A1["<b>1. Agent Nghiên cứu</b><br/>phân tích thị trường, đối thủ,<br/>insight khách hàng"]
+        A2["<b>2. Agent SEO & Từ khóa</b><br/>từ khóa, search intent,<br/>khoảng trống nội dung"]
+        A3["<b>3. Agent Kế hoạch</b><br/>persona, content pillar,<br/>lịch nội dung"]
+        H1{{"👤 <b>4. Người duyệt<br/>chiến lược</b>"}}
+        A1 --> A2 --> A3 --> H1
     end
 
-    S1 == "✅ Chiến lược được duyệt" ==> S2
-    S2 == "✅ Nội dung đạt" ==> S3
-    S1 <-. "🔁 Kết quả đo lường → tối ưu chu kỳ sau" .- S3
+    S1 == "✅ Chiến lược<br/>được duyệt" ==> S2
+    S2 == "✅ Nội dung<br/>đạt" ==> S3
+    S3 -. "🔁 <b>Vòng lặp:</b> kết quả đo lường<br/>→ quay lại Giai đoạn 1<br/>để tối ưu chu kỳ sau" .-> S1
 
     classDef human fill:#FEF3C7,stroke:#D97706,stroke-width:2px,color:#78350F
     classDef s1 fill:#E0F2FE,stroke:#0284C7,color:#0C4A6E
@@ -45,3 +46,6 @@ flowchart LR
     style S1 fill:#F0F9FF,stroke:#0284C7,stroke-width:2px
     style S2 fill:#F0FDF4,stroke:#16A34A,stroke-width:2px
     style S3 fill:#FDF2F8,stroke:#DB2777,stroke-width:2px
+    %% tô màu cho 2 vòng lặp (thứ tự cạnh: 6 = quay lại Agent Viết, 12 = vòng lặp phản hồi)
+    linkStyle 6 stroke:#DC2626,stroke-width:2.5px
+    linkStyle 12 stroke:#7C3AED,stroke-width:2.5px

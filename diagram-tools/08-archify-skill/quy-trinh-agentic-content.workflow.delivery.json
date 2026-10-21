@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "0c49e886-5a71-42df-9a62-d732fbb58ee8",
+  "status": "current",
+  "command": "deliver",
+  "type": "workflow",
+  "input": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/workflow.candidate.json",
+  "output": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.workflow.html",
+  "specification": {
+    "sha256": "930fc6c27d6fde9d8d3a5ba7e4c261f7fd1d928c0925898497910d6c26f5c064",
+    "bytes": 38625
+  },
+  "artifact": {
+    "sha256": "6a92dce2f6d30a28262bb9163a6d2b26604fb69548c37dea8973f977289104ae",
+    "bytes": 833739
+  }
+}
