@@ -1,0 +1,77 @@
+infographic sequence-interaction-compact-animated-rounded-rect-node
+data
+  title Quy trình Agentic Content
+  desc Agent AI làm, con người duyệt ở 2 điểm
+  sequences
+    - label Agent AI
+      icon lucide/bot
+      children
+        - label Agent Nghiên cứu
+          id s1
+          step 0
+          icon lucide/search
+        - label Agent SEO & Từ khóa
+          id s2
+          step 1
+          icon lucide/key-round
+        - label Agent Kế hoạch
+          id s3
+          step 2
+          icon lucide/calendar-days
+        - label Agent Brief
+          id s5
+          step 4
+          icon lucide/clipboard-list
+        - label Agent Viết
+          id s6
+          step 5
+          icon lucide/pen-line
+        - label Agent Hình ảnh & Video
+          id s7
+          step 6
+          icon lucide/clapperboard
+        - label Agent Biên tập
+          id s8
+          step 7
+          icon lucide/spell-check
+        - label Agent Chuyển thể
+          id s10
+          step 9
+          icon lucide/shuffle
+        - label Agent Đăng bài
+          id s11
+          step 10
+          icon lucide/send
+        - label Agent Đo lường
+          id s12
+          step 11
+          icon lucide/chart-line
+    - label Con người
+      icon lucide/user
+      children
+        - label Người duyệt chiến lược
+          id s4
+          step 3
+          icon lucide/user-check
+        - label Người duyệt nội dung
+          id s9
+          step 8
+          icon lucide/user-check
+  relations
+    s1 -> s2
+    s2 -> s3
+    s3 -> s4
+    s4 -> s5
+    s5 -> s6
+    s6 -> s7
+    s7 -> s8
+    s8 -> s9
+    s9 -> s10
+    s10 -> s11
+    s11 -> s12
+    s9 -chưa đạt-> s6
+theme
+  palette #2563eb #ea580c
+  base
+    text
+      font-family Inter

@@ -1,0 +1,28 @@
+infographic compare-binary-horizontal-compact-card-fold
+data
+  title Quy trình Agentic Content
+  desc Agent AI làm gì, con người duyệt ở đâu
+  compares
+    - label Agent AI thực hiện
+      icon lucide/bot
+      children
+        - label Nghiên cứu, SEO, Kế hoạch
+          icon lucide/search
+        - label Brief, Viết, Hình ảnh & Video, Biên tập
+          icon lucide/pen-line
+        - label Chuyển thể, Đăng bài, Đo lường
+          icon lucide/send
+    - label Con người kiểm duyệt
+      icon lucide/user-check
+      children
+        - label Duyệt chiến lược (sau bước 3)
+          icon lucide/compass
+        - label Duyệt nội dung (sau bước 8)
+          icon lucide/spell-check
+        - label Chưa đạt → quay lại Agent Viết
+          icon lucide/undo-2
+theme
+  palette #2563eb #ea580c
+  base
+    text
+      font-family Inter

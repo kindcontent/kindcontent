@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#fff;font-family:Inter,sans-serif}#container{width:var(--w,1800px);}</style>
+<link rel="stylesheet" href="node_modules/@fontsource/patrick-hand/index.css">
+<link rel="stylesheet" href="node_modules/@fontsource/pangolin/index.css">
+<link rel="stylesheet" href="node_modules/@fontsource/be-vietnam-pro/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/be-vietnam-pro/700.css">
+<style>@font-face{font-family:"851tegakizatsu";src:url(fonts/tegaki.ttf) format("truetype");}</style>
+<script src="node_modules/@antv/infographic/dist/infographic.min.js"></script>
+<script src="icons.js"></script>
+</head><body><div id="container"></div>
+<script>
+const A = window.AntVInfographic;
+window.iconMisses = [];
+A.registerResourceLoader(async (cfg) => {
+  let key = String(cfg.data || '').replace(/^lucide[\/:]/, '').trim().replace(/\s+/g, '-');
+  const svg = window.LUCIDE[key];
+  if (!svg) { window.iconMisses.push(cfg.data); return null; }
+  return A.loadSVGResource(svg);
+});
+window.errors = [];
+window.renderSyntax = (syntax, width) => new Promise((resolve) => {
+  document.getElementById('container').style.setProperty('--w', width + 'px');
+  if (window.ig) window.ig.destroy();
+  const ig = new A.Infographic({ container: '#container', width: width, editable: false });
+  window.ig = ig;
+  ig.on('error', (e) => window.errors.push(String(e && (e.message || JSON.stringify(e)))));
+  ig.on('warning', (e) => window.errors.push('WARN ' + JSON.stringify(e)));
+  let done = false;
+  ig.on('loaded', () => { if (!done) { done = true; resolve('loaded'); } });
+  setTimeout(() => { if (!done) { done = true; resolve('timeout'); } }, 8000);
+  ig.render(syntax);
+});
+</script></body></html>

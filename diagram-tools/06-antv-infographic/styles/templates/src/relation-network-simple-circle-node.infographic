@@ -1,0 +1,28 @@
+infographic relation-network-simple-circle-node
+data
+  title Quy trình Agentic Content
+  desc Vòng lặp tối ưu liên tục
+  nodes
+    - id p0
+      label Chiến lược
+      desc Nghiên cứu · SEO & Từ khóa · Kế hoạch · 👤 duyệt
+      icon lucide/compass
+    - id p1
+      label Thực thi
+      desc Brief · Viết · Hình ảnh & Video · Biên tập · 👤 duyệt
+      icon lucide/pen-tool
+    - id p2
+      label Phân phối
+      desc Chuyển thể · Đăng bài đa kênh · Đo lường
+      icon lucide/send
+    - id p3
+      label Đo lường & tối ưu
+      desc Kết quả quay lại Chiến lược cho chu kỳ sau
+      icon lucide/refresh-cw
+  relations
+    p0 -> p1 -> p2 -> p3 -> p0
+theme
+  palette #2563eb #7c3aed #059669 #ea580c
+  base
+    text
+      font-family Inter

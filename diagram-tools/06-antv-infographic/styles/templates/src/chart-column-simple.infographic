@@ -1,0 +1,19 @@
+infographic chart-column-simple
+data
+  title Quy trình Agentic Content
+  desc Số bước trong mỗi giai đoạn (tổng 12)
+  values
+    - label Chiến lược
+      value 4
+      icon lucide/compass
+    - label Thực thi
+      value 5
+      icon lucide/pen-tool
+    - label Phân phối
+      value 3
+      icon lucide/send
+theme
+  palette #2563eb #7c3aed #059669
+  base
+    text
+      font-family Inter

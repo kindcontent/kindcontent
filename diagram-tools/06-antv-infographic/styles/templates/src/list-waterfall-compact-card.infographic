@@ -1,0 +1,22 @@
+infographic list-waterfall-compact-card
+data
+  title Quy trình Agentic Content
+  desc 3 giai đoạn + vòng lặp phản hồi
+  lists
+    - label Chiến lược
+      desc Nghiên cứu · SEO & Từ khóa · Kế hoạch · 👤 duyệt
+      icon lucide/compass
+    - label Thực thi
+      desc Brief · Viết · Hình ảnh & Video · Biên tập · 👤 duyệt
+      icon lucide/pen-tool
+    - label Phân phối
+      desc Chuyển thể · Đăng bài đa kênh · Đo lường
+      icon lucide/send
+    - label Đo lường & tối ưu
+      desc Kết quả quay lại Chiến lược cho chu kỳ sau
+      icon lucide/refresh-cw
+theme
+  palette #2563eb #7c3aed #059669 #ea580c
+  base
+    text
+      font-family Inter

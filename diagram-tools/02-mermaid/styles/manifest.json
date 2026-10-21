@@ -1,0 +1,242 @@
+[
+  {
+    "file": "style-custom-base-mau-rieng.png",
+    "name": "Flowchart tự phối màu (theme base + classDef)",
+    "how": "theme: base + themeVariables + classDef/linkStyle (file ../flowchart.mmd)",
+    "note": "Đẹp và rõ nhất: mỗi giai đoạn một màu, 2 vòng lặp tô đỏ/tím — đáng dùng cho bài đăng."
+  },
+  {
+    "file": "style-layout-swimlane.png",
+    "name": "Bố cục swimlane (làn bơi)",
+    "how": "config layout: swimlane (mermaid 12) + nối node với node",
+    "note": "Mỗi giai đoạn thành một làn dọc, đọc từ trên xuống rất dễ hiểu; 1 nhãn 'Chưa đạt' bị lệch chỗ."
+  },
+  {
+    "file": "style-theme-neo.png",
+    "name": "Theme neo",
+    "how": "theme: neo",
+    "note": "Viền gradient xanh–hồng hiện đại, nhìn 'có thiết kế' mà vẫn sạch."
+  },
+  {
+    "file": "style-theme-redux-color.png",
+    "name": "Theme redux-color",
+    "how": "theme: redux-color",
+    "note": "Nét đen đậm, mỗi khung giai đoạn một màu pastel — rõ ràng, hợp slide."
+  },
+  {
+    "file": "style-look-handdrawn-mau.png",
+    "name": "Look handDrawn + màu tự chọn",
+    "how": "look: handDrawn (+ theme base, classDef)",
+    "note": "Nét vẽ tay nhẹ trên bản màu, thân thiện hơn cho mạng xã hội."
+  },
+  {
+    "file": "style-theme-dark.png",
+    "name": "Theme dark",
+    "how": "theme: dark (nền tối)",
+    "note": "Bản nền tối dễ nhìn, chữ trắng rõ dấu."
+  },
+  {
+    "file": "style-theme-neo-dark.png",
+    "name": "Theme neo-dark",
+    "how": "theme: neo-dark (nền tối)",
+    "note": "Nền tối với viền gradient xanh–đỏ, hợp thumbnail/video."
+  },
+  {
+    "file": "style-type-state.png",
+    "name": "Loại sơ đồ: stateDiagram-v2",
+    "how": "stateDiagram-v2 với state lồng nhau + <<choice>>",
+    "note": "Thể hiện tốt vòng 'chưa đạt' và vòng lặp phản hồi, bố cục gọn."
+  },
+  {
+    "file": "style-type-timeline.png",
+    "name": "Loại sơ đồ: timeline",
+    "how": "timeline + section",
+    "note": "3 cột giai đoạn, mỗi bước một thẻ màu — rất hợp infographic, nhưng không vẽ được vòng lặp."
+  },
+  {
+    "file": "style-type-block.png",
+    "name": "Loại sơ đồ: block",
+    "how": "block (block-beta) với columns 3",
+    "note": "Dạng 'bảng thẻ' 3 cột gọn đẹp; mũi tên giữa các cột bị vẽ chéo xấu nên đã bỏ."
+  },
+  {
+    "file": "style-type-kanban.png",
+    "name": "Loại sơ đồ: kanban",
+    "how": "kanban + @{assigned, priority}",
+    "note": "Mỗi giai đoạn là một cột việc, có người phụ trách (Agent AI/Con người) và độ ưu tiên."
+  },
+  {
+    "file": "style-type-sequence.png",
+    "name": "Loại sơ đồ: sequenceDiagram",
+    "how": "sequenceDiagram + loop + autonumber",
+    "note": "Kể được 'ai gửi gì cho ai' và vòng sửa bài; vài nhãn tự gửi đè lên đường dọc."
+  },
+  {
+    "file": "style-type-mindmap.png",
+    "name": "Loại sơ đồ: mindmap (mặc định)",
+    "how": "mindmap (bố cục cose-bilkent mặc định)",
+    "note": "Mind map tỏa tròn nhiều màu, đủ 12 bước."
+  },
+  {
+    "file": "style-type-mindmap-shapes.png",
+    "name": "Mindmap với các hình node",
+    "how": "mindmap: [] () (( )) )) (( ) ( {{ }} + ::icon()",
+    "note": "Thử đủ hình mây/nổ/lục giác; icon Font Awesome KHÔNG hiện khi xuất bằng mmdc."
+  },
+  {
+    "file": "style-type-mindmap-tidy.png",
+    "name": "Mindmap bố cục tidy-tree",
+    "how": "config layout: tidy-tree (gói @mermaid-js/layout-tidy-tree)",
+    "note": "Cây gọn 2 bên, thẳng hàng hơn bản tỏa tròn; chữ hơi nhỏ."
+  },
+  {
+    "file": "style-theme-default.png",
+    "name": "Theme default",
+    "how": "theme: default",
+    "note": "Theme mặc định tím–vàng, ổn nhưng 'kỹ thuật'."
+  },
+  {
+    "file": "style-theme-base.png",
+    "name": "Theme base",
+    "how": "theme: base (nền để tự chỉnh themeVariables)",
+    "note": "Kem–tím nhạt; là theme duy nhất cho đổi màu tự do bằng themeVariables."
+  },
+  {
+    "file": "style-theme-forest.png",
+    "name": "Theme forest",
+    "how": "theme: forest",
+    "note": "Tông xanh lá, hơi chói với khung lớn."
+  },
+  {
+    "file": "style-theme-neutral.png",
+    "name": "Theme neutral",
+    "how": "theme: neutral",
+    "note": "Đen–xám trung tính, hợp in đen trắng / tài liệu."
+  },
+  {
+    "file": "style-theme-redux.png",
+    "name": "Theme redux",
+    "how": "theme: redux",
+    "note": "Đen trắng nét đậm kiểu wireframe, rất sạch."
+  },
+  {
+    "file": "style-theme-redux-dark.png",
+    "name": "Theme redux-dark",
+    "how": "theme: redux-dark (nền tối)",
+    "note": "Bản tối của redux: khối đen viền trắng."
+  },
+  {
+    "file": "style-theme-redux-dark-color.png",
+    "name": "Theme redux-dark-color",
+    "how": "theme: redux-dark-color (nền tối)",
+    "note": "Như redux-dark nhưng mỗi khung giai đoạn có viền màu."
+  },
+  {
+    "file": "style-look-handdrawn.png",
+    "name": "Look handDrawn (theme default)",
+    "how": "look: handDrawn",
+    "note": "Nét hơi run kiểu vẽ tay; với theme mặc định hiệu ứng khá nhẹ."
+  },
+  {
+    "file": "style-look-neo.png",
+    "name": "Look neo",
+    "how": "look: neo",
+    "note": "Gần như giống classic ở flowchart này (khác chủ yếu ở bóng/viền)."
+  },
+  {
+    "file": "style-look-classic.png",
+    "name": "Look classic",
+    "how": "look: classic",
+    "note": "Kiểu truyền thống của Mermaid."
+  },
+  {
+    "file": "style-layout-dagre.png",
+    "name": "Bố cục dagre",
+    "how": "config layout: dagre",
+    "note": "Bố cục cũ của Mermaid, đường cong mềm; khung không thẳng hàng bằng ELK."
+  },
+  {
+    "file": "style-layout-elk.png",
+    "name": "Bố cục elk (mặc định Mermaid 12)",
+    "how": "config layout: elk (mặc định)",
+    "note": "Giống theme default vì ELK là mặc định — đường vuông góc, gọn."
+  },
+  {
+    "file": "style-type-treeview.png",
+    "name": "Loại sơ đồ: treeView-beta",
+    "how": "treeView-beta (thụt lề)",
+    "note": "Cây thư mục đơn giản, rõ ràng; tự thêm gốc '/' hơi thừa."
+  },
+  {
+    "file": "style-type-ishikawa.png",
+    "name": "Loại sơ đồ: ishikawa (xương cá)",
+    "how": "ishikawa",
+    "note": "Xương cá 'Nội dung hiệu quả' ← 4 nhánh; hợp phân tích nguyên nhân hơn là quy trình."
+  },
+  {
+    "file": "style-type-gantt.png",
+    "name": "Loại sơ đồ: gantt",
+    "how": "gantt + milestone",
+    "note": "Lịch 1 chu kỳ mẫu, 2 mốc duyệt màu đỏ; ngày là giả định minh họa."
+  },
+  {
+    "file": "style-type-journey.png",
+    "name": "Loại sơ đồ: user journey",
+    "how": "journey",
+    "note": "Chấm điểm 'mượt' từng bước bằng mặt cười; phải rút gọn tên vì chữ dài bị cắt."
+  },
+  {
+    "file": "style-type-agentflow.png",
+    "name": "Loại sơ đồ: agentflow-beta",
+    "how": "agentflow-beta LR + flow ... end + @{shape: task|tool|action|decision}",
+    "note": "Loại mới dành cho luồng agent, chạy được nhưng chỉ xếp 1 hàng ngang dài nên chữ rất nhỏ."
+  },
+  {
+    "file": "style-type-architecture.png",
+    "name": "Loại sơ đồ: architecture-beta",
+    "how": "architecture-beta (group/service, icon cloud/server/database/disk/internet)",
+    "note": "Kém hợp: chỉ có 5 icon kỹ thuật, mũi tên đè chữ, khung chồng nhau; đã bỏ 2 cạnh vòng lặp vì rối."
+  },
+  {
+    "file": "style-layout-elk-mrtree.png",
+    "name": "Bố cục elk.mrtree",
+    "how": "config layout: elk.mrtree",
+    "note": "Dùng được tạm, nhưng nhãn vòng lặp đè lên tiêu đề khung."
+  },
+  {
+    "file": "style-layout-elk-rectpacking.png",
+    "name": "Bố cục elk.rectpacking",
+    "how": "config layout: elk.rectpacking",
+    "note": "Xếp các khung như ghép hình, mũi tên chéo lung tung — khó đọc."
+  },
+  {
+    "file": "style-layout-elk-sporeOverlap.png",
+    "name": "Bố cục elk.sporeOverlap",
+    "how": "config layout: elk.sporeOverlap",
+    "note": "Các bước trong khung bị đảo thứ tự và nhãn chồng — không nên dùng."
+  },
+  {
+    "file": "style-layout-elk-box.png",
+    "name": "Bố cục elk.box",
+    "how": "config layout: elk.box",
+    "note": "Khung xếp lưới, mũi tên ngược chiều — không nên dùng."
+  },
+  {
+    "file": "style-layout-elk-force.png",
+    "name": "Bố cục elk.force",
+    "how": "config layout: elk.force",
+    "note": "HỎNG: node văng ra khỏi khung, mũi tên chồng chéo."
+  },
+  {
+    "file": "style-layout-elk-stress.png",
+    "name": "Bố cục elk.stress",
+    "how": "config layout: elk.stress",
+    "note": "HỎNG: các khung và node chồng đè lên nhau, không đọc được."
+  },
+  {
+    "file": "style-theme-null.png",
+    "name": "Theme null",
+    "how": "theme: null",
+    "note": "Giá trị đặc biệt (không áp theme riêng) — kết quả giống theme default."
+  }
+]
