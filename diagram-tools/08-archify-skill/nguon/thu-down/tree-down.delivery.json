@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "ae6b828b-40d3-4041-9236-3dbc2a2a7605",
+  "status": "current",
+  "command": "deliver",
+  "type": "tree",
+  "input": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/thu-down/tree-down.candidate.json",
+  "output": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/thu-down/tree-down.html",
+  "specification": {
+    "sha256": "df7f477ce728a6107a3281f1d5d2052219c05ace1f66187ef15a41ccd230e598",
+    "bytes": 35824
+  },
+  "artifact": {
+    "sha256": "da7bd54f55ac9dabce01164d6c516b9319f24c1787675d4d47a00212ed7cb0a1",
+    "bytes": 837783
+  }
+}
