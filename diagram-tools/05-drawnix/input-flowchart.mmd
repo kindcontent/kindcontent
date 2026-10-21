@@ -1,0 +1,26 @@
+flowchart TD
+  subgraph S1["Giai đoạn 1 — Chiến lược"]
+    A1["1. Agent Nghiên cứu<br/>thị trường, đối thủ, insight"]
+    A2["2. Agent SEO & Từ khóa<br/>search intent, khoảng trống nội dung"]
+    A3["3. Agent Kế hoạch<br/>persona, content pillar, lịch nội dung"]
+    H1{"4. 👤 Người duyệt chiến lược"}
+  end
+  subgraph S2["Giai đoạn 2 — Thực thi"]
+    B1["5. Agent Brief<br/>dàn ý, thông điệp chính"]
+    B2["6. Agent Viết<br/>bản nháp blog, fanpage, PR"]
+    B3["7. Agent Hình ảnh & Video<br/>visual, thumbnail, kịch bản"]
+    B4["8. Agent Biên tập<br/>SEO on-page, kiểm chứng, giọng thương hiệu"]
+    H2{"9. 👤 Người duyệt nội dung"}
+  end
+  subgraph S3["Giai đoạn 3 — Phân phối"]
+    C1["10. Agent Chuyển thể<br/>1 bài gốc → post, reel, email"]
+    C2["11. Agent Đăng bài<br/>Website, Fanpage, TikTok, YouTube, Email"]
+    C3["12. Agent Đo lường<br/>traffic, tương tác, chuyển đổi"]
+  end
+  A1 --> A2 --> A3 --> H1
+  H1 -->|Duyệt| B1
+  B1 --> B2 --> B3 --> B4 --> H2
+  H2 -->|Chưa đạt| B2
+  H2 -->|Đạt| C1
+  C1 --> C2 --> C3
+  C3 -.->|Kết quả đo lường → tối ưu chu kỳ sau| A1
