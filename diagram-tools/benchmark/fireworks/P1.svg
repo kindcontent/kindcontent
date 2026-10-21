@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="4" data-visual-theme="Notion Clean" data-diagram-type="flowchart" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="30" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowC" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowE" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowF" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+    <marker id="arrowH" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d1d5db"/>
+    </marker>
+    <style>
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 16px; font-weight: 500; fill: #6b7280; }
+    .section { font-size: 13px; font-weight: 700; fill: #6b7280; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .node-title { font-weight: 700; fill: #111827; }
+    .node-sub { font-weight: 500; fill: #374151; }
+    .node-type { font-size: 11px; font-weight: 700; fill: #6b7280; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b7280; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #6b7280; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #111827; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="1080.0" height="1350.0" fill="#ffffff"/>
+  <text x="48.0" y="48" text-anchor="start" class="title">Quy trình Agentic Content</text>
+  <text x="48.0" y="72" text-anchor="start" class="subtitle">Từ Chiến lược đến Thực thi và Phân phối</text>
+  <line x1="48" y1="100" x2="1032.0" y2="100" stroke="#e5e7eb" stroke-width="1"/>
+  <g id="p1" data-graph-role="container" data-container-id="p1" data-semantic-role="boundary" data-graph-bounds="60,120,1020,492">
+  <rect data-graph-role="container" x="60.0" y="120.0" width="960.0" height="372.0" rx="4.0" fill="none" stroke="#e5e7eb" stroke-width="1.4"/>
+  <text x="78.0" y="144.0" class="section">GIAI ĐOẠN 1 — CHIẾN LƯỢC</text>
+    <rect id="p1-header" data-graph-role="reserved" data-reserved-kind="container-header" x="68" y="126" width="186.52" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="p2" data-graph-role="container" data-container-id="p2" data-semantic-role="boundary" data-graph-bounds="60,508,1020,946">
+  <rect data-graph-role="container" x="60.0" y="508.0" width="960.0" height="438.0" rx="4.0" fill="none" stroke="#e5e7eb" stroke-width="1.4"/>
+  <text x="78.0" y="532.0" class="section">GIAI ĐOẠN 2 — THỰC THI</text>
+    <rect id="p2-header" data-graph-role="reserved" data-reserved-kind="container-header" x="68" y="514" width="171.44" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="p3" data-graph-role="container" data-container-id="p3" data-semantic-role="boundary" data-graph-bounds="60,962,1020,1252">
+  <rect data-graph-role="container" x="60.0" y="962.0" width="960.0" height="290.0" rx="4.0" fill="none" stroke="#e5e7eb" stroke-width="1.4"/>
+  <text x="78.0" y="986.0" class="section">GIAI ĐOẠN 3 — PHÂN PHỐI</text>
+    <rect id="p3-header" data-graph-role="reserved" data-reserved-kind="container-header" x="68" y="968" width="178.98" height="30" fill="none" stroke="none"/>
+  </g>
+  <path id="f01" data-graph-role="edge" data-edge-id="f01" data-source="s01" data-target="s02" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,221 L 540,221 L 540,269 L 480,269" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f02" data-graph-role="edge" data-edge-id="f02" data-source="s02" data-target="s03" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 480,287 L 540,287 L 540,335 L 600,335" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f03" data-graph-role="edge" data-edge-id="f03" data-source="s03" data-target="s04" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,353 L 540,353 L 540,409 L 480,409" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f04" data-graph-role="edge" data-edge-id="f04" data-source="s04" data-target="s05" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 480,427 L 540,427 L 540,591 L 600,591" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f05" data-graph-role="edge" data-edge-id="f05" data-source="s05" data-target="s06" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,609 L 540,609 L 540,648 L 480,648" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f06" data-graph-role="edge" data-edge-id="f06" data-source="s06" data-target="s07" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 480,684 L 540,684 L 540,723 L 600,723" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f07" data-graph-role="edge" data-edge-id="f07" data-source="s07" data-target="s08" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,741 L 540,741 L 540,789 L 480,789" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f08" data-graph-role="edge" data-edge-id="f08" data-source="s08" data-target="s09" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 480,807 L 540,807 L 540,863 L 600,863" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f09" data-graph-role="edge" data-edge-id="f09" data-source="s09" data-target="s10" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,881 L 540,881 L 540,1045 L 480,1045" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f10" data-graph-role="edge" data-edge-id="f10" data-source="s10" data-target="s11" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 480,1063 L 540,1063 L 540,1111 L 600,1111" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f11" data-graph-role="edge" data-edge-id="f11" data-source="s11" data-target="s12" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 600,1129 L 540,1129 L 540,1186 L 480,1186" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f05r" data-graph-role="edge" data-edge-id="f05r" data-source="s09" data-target="s06" data-edge-kind="flow" data-topic-id="" data-flow="feedback" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.068" data-bridges="" d="M 980,872 L 1004,872 L 1004,666 L 480,666" fill="none" stroke="#d97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowG)" stroke-dasharray="6,4"/>
+  <path id="a12-01" data-graph-role="edge" data-edge-id="a12-01" data-source="s12" data-target="s01" data-edge-kind="flow" data-topic-id="" data-flow="feedback" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.092" data-bridges="" d="M 100,1186 L 32,1186 L 32,203 L 600,203" fill="none" stroke="#d97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowG)" stroke-dasharray="6,4"/>
+  <g id="node-s01" data-graph-role="node" data-node-id="s01" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,170,980,254">
+  <rect x="600.0" y="170.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="790.0" y="188.0" text-anchor="middle" class="node-type">BƯỚC 1</text>
+  <text data-text-role="title" data-full-text="Agent Nghiên cứu" data-text-max-width="356.0" x="790.0" y="218.0" text-anchor="middle" class="node-title" font-size="18">Agent Nghiên cứu</text>
+  <text data-text-role="subtitle" data-full-text="Thị trường, đối thủ, insight khách hàng" data-text-max-width="356.0" x="790.0" y="240.0" text-anchor="middle" class="node-sub" font-size="12">Thị trường, đối thủ, insight khách hàng</text>
+  </g>
+  <g id="node-s02" data-graph-role="node" data-node-id="s02" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,236,480,320">
+  <rect x="100.0" y="236.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="290.0" y="254.0" text-anchor="middle" class="node-type">BƯỚC 2</text>
+  <text data-text-role="title" data-full-text="Agent SEO &amp; Từ khóa" data-text-max-width="356.0" x="290.0" y="284.0" text-anchor="middle" class="node-title" font-size="18">Agent SEO &amp; Từ khóa</text>
+  <text data-text-role="subtitle" data-full-text="Từ khóa, ý định tìm kiếm, khoảng trống nội dung" data-text-max-width="356.0" x="290.0" y="306.0" text-anchor="middle" class="node-sub" font-size="12">Từ khóa, ý định tìm kiếm, khoảng trống nội dung</text>
+  </g>
+  <g id="node-s03" data-graph-role="node" data-node-id="s03" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,302,980,386">
+  <rect x="600.0" y="302.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="790.0" y="320.0" text-anchor="middle" class="node-type">BƯỚC 3</text>
+  <text data-text-role="title" data-full-text="Agent Kế hoạch" data-text-max-width="356.0" x="790.0" y="350.0" text-anchor="middle" class="node-title" font-size="18">Agent Kế hoạch</text>
+  <text data-text-role="subtitle" data-full-text="Chân dung khách hàng, trụ cột nội dung, lịch đăng" data-text-max-width="356.0" x="790.0" y="372.0" text-anchor="middle" class="node-sub" font-size="12">Chân dung khách hàng, trụ cột nội dung, lịch đăng</text>
+  </g>
+  <g id="node-s04" data-graph-role="node" data-node-id="s04" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,368,480,468">
+  <rect x="100.0" y="368.0" width="380.0" height="100.0" rx="4.0" fill="#fff7ed" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="290.0" y="386.0" text-anchor="middle" class="node-type">BƯỚC 4 · NGƯỜI DUYỆT</text>
+  <text data-text-role="title" data-full-text="Người duyệt chiến lược" data-text-max-width="356.0" x="290.0" y="424.0" text-anchor="middle" class="node-title" font-size="20.0">Người duyệt chiến lược</text>
+  <text data-text-role="subtitle" data-full-text="Đạt thì chuyển sang thực thi" data-text-max-width="356.0" x="290.0" y="446.0" text-anchor="middle" class="node-sub" font-size="12">Đạt thì chuyển sang thực thi</text>
+  </g>
+  <g id="node-s05" data-graph-role="node" data-node-id="s05" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,558,980,642">
+  <rect x="600.0" y="558.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="790.0" y="576.0" text-anchor="middle" class="node-type">BƯỚC 5</text>
+  <text data-text-role="title" data-full-text="Agent Brief" data-text-max-width="356.0" x="790.0" y="606.0" text-anchor="middle" class="node-title" font-size="18">Agent Brief</text>
+  <text data-text-role="subtitle" data-full-text="Dàn ý, thông điệp chính" data-text-max-width="356.0" x="790.0" y="628.0" text-anchor="middle" class="node-sub" font-size="12">Dàn ý, thông điệp chính</text>
+  </g>
+  <g id="node-s06" data-graph-role="node" data-node-id="s06" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,624,480,708">
+  <rect x="100.0" y="624.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="290.0" y="642.0" text-anchor="middle" class="node-type">BƯỚC 6</text>
+  <text data-text-role="title" data-full-text="Agent Viết" data-text-max-width="356.0" x="290.0" y="672.0" text-anchor="middle" class="node-title" font-size="18">Agent Viết</text>
+  <text data-text-role="subtitle" data-full-text="Bản nháp blog, fanpage, PR" data-text-max-width="356.0" x="290.0" y="694.0" text-anchor="middle" class="node-sub" font-size="12">Bản nháp blog, fanpage, PR</text>
+  </g>
+  <g id="node-s07" data-graph-role="node" data-node-id="s07" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,690,980,774">
+  <rect x="600.0" y="690.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="790.0" y="708.0" text-anchor="middle" class="node-type">BƯỚC 7</text>
+  <text data-text-role="title" data-full-text="Agent Hình ảnh &amp; Video" data-text-max-width="356.0" x="790.0" y="738.0" text-anchor="middle" class="node-title" font-size="18">Agent Hình ảnh &amp; Video</text>
+  <text data-text-role="subtitle" data-full-text="Visual, thumbnail, kịch bản video ngắn" data-text-max-width="356.0" x="790.0" y="760.0" text-anchor="middle" class="node-sub" font-size="12">Visual, thumbnail, kịch bản video ngắn</text>
+  </g>
+  <g id="node-s08" data-graph-role="node" data-node-id="s08" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,756,480,840">
+  <rect x="100.0" y="756.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="290.0" y="774.0" text-anchor="middle" class="node-type">BƯỚC 8</text>
+  <text data-text-role="title" data-full-text="Agent Biên tập" data-text-max-width="356.0" x="290.0" y="804.0" text-anchor="middle" class="node-title" font-size="18">Agent Biên tập</text>
+  <text data-text-role="subtitle" data-full-text="SEO, kiểm chứng thông tin, giọng thương hiệu" data-text-max-width="356.0" x="290.0" y="826.0" text-anchor="middle" class="node-sub" font-size="12">SEO, kiểm chứng thông tin, giọng thương hiệu</text>
+  </g>
+  <g id="node-s09" data-graph-role="node" data-node-id="s09" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,822,980,922">
+  <rect x="600.0" y="822.0" width="380.0" height="100.0" rx="4.0" fill="#fff7ed" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="790.0" y="840.0" text-anchor="middle" class="node-type">BƯỚC 9 · NGƯỜI DUYỆT</text>
+  <text data-text-role="title" data-full-text="Người duyệt nội dung" data-text-max-width="356.0" x="790.0" y="878.0" text-anchor="middle" class="node-title" font-size="20.0">Người duyệt nội dung</text>
+  <text data-text-role="subtitle" data-full-text="Chưa đạt thì quay lại bước 6" data-text-max-width="356.0" x="790.0" y="900.0" text-anchor="middle" class="node-sub" font-size="12">Chưa đạt thì quay lại bước 6</text>
+  </g>
+  <g id="node-s10" data-graph-role="node" data-node-id="s10" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,1012,480,1096">
+  <rect x="100.0" y="1012.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="290.0" y="1030.0" text-anchor="middle" class="node-type">BƯỚC 10</text>
+  <text data-text-role="title" data-full-text="Agent Chuyển thể" data-text-max-width="356.0" x="290.0" y="1060.0" text-anchor="middle" class="node-title" font-size="18">Agent Chuyển thể</text>
+  <text data-text-role="subtitle" data-full-text="1 bài gốc → post, reel, email" data-text-max-width="356.0" x="290.0" y="1082.0" text-anchor="middle" class="node-sub" font-size="12">1 bài gốc → post, reel, email</text>
+  </g>
+  <g id="node-s11" data-graph-role="node" data-node-id="s11" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="600,1078,980,1162">
+  <rect x="600.0" y="1078.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="790.0" y="1096.0" text-anchor="middle" class="node-type">BƯỚC 11</text>
+  <text data-text-role="title" data-full-text="Agent Đăng bài" data-text-max-width="356.0" x="790.0" y="1126.0" text-anchor="middle" class="node-title" font-size="18">Agent Đăng bài</text>
+  <text data-text-role="subtitle" data-full-text="Website, Fanpage, TikTok, YouTube, Email" data-text-max-width="356.0" x="790.0" y="1148.0" text-anchor="middle" class="node-sub" font-size="12">Website, Fanpage, TikTok, YouTube, Email</text>
+  </g>
+  <g id="node-s12" data-graph-role="node" data-node-id="s12" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="100,1144,480,1228">
+  <rect x="100.0" y="1144.0" width="380.0" height="84.0" rx="4.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.8"/>
+  <text x="290.0" y="1162.0" text-anchor="middle" class="node-type">BƯỚC 12</text>
+  <text data-text-role="title" data-full-text="Agent Đo lường" data-text-max-width="356.0" x="290.0" y="1192.0" text-anchor="middle" class="node-title" font-size="18">Agent Đo lường</text>
+  <text data-text-role="subtitle" data-full-text="Lượt xem, tương tác, chuyển đổi" data-text-max-width="356.0" x="290.0" y="1214.0" text-anchor="middle" class="node-sub" font-size="12">Lượt xem, tương tác, chuyển đổi</text>
+  </g>
+  <g id="f05r-label" data-graph-role="label" data-owner="f05r" data-graph-bounds="680.76,653,803.24,673">
+  <rect x="680.76" y="653.0" width="122.48000000000002" height="20" rx="6" fill="#ffffff" opacity="0.96"/>
+  <text x="742.0" y="667.0" text-anchor="middle" class="arrow-label">Chưa đạt → sửa lại</text>
+  </g>
+  <g id="a12-01-label" data-graph-role="label" data-owner="a12-01" data-graph-bounds="35,877.1,211.72,897.1">
+  <rect x="35.0" y="877.1" width="176.72" height="20" rx="6" fill="#ffffff" opacity="0.96"/>
+  <text x="123.36" y="891.1" text-anchor="middle" class="arrow-label">Vòng lặp: tối ưu chu kỳ sau</text>
+  </g>
+  <g id="legend" data-graph-role="legend">
+    <rect id="legend-zone" data-graph-role="reserved" data-reserved-kind="legend" x="90" y="1292" width="324.24" height="46" rx="10" fill="none" stroke="none"/>
+    <line data-graph-role="decoration" x1="100.0" y1="1306.0" x2="130.0" y2="1306.0" stroke="#3b82f6" stroke-width="1.8" marker-end="url(#arrowA)"/>
+    <text data-graph-role="decoration" x="140.0" y="1310.0" class="legend">Luồng chính</text>
+    <line data-graph-role="decoration" x1="241.92000000000002" y1="1306.0" x2="271.92" y2="1306.0" stroke="#d97706" stroke-width="1.8" marker-end="url(#arrowG)"/>
+    <text data-graph-role="decoration" x="281.92" y="1310.0" class="legend">Quay lại / vòng lặp</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="760,1298,984,1314">
+  <text x="760.0" y="1310.0" class="footnote">Khung cam = bước con người duyệt</text>
+  </g>
+</svg>

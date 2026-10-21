@@ -1,0 +1,212 @@
+{
+ "tool": "fireworks",
+ "path_used": "style 4 Notion Clean (fireworks-tech-graph v1.2.0 JSON generator, mode flowchart, quality_profile showcase + text_policy strict); pipeline fireworks.py validate -> render -> check -> export-png (cairosvg)",
+ "setup": {
+  "seconds": 44,
+  "disk": "73M work dir total (git clone incl. .git 25M + installed skill copy 9.3M + venv with cairosvg 38M); effective install = skill copy + venv ~47M",
+  "steps": [
+   "git clone --depth 1 https://github.com/yizhiyanhua-ai/fireworks-tech-graph (repo)",
+   "read SKILL.md + scripts (fireworks.py, png_export.py, svg_canvas.py, grep of all python for subprocess/network/file IO): no network calls, only git/rsvg-convert/node subprocesses",
+   "copy repo/skills/fireworks-tech-graph -> workdir/skills/ (equivalent of npx skills add --copy, not into ~/.claude)",
+   "python3 -m venv venv && venv/bin/pip install cairosvg",
+   "fireworks.py version (1.2.0) and doctor: svg/png/html OK; GIF unavailable (puppeteer-core not installed, not needed)"
+  ],
+  "problems": [
+   "No problem installing. GIF/animation route needs puppeteer-core (not installed, not needed).",
+   "Learning cost not in setup seconds: ~350 s reading SKILL.md, style matrix, style-4 reference, composition contract and generator source (generate-from-template.py ~3400 lines) between setup end and P1 start, because node kinds/ports/routing/label rules are only documented in code.",
+   "Generator is coordinate-based: every node x/y, port and some route waypoints had to be computed by the agent (small helper scripts in build/ generate the JSON).",
+   "Bug seen in source: kind 'circle' renders as a rect (node_bounds uses r, renderer draws rect) - avoided.",
+   "kind 'user_avatar' person glyph reads like a frowning face at small size - dropped after P1 attempt 1."
+  ]
+ },
+ "prompts": {
+  "P1": {
+   "seconds": 72,
+   "attempts": 2,
+   "fixes": [
+    "attempt 1: rendered+check OK first time; visual review: human steps used kind user_avatar whose glyph looks like a sad face",
+    "attempt 2: steps 4/9 switched to plain cards with amber fill + 2.5px amber border + type label 'BƯỚC n · NGƯỜI DUYỆT' -> accepted"
+   ],
+   "limits": [
+    "Relaxed showcase max_total_bends 8 -> 30 (11 zig-zag hand-offs x 2 bends); per-edge limit 2 kept, 0 crossings",
+    "Timeline axis is not a separate drawn line: it is formed by the orthogonal connectors in the centre corridor",
+    "Phase labels are band (container) headers at the top-left of each phase, not labels sitting on the axis",
+    "Loop label position chosen by auto-placer (left side, mid-height) rather than at the arrow head",
+    "Style overrides: Inter font, title 30px/subtitle 16px, amber feedback colour; step 4 sublabel 'Đạt thì chuyển sang thực thi' is agent-written (data gives none)",
+    "P1 timer started after most layout planning was done during the code-reading phase"
+   ]
+  },
+  "P2": {
+   "seconds": 246,
+   "attempts": 3,
+   "fixes": [
+    "attempt 1: render failed: no collision-free label position for loop 12->1 (42px gap between steps 12 and 1) -> label_dy 80",
+    "attempt 2: render failed COMPOSITION_QUALITY: 6px micro-segments on 4->5 and 8->9, 1 bridged crossing (5->6 vs 9->6 on the same port) -> explicit route_points for 4->5, 8->9, 5->6 (enters step 6 from the right) and 9->6",
+    "attempt 3: OK (validate, render, check all pass) -> accepted as final (no attempts left)"
+   ],
+   "limits": [
+    "No arc/curve primitive and only orthogonal connectors: the 3 phase arcs are hand-authored SVG <path> decorations inserted after render (SKILL.md allows direct SVG adaptation; check re-run after the edit). Arcs are uniform light gray; the 9->6 loop crosses the phase-2 arc",
+    "Connectors around the ring are right-angle elbows, not following the circle",
+    "Cards placed on an ellipse with hand-tuned angles (16,46,75,...) to keep >=40px gaps in a square canvas",
+    "Phase labels are border-less label containers inside the ring, not attached to arcs",
+    "Used kind review_card (Style 9 node kind) to get 2-line descriptions in 200px cards; its border width is fixed 1.8px so human steps are highlighted by amber fill/border only, and it carries a faint pencil-echo decoration",
+    "Relaxed max_total_bends 8 -> 40 (actual 16)"
+   ]
+  },
+  "P3": {
+   "seconds": 242,
+   "attempts": 1,
+   "fixes": [
+    "attempt 1: validate/render/check OK, visual review OK -> accepted"
+   ],
+   "limits": [
+    "10 AI steps do not fit in one horizontal row at 1600px with readable descriptions, so AI steps are stacked vertically inside each phase column (flow is top-down inside the AI lane, then down to the review lane)",
+    "Loop 12->1 needs 4 bends: relaxed showcase max_bends_per_edge 2 -> 4 and max_total_bends 8 -> 20 (actual 10)",
+    "Phase column titles drawn as container side_label (plain text) instead of headers so the return loop can run above the columns; lane names are side labels",
+    "Label of 9->6 positioned manually via label_dx/label_dy; most routes use explicit route_points computed by the agent"
+   ]
+  }
+ },
+ "measure": [
+  {
+   "label": "P1-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.2,
+   "peak_ram_mb": 33
+  },
+  {
+   "label": "P1-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 27
+  },
+  {
+   "label": "P1-check",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 21
+  },
+  {
+   "label": "P1-export",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.7,
+   "peak_ram_mb": 44
+  },
+  {
+   "label": "P1-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 24
+  },
+  {
+   "label": "P1-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 27
+  },
+  {
+   "label": "P1-check",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 21
+  },
+  {
+   "label": "P1-export",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.5,
+   "peak_ram_mb": 44
+  },
+  {
+   "label": "P2-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 24
+  },
+  {
+   "label": "P2-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 1,
+   "seconds": 0.7,
+   "peak_ram_mb": 25
+  },
+  {
+   "label": "P2-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 24
+  },
+  {
+   "label": "P2-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 1,
+   "seconds": 1.4,
+   "peak_ram_mb": 27
+  },
+  {
+   "label": "P2-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 24
+  },
+  {
+   "label": "P2-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 1.0,
+   "peak_ram_mb": 26
+  },
+  {
+   "label": "P2-check",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 21
+  },
+  {
+   "label": "P2-export",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.5,
+   "peak_ram_mb": 42
+  },
+  {
+   "label": "P3-validate",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 24
+  },
+  {
+   "label": "P3-render",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.8,
+   "peak_ram_mb": 25
+  },
+  {
+   "label": "P3-check",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.1,
+   "peak_ram_mb": 21
+  },
+  {
+   "label": "P3-export",
+   "cmd": "/tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpad/bench/fireworks/venv/bin/python /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9f1-3c1d3608d6ae/scratchpa",
+   "rc": 0,
+   "seconds": 0.5,
+   "peak_ram_mb": 43
+  }
+ ]
+}
