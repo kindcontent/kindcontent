@@ -5,11 +5,15 @@ Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Ag
 ## Top 3 để đăng bài truyền thông
 Tiêu chí: người thường hiểu được, clean – hiện đại – tối giản, đúng đủ dữ liệu. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
 
-| Hạng | Bản | Dễ hiểu | Clean | Đúng đủ | Tổng |
-|---|---|---|---|---|---|
-| 1 | fireworks-tech-graph · Notion Clean (`10-.../styles/style-04-notion-clean.png`) | 8.5 | 9.5 | 10 | **9.3** |
-| 2 | Excalidraw · Gọn gàng (`04-excalidraw/styles/preset-gon-gang.png`) | 9.5 | 8 | 10 | **9.2** |
-| 3 | draw.io · pastel (`07-.../styles/style-palette-1-pastel.png`) | 9 | 7 | 10 | **8.7** |
+Điểm cao = tốt hơn (Độ phức tạp: cao = đơn giản). Tổng = trung bình 5 mục.
+
+| Hạng | Bản | Dễ hiểu | Clean | Đúng đủ | Độ phức tạp | Gọn nhẹ | Tổng |
+|---|---|---|---|---|---|---|---|
+| 1 | Excalidraw · Gọn gàng (`04-excalidraw/styles/preset-gon-gang.png`) | 9.5 | 8 | 10 | 8 | 9 | **8.9** |
+| 2 | fireworks-tech-graph · Notion Clean (`10-.../styles/style-04-notion-clean.png`) | 8.5 | 9.5 | 10 | 5 | 8 | **8.2** |
+| 3 | draw.io · pastel (`07-.../styles/style-palette-1-pastel.png`) | 9 | 7 | 10 | 8 | 7 | **8.2** |
+
+Chỉ xét đẹp/tối giản thì fireworks đứng đầu; tự làm và sửa thường xuyên thì Excalidraw.
 
 ## Nên dùng gì
 
