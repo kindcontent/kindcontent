@@ -2,6 +2,9 @@
 
 Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Agentic Content, 12 bước). Mỗi thư mục có ảnh kết quả và `NHAN-XET.md` chi tiết.
 
+## Benchmark thực tế (quan trọng nhất)
+Cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người), agent mới, chấm mù: **draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3**. Token: Excalidraw 126k, draw.io 135k, fireworks 241k. Chi tiết: `benchmark/KET-QUA.md`.
+
 ## Top 3 để đăng bài truyền thông
 Chấm trên cả kho của repo (mọi style/theme/template trong `styles/`), không chỉ 1 ảnh. Điểm cao = tốt (Đơn giản: cao = ít bước). Tổng = trung bình 8 mục. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
 

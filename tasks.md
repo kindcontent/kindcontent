@@ -10,7 +10,7 @@
 - [x] Tổng hợp so sánh + chấm điểm → `diagram-tools/README.md` + gallery https://claude.ai/artifact/BsaCNoPNYXfZ3ZkifGSFkA
 - [x] Render tất cả style/theme/template của từng repo diagram (328 ảnh + 276 mẫu AntV) → `diagram-tools/NN-*/styles/` + gallery mục "Tất cả style"
 - [x] Lọc Top 3 cho đăng bài (clean, ai cũng hiểu): chấm theo cả kho repo (8 tiêu chí) → draw.io 8.3 > Excalidraw 8.1 > fireworks 7.6
-- [ ] Benchmark: 3 agent mới, mỗi agent 1 repo (draw.io, Excalidraw, fireworks), cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người) → `diagram-tools/benchmark/`; đo token, thời gian, RAM, dung lượng; giám khảo chấm mù
+- [x] Benchmark: 3 agent mới, mỗi agent 1 repo (draw.io, Excalidraw, fireworks), cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người) → `diagram-tools/benchmark/`; đo token, thời gian, RAM, dung lượng; giám khảo chấm mù → draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3; token: Excalidraw 126k < draw.io 135k < fireworks 241k (`benchmark/KET-QUA.md`)
 - [x] Nghiên cứu lip sync (khớp môi) + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 

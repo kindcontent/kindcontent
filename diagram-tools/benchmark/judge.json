@@ -1,0 +1,68 @@
+{
+  "images": {
+    "P1-431.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "aspect_ratio_ok": true, "pixel_size": "1080x1350", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Đường nét đứt 9→6 chạy sát ngay trên nhãn Giai đoạn 3, hơi chật", "Chữ chú thích vòng lặp chen vào giữa đường mũi tên bên trái, chữ nhỏ", "Mô tả phụ khoảng 15px, sẽ nhỏ khi xem trên điện thoại"],
+      "scores": {"dung_du": 10, "cau_truc": 10, "de_hieu": 9, "clean": 9, "hoan_thien": 9},
+      "comment": "Đúng đề nhất: trục dọc, các bước so le hai bên, nhãn giai đoạn nằm trên trục, bước duyệt nổi bật màu cam, gần như đăng được ngay."
+    },
+    "P1-766.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": ["Số bước chỉ nằm trên chấm của trục, không có trong tiêu đề ô (chấp nhận được)"], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "aspect_ratio_ok": true, "pixel_size": "1080x1350", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Chú thích vòng lặp xuống dòng lẻ chữ 'sau', dính vào đường mũi tên ở góc trên phải", "Nhiều chữ xuống dòng lẻ trong mô tả: 'nội / dung', 'lịch / đăng', 'giọng thương / hiệu'", "Tiêu đề chính và tên bước dùng chữ mảnh, độ tương phản thấp hơn", "Mũi tên vòng lặp chỉ vào nhãn Giai đoạn 1 chứ không chỉ vào bước 1 (vẫn chấp nhận được)"],
+      "scores": {"dung_du": 10, "cau_truc": 9, "de_hieu": 9, "clean": 8, "hoan_thien": 7},
+      "comment": "Bố cục đúng và dễ theo nhờ số bước to trên trục, nhưng các chữ xuống dòng lẻ và chú thích vòng lặp bị vỡ làm mất độ hoàn thiện."
+    },
+    "P1-940.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": false, "structure_note": "Không có trục thời gian dọc; là sơ đồ zigzag với mũi tên gấp khúc giữa hai cột, nhãn giai đoạn là tiêu đề khung chứ không nằm dọc theo trục", "aspect_ratio_ok": true, "pixel_size": "1080x1350", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Không có trục dọc, nên không đúng dạng timeline", "11 mũi tên gấp khúc nối qua lại giữa hai cột trông rối mắt", "Chữ mô tả và nhãn 'BƯỚC n' rất nhỏ (khoảng 11–12px), khó đọc trên điện thoại", "Chú thích vòng lặp nằm lơ lửng ở mép trái, tách khỏi đường nét đứt", "Nhãn 'Chưa đạt → sửa lại' nằm đè lên đường nét đứt, sát ngay các mũi tên 5→6 và 6→7"],
+      "scores": {"dung_du": 9, "cau_truc": 4, "de_hieu": 6, "clean": 7, "hoan_thien": 7},
+      "comment": "Đủ nội dung nhưng sai dạng đề (không có trục timeline), mũi tên zigzag rối và chữ quá nhỏ cho điện thoại."
+    },
+    "P2-149.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "structure_note": "Vòng tròn chạy theo chiều kim đồng hồ, 3 cung tô màu nhạt (xanh, tím, xanh lá), tên quy trình ở giữa", "aspect_ratio_ok": true, "pixel_size": "1080x1080", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Thẻ bước tách rời khỏi nút số, không có đường nối, người xem phải tự ghép", "Lệch theo chiều dọc: phía trên trống khoảng 120px, phần dưới chật, chú thích dồn vào góc dưới trái", "Màu 3 cung rất nhạt nên khó thấy ranh giới giai đoạn", "Chú thích vòng lặp sát nút 12, nhãn giai đoạn 3 sát nút 11", "Nhiều chữ xuống dòng lẻ: 'lịch / đăng', 'chốt kế / hoạch', 'post, reel, / email'", "Dùng 3 màu giai đoạn cộng thêm cam, chưa thật sự ít màu"],
+      "scores": {"dung_du": 10, "cau_truc": 9, "de_hieu": 7, "clean": 7, "hoan_thien": 6},
+      "comment": "Đúng cấu trúc vòng tròn, nhưng thẻ rời khỏi nút số, bố cục lệch và chữ xuống dòng lẻ khiến hình kém gọn."
+    },
+    "P2-254.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "structure_note": "Vòng tròn khép kín theo chiều kim đồng hồ, nhãn giai đoạn dạng viên thuốc đặt ngay trên vòng để chia 3 cung, tên quy trình ở giữa", "aspect_ratio_ok": true, "pixel_size": "1080x1080", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Vòng tròn chỉ chiếm khoảng 60% khung hình: trên trống khoảng 230px, dưới khoảng 120px, phí chỗ trên khổ vuông", "Chữ mô tả nhỏ (khoảng 13px), khó đọc trên điện thoại", "Ranh giới các cung chỉ hiện qua nhãn viên thuốc, vòng nền xám nhạt", "Xuống dòng hơi gượng: '9. Người duyệt / nội dung', '& Video'"],
+      "scores": {"dung_du": 10, "cau_truc": 9, "de_hieu": 8, "clean": 8, "hoan_thien": 7},
+      "comment": "Vòng tròn rõ ràng, nhãn gắn sát nút, bước duyệt và các mũi tên quay lại rất rõ, chỉ tiếc là hình hơi nhỏ trong khung vuông."
+    },
+    "P2-648.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "highlight_note": "Viền cam nhạt, không nổi bật bằng hai hình kia", "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": false, "structure_note": "Các ô xếp thành vòng gần như hình vuông, nối bằng mũi tên gấp khúc; vòng tròn xám phía sau chỉ để trang trí, 3 cung không phân biệt bằng màu", "aspect_ratio_ok": true, "pixel_size": "1080x1080", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Không phải vòng tròn thật: ô vuông nối mũi tên gấp khúc, vòng tròn nền không gắn với các bước", "Mũi tên 9→6 dài, cắt ngang tâm và đi qua vòng tròn nền cùng vùng nhãn giai đoạn 2", "Chữ rất nhỏ (mô tả khoảng 11px, nhãn 'BƯỚC n' khoảng 10px), không đọc được trên điện thoại", "Ô tên quy trình ở giữa nhỏ, khoảng trống bên trong vòng nhiều nhưng không dùng đến", "Nhãn giai đoạn nằm lơ lửng trong vòng, khó gắn với nhóm bước", "Xuống dòng lẻ: 'Lượt xem, tương / tác, chuyển đổi'"],
+      "scores": {"dung_du": 9, "cau_truc": 5, "de_hieu": 6, "clean": 6, "hoan_thien": 6},
+      "comment": "Đủ bước nhưng là vòng ô vuông kiểu flowchart, chữ li ti, mũi tên sửa lại cắt ngang tâm hình, khó đăng trên mạng xã hội."
+    },
+    "P3-174.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "structure_note": "Làn trên AI, làn dưới Người duyệt (chia bằng đường nét đứt), 3 cột giai đoạn tô màu", "aspect_ratio_ok": true, "pixel_size": "1600x900", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Thẻ hẹp nên tên bước xuống dòng gượng: 'Agent Nghiên / cứu', 'Agent Kế / hoạch', 'Agent Biên / tập', 'Agent Đo / lường'", "Chữ 'lại' bị lẻ dòng trong mô tả bước 9", "Ba cột giai đoạn tô ba màu pastel khác nhau cộng thêm cam, không còn ít màu", "Nhãn làn nhỏ, chỉ nằm trong cột giai đoạn 1; ranh giới làn chỉ là một đường nét đứt mờ", "Phần dưới làn Người duyệt trống nhiều (y khoảng 700–810), giai đoạn 3 ở làn dưới bỏ không", "Chữ mảnh, độ tương phản thấp"],
+      "scores": {"dung_du": 10, "cau_truc": 9, "de_hieu": 8, "clean": 6, "hoan_thien": 6},
+      "comment": "Luồng chạy đúng và đủ, nhưng thẻ hẹp làm chữ vỡ dòng, ba màu nền làm mất vẻ tối giản."
+    },
+    "P3-196.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "structure_note": "2 làn ngang đúng yêu cầu, nhưng trong làn AI các bước xếp dọc theo từng cột chứ không chạy ngang", "aspect_ratio_ok": true, "pixel_size": "1600x900", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Nhãn làn 'AI làm' và 'Người duyệt' chỉ là chữ trơn ngoài lề, khung làn xám mờ chồng lên nền cột tạo lưới đôi hơi rối", "Chữ mô tả và nhãn 'BƯỚC n' nhỏ (khoảng 11–12px); chú thích vòng lặp và chú giải rất nhỏ", "Bên phải bước 9, đường nét đứt cam 9→6 và đường xanh 9→10 chạy rất sát nhau", "Giai đoạn 3 ở làn dưới bỏ trống; tông xám đều nên hình hơi phẳng"],
+      "scores": {"dung_du": 10, "cau_truc": 9, "de_hieu": 8, "clean": 9, "hoan_thien": 8},
+      "comment": "Sạch và gọn nhất, chữ không vỡ dòng, nhưng nhãn làn mờ và chữ nhỏ nên kém nổi bật khi lướt trên điện thoại."
+    },
+    "P3-504.png": {
+      "checklist": {"phases_labelled": true, "all_12_steps_correct_order": true, "steps_missing_merged_renamed": [], "steps_4_9_highlighted": true, "arrow_9_to_6_chua_dat": true, "loop_12_to_start": true, "structure_correct": true, "structure_note": "Làn AI chạy ngang 1→12, làn Người duyệt chứa 4 và 9, nhãn làn là thanh màu dọc nổi bật, 3 cột nền xen kẽ", "aspect_ratio_ok": true, "pixel_size": "1600x900", "diacritics_ok": true, "no_jargon": true},
+      "defects": ["Thẻ hẹp nên xuống dòng gượng: '4. Người / duyệt / chiến lược', '9. Người / duyệt / nội dung', các chữ lẻ dòng 'ngắn', 'lược'", "Khoảng trống lớn giữa tiêu đề giai đoạn và hàng thẻ (y khoảng 200–300), trong khi chữ trong thẻ lại chật", "Hai thanh nhãn làn xanh và cam đậm, chiếm diện tích lớn, hơi nặng so với phong cách tối giản", "Chữ mô tả khoảng 14px, vẫn nhỏ khi xem trên điện thoại"],
+      "scores": {"dung_du": 10, "cau_truc": 10, "de_hieu": 9, "clean": 8, "hoan_thien": 7},
+      "comment": "Đúng tinh thần làn bơi nhất: đọc trái sang phải, hai làn rõ, bước duyệt nổi bật; điểm trừ là chữ trong thẻ hẹp bị vỡ dòng."
+    }
+  },
+  "rankings": {
+    "P1": ["P1-431.png", "P1-766.png", "P1-940.png"],
+    "P2": ["P2-254.png", "P2-149.png", "P2-648.png"],
+    "P3": ["P3-504.png", "P3-196.png", "P3-174.png"]
+  },
+  "rank_reasons": {
+    "P1": "431 đúng dạng timeline và gần như không lỗi; 766 cũng đúng nhưng có chữ xuống dòng lẻ và chú thích vòng lặp bị vỡ; 940 không có trục dọc (dạng zigzag), mũi tên rối và chữ nhỏ.",
+    "P2": "254 là vòng tròn thật, nhãn gắn sát nút, nhãn giai đoạn đặt trên vòng, các mũi tên rõ, chỉ tiếc hình hơi nhỏ trong khung; 149 đúng cấu trúc nhưng thẻ tách rời nút, bố cục lệch, chữ vỡ dòng; 648 là vòng ô vuông kiểu flowchart, chữ li ti, mũi tên 9→6 cắt ngang tâm.",
+    "P3": "504 và 196 gần ngang điểm (cùng trung bình 8.8); 504 xếp trên vì đúng tinh thần làn bơi nhất (làn AI chạy ngang 1→12, nhãn làn rõ) dù chữ vỡ dòng; 196 sạch nhất nhưng nhãn làn mờ, các bước xếp dọc trong cột, chữ nhỏ; 174 thẻ hẹp vỡ dòng nhiều và dùng ba màu nền, kém tối giản."
+  }
+}
