@@ -1,0 +1,32 @@
+---
+title: Quy trình Agentic Content (agentflow-beta)
+---
+agentflow-beta LR
+    flow S1["🧭 Giai đoạn 1 — Chiến lược"]
+        direction TB
+        A1@{ shape: task, label: "1. Agent Nghiên cứu" }
+        A2@{ shape: task, label: "2. Agent SEO & Từ khóa" }
+        A3@{ shape: task, label: "3. Agent Kế hoạch" }
+        H1@{ shape: action, label: "👤 4. Người duyệt chiến lược" }
+        A1 --> A2 --> A3 --> H1
+    end
+    flow S2["✍️ Giai đoạn 2 — Thực thi"]
+        direction TB
+        B5@{ shape: task, label: "5. Agent Brief" }
+        B6@{ shape: task, label: "6. Agent Viết" }
+        B7@{ shape: tool, label: "7. Agent Hình ảnh & Video" }
+        B8@{ shape: task, label: "8. Agent Biên tập" }
+        H2@{ shape: decision, label: "👤 9. Duyệt nội dung" }
+        B5 --> B6 --> B7 --> B8 --> H2
+        H2 -- "Chưa đạt" --> B6
+    end
+    flow S3["📣 Giai đoạn 3 — Phân phối"]
+        direction TB
+        C10@{ shape: task, label: "10. Agent Chuyển thể" }
+        C11@{ shape: tool, label: "11. Agent Đăng bài" }
+        C12@{ shape: task, label: "12. Agent Đo lường" }
+        C10 --> C11 --> C12
+    end
+    H1 -- "Duyệt" --> B5
+    H2 -- "Đạt" --> C10
+    C12 -.- A1

@@ -47,9 +47,9 @@ Không muốn cài gì: dán code vào https://mermaid.live (có nút tải PNG/
 ## Lỗi / hạn chế gặp phải
 
 1. **Subgraph không giữ được hướng riêng.** Khi các node bên trong nối ra ngoài khung, `direction TB` trong subgraph bị bỏ qua → bản đầu tiên ra một cột dọc rất dài (1568×4680 px). Cách sửa: nối **khung với khung** (`S1 ==> S2`) thay vì node với node.
-2. **Vòng lặp làm đảo thứ tự khung.** Có cạnh S3 → S1 thì bộ xếp hình (dagre) đặt Giai đoạn 3 lên bên trái. Mẹo sửa: khai báo các subgraph theo thứ tự ngược (S3, S2, S1) trong file. Đây là mẹo "mò" ra, người mới khó tự biết.
+2. **Vòng lặp làm đảo thứ tự khung.** Có cạnh S3 → S1 thì bộ xếp hình (ELK) đặt Giai đoạn 3 lên bên trái. Mẹo sửa: khai báo các subgraph theo thứ tự ngược (S3, S2, S1) trong file. Đây là mẹo "mò" ra, người mới khó tự biết.
 3. Cú pháp `A <-. "nhãn" .- B` (mũi tên ở đầu) không chạy đúng — mũi tên vẫn vẽ ở cuối.
-4. Bố cục ELK (`layout: elk`) không có sẵn trong mmdc (không báo lỗi, chỉ lặng lẽ dùng dagre).
+4. (Đính chính) Mermaid 12 **mặc định đã dùng bố cục ELK** (có sẵn trong gói); các ảnh ở đây đều là ELK. Muốn kiểu cũ thì đặt `layout: dagre` — xem thêm các bố cục khác trong thư mục `styles/`.
 5. `mmdc` bản 12 không còn tuỳ chọn `-w` (độ rộng) → báo `unknown option '-w'`, phải dùng `-s` (scale).
 6. Mindmap bỏ qua `title` trong frontmatter (không hiện tiêu đề).
 7. Tô màu riêng cho mũi tên phải dùng `linkStyle <số thứ tự cạnh>` → phải tự đếm cạnh, dễ sai khi sửa sơ đồ.

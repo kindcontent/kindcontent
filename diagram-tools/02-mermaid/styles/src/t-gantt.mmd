@@ -1,0 +1,19 @@
+gantt
+    title Quy trình Agentic Content — 1 chu kỳ mẫu (ngày)
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
+    section Chiến lược
+    1. Agent Nghiên cứu        :a1, 2026-11-02, 1d
+    2. Agent SEO & Từ khóa     :a2, after a1, 1d
+    3. Agent Kế hoạch          :a3, after a2, 1d
+    👤 4. Duyệt chiến lược     :crit, milestone, m1, after a3, 0d
+    section Thực thi
+    5. Agent Brief             :b5, after m1, 1d
+    6. Agent Viết              :b6, after b5, 2d
+    7. Agent Hình ảnh & Video  :b7, after b6, 2d
+    8. Agent Biên tập          :b8, after b7, 1d
+    👤 9. Duyệt nội dung       :crit, milestone, m2, after b8, 0d
+    section Phân phối
+    10. Agent Chuyển thể       :c10, after m2, 1d
+    11. Agent Đăng bài         :c11, after c10, 1d
+    12. Agent Đo lường         :c12, after c11, 7d

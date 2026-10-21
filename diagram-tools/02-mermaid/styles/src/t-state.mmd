@@ -1,0 +1,42 @@
+---
+title: Quy trình Agentic Content — sơ đồ trạng thái
+---
+stateDiagram-v2
+    direction LR
+    state "🧭 Giai đoạn 1 — Chiến lược" as GD1 {
+        direction TB
+        NC: 1. Agent Nghiên cứu
+        SEO: 2. Agent SEO & Từ khóa
+        KH: 3. Agent Kế hoạch
+        DCL: 👤 4. Người duyệt chiến lược
+        [*] --> NC
+        NC --> SEO
+        SEO --> KH
+        KH --> DCL
+    }
+    state "✍️ Giai đoạn 2 — Thực thi" as GD2 {
+        direction TB
+        BR: 5. Agent Brief
+        VI: 6. Agent Viết
+        HA: 7. Agent Hình ảnh & Video
+        BT: 8. Agent Biên tập
+        state kiemtra <<choice>>
+        DND: 👤 9. Người duyệt nội dung
+        BR --> VI
+        VI --> HA
+        HA --> BT
+        BT --> DND
+        DND --> kiemtra
+        kiemtra --> VI: ❌ Chưa đạt
+    }
+    state "📣 Giai đoạn 3 — Phân phối" as GD3 {
+        direction TB
+        CT: 10. Agent Chuyển thể
+        DB: 11. Agent Đăng bài
+        DL: 12. Agent Đo lường
+        CT --> DB
+        DB --> DL
+    }
+    GD1 --> GD2: ✅ Duyệt
+    GD2 --> GD3: ✅ Đạt
+    GD3 --> GD1: 🔁 Tối ưu chu kỳ sau

@@ -1,0 +1,31 @@
+architecture-beta
+    group gd1(cloud)[Giai đoạn 1 Chiến lược]
+    group gd2(server)[Giai đoạn 2 Thực thi]
+    group gd3(internet)[Giai đoạn 3 Phân phối]
+
+    service nc(database)[Agent Nghiên cứu] in gd1
+    service seo(database)[Agent SEO và Từ khóa] in gd1
+    service kh(disk)[Agent Kế hoạch] in gd1
+    service dcl(internet)[Người duyệt chiến lược] in gd1
+
+    service br(disk)[Agent Brief] in gd2
+    service vi(server)[Agent Viết] in gd2
+    service ha(server)[Agent Hình ảnh và Video] in gd2
+    service bt(server)[Agent Biên tập] in gd2
+    service dnd(internet)[Người duyệt nội dung] in gd2
+
+    service ct(server)[Agent Chuyển thể] in gd3
+    service db(cloud)[Agent Đăng bài] in gd3
+    service dl(database)[Agent Đo lường] in gd3
+
+    nc:B --> T:seo
+    seo:B --> T:kh
+    kh:B --> T:dcl
+    dcl:R --> L:br
+    br:B --> T:vi
+    vi:B --> T:ha
+    ha:B --> T:bt
+    bt:B --> T:dnd
+    dnd:R --> L:ct
+    ct:B --> T:db
+    db:B --> T:dl

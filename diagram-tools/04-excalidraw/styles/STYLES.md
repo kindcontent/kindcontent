@@ -58,7 +58,7 @@ Danh mục lấy từ `excalidraw/excalidraw-libraries`. Trên excalidraw.com: n
 - **Some hand-drawn signs** (kwirke): dấu tick/chéo vẽ tay *(có trong ảnh)*
 - **Clouds** (dimitrios-fkliaras): đám mây cho mind map. *Không đưa vào ảnh* vì mỗi đám mây quá to, chiếm gần hết trang.
 - Cũng có: **Customer Journey Map**, **Business Model Templates**, **Gantt Diagram**, **Organization Chart**, **Awesome Slides**, **Presentation Templates**, **Emojis**, **Thicc arrow**.
-- Excalidraw **không có “template” sơ đồ** dựng sẵn theo kiểu Canva. Chỉ có các thư viện thành phần như trên, và tính năng chuyển Mermaid hoặc AI “Text to diagram” (AI cần Excalidraw+).
+- Excalidraw **không có “template” sơ đồ** dựng sẵn theo kiểu Canva. Chỉ có các thư viện thành phần như trên, tính năng chuyển Mermaid, và AI “Text to diagram” (bản beta trên excalidraw.com, mình chưa thử).
 
 ## Những thứ không vẽ riêng (và lý do)
 

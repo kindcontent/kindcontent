@@ -13,6 +13,8 @@ import {
 import "@excalidraw/excalidraw/index.css";
 import { parseMermaidToExcalidraw } from "@excalidraw/mermaid-to-excalidraw";
 import { buildHandScene } from "./scene.js";
+import { catalogFillRough, catalogLines, catalogColors, fontRows } from "./catalog.js";
+import { restoreElements } from "@excalidraw/excalidraw";
 
 const FONT_NAME = {
   1: "Virgil",
@@ -76,12 +78,12 @@ async function mermaidElements(def, fam) {
   return { elements: convertToExcalidrawElements(elements, { regenerateIds: false }), files: files || {} };
 }
 
-async function toPng(elements, files, targetW) {
+async function toPng(elements, files, targetW, opts = {}) {
   let scale = 1;
   const blob = await exportToBlob({
     elements,
     files: files || {},
-    appState: { exportBackground: true, viewBackgroundColor: "#ffffff" },
+    appState: { exportBackground: true, viewBackgroundColor: opts.bg || "#ffffff", exportWithDarkMode: !!opts.dark },
     exportPadding: 40,
     getDimensions: (w, h) => {
       scale = targetW ? targetW / w : 1;
@@ -96,24 +98,54 @@ async function toPng(elements, files, targetW) {
   });
 }
 
-async function toSvg(elements, files) {
+async function toSvg(elements, files, opts = {}) {
   const svg = await exportToSvg({
     elements,
     files: files || {},
-    appState: { exportBackground: true, viewBackgroundColor: "#ffffff" },
+    appState: { exportBackground: true, viewBackgroundColor: opts.bg || "#ffffff", exportWithDarkMode: !!opts.dark },
     exportPadding: 40,
   });
   return svg.outerHTML;
 }
 
-function toJSON(elements, files) {
-  return serializeAsJSON(elements, { viewBackgroundColor: "#ffffff", gridSize: null }, files || {}, "local");
+function toJSON(elements, files, opts = {}) {
+  return serializeAsJSON(elements, { viewBackgroundColor: opts.bg || "#ffffff", gridSize: null, theme: opts.dark ? "dark" : "light" }, files || {}, "local");
 }
 
 window.X = {
   loadFonts,
   FONT_FAMILY,
-  hand: (fam) => convertToExcalidrawElements(buildHandScene(fam, (t, s, w) => wrap(t, s, fam, w)), { regenerateIds: false }),
+  hand: (fam, style) => convertToExcalidrawElements(buildHandScene(fam, (t, s, w) => wrap(t, s, fam, w), style), { regenerateIds: false }),
+  catalog: (k) => convertToExcalidrawElements(k === "fill" ? catalogFillRough() : k === "lines" ? catalogLines() : k === "colors" ? catalogColors() : fontRows(wrap), { regenerateIds: false }),
+  libraries: async (list) => {
+    // lay out the first N items of several public .excalidrawlib packs in a grid
+    const out = [];
+    let y = 0;
+    out.push(...convertToExcalidrawElements([{ type: "text", x: 0, y: -100, text: "Thư viện công khai (libraries.excalidraw.com) — vài bộ hợp với sơ đồ quy trình", fontSize: 34, fontFamily: 6 }]));
+    for (const [file, title, max] of list) {
+      const d = await (await fetch("/libs/" + file)).json();
+      const items = (d.libraryItems || (d.library || []).map((e) => ({ elements: e }))).slice(0, max);
+      out.push(...convertToExcalidrawElements([{ type: "text", x: 0, y, text: title, fontSize: 26, fontFamily: 6, strokeColor: "#1971c2" }]));
+      y += 50;
+      let x = 0, rowH = 0;
+      for (const it of items) {
+        const els = restoreElements(it.elements, null).filter((e) => !e.isDeleted);
+        if (!els.length) continue;
+        // element bounds (linear/freedraw elements are positioned by their points, which can be negative)
+        const bx = (e) => e.points ? [e.x + Math.min(...e.points.map((p) => p[0])), e.x + Math.max(...e.points.map((p) => p[0]))] : [e.x, e.x + Math.abs(e.width)];
+        const by = (e) => e.points ? [e.y + Math.min(...e.points.map((p) => p[1])), e.y + Math.max(...e.points.map((p) => p[1]))] : [e.y, e.y + Math.abs(e.height)];
+        const minX = Math.min(...els.map((e) => bx(e)[0])), minY = Math.min(...els.map((e) => by(e)[0]));
+        const maxX = Math.max(...els.map((e) => bx(e)[1])), maxY = Math.max(...els.map((e) => by(e)[1]));
+        const w = maxX - minX, h = maxY - minY;
+        if (Math.max(w, h) > 600) continue; // skip oversize items (templates) to keep the preview compact
+        if (x + w > 1500) { x = 0; y += rowH + 30; rowH = 0; }
+        for (const e of els) out.push({ ...e, x: e.x - minX + x, y: e.y - minY + y });
+        x += w + 40; rowH = Math.max(rowH, h);
+      }
+      y += rowH + 80;
+    }
+    return out;
+  },
   mermaidElements,
   toPng,
   toSvg,

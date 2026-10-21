@@ -31,6 +31,7 @@
 | `screenshots/editor-bang-thuoc-tinh-font.png` | Chọn một ô chữ: bảng thuộc tính bên trái, mục *Font family*. |
 | `screenshots/editor-chon-font-excalifont.png` | Danh sách font trong editor (Excalifont, Comic Shanns, Lilita One, Nunito). |
 | `screenshots/editor-hop-thoai-mermaid.png`, `editor-mermaid-da-chen.png` | Hộp thoại *Mermaid to Excalidraw* có sẵn, và kết quả sau khi bấm *Insert*. |
+| `styles/` | Toàn bộ kiểu dáng của Excalidraw vẽ trên cùng sơ đồ: 4 kiểu dựng sẵn (có `.excalidraw`), từng kiểu tô, độ nguệch ngoạc, kiểu mũi tên, nét, góc, bảng màu, nền tối, so sánh font và thư viện công khai. Xem `styles/STYLES.md` và `styles/manifest.json`. |
 
 **Chất lượng:** sơ đồ dựng tay rất hợp làm content: nhìn thân thiện, kiểu "vẽ trên bảng", màu sắc rõ, đúng toàn bộ nội dung mẫu. Bản Mermaid vẫn đúng logic (3 nhóm, 12 bước, 2 điểm duyệt hình thoi, vòng sửa, vòng phản hồi). Nhưng bố cục do máy xếp nên các khung bị lệch so le và chữ hơi nhỏ, nên chỉ dùng làm bản nháp rồi kéo chỉnh lại bằng tay.
 
