@@ -9,6 +9,7 @@
 - [x] Cài & test 10 repo, vẽ cùng nội dung "Quy trình Agentic Content" → `diagram-tools/`
 - [x] Tổng hợp so sánh + chấm điểm → `diagram-tools/README.md` + gallery https://claude.ai/artifact/BsaCNoPNYXfZ3ZkifGSFkA
 - [x] Render tất cả style/theme/template của từng repo diagram (328 ảnh + 276 mẫu AntV) → `diagram-tools/NN-*/styles/` + gallery mục "Tất cả style"
+- [x] Lọc Top 3 cho đăng bài (clean, ai cũng hiểu): fireworks Notion Clean > Excalidraw Gọn gàng > draw.io pastel
 - [x] Nghiên cứu lip sync (khớp môi) + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 

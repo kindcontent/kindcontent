@@ -2,6 +2,15 @@
 
 Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Agentic Content, 12 bước). Mỗi thư mục có ảnh kết quả và `NHAN-XET.md` chi tiết.
 
+## Top 3 để đăng bài truyền thông
+Tiêu chí: người thường hiểu được, clean – hiện đại – tối giản, đúng đủ dữ liệu. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
+
+| Hạng | Bản | Dễ hiểu | Clean | Đúng đủ | Tổng |
+|---|---|---|---|---|---|
+| 1 | fireworks-tech-graph · Notion Clean (`10-.../styles/style-04-notion-clean.png`) | 8.5 | 9.5 | 10 | **9.3** |
+| 2 | Excalidraw · Gọn gàng (`04-excalidraw/styles/preset-gon-gang.png`) | 9.5 | 8 | 10 | **9.2** |
+| 3 | draw.io · pastel (`07-.../styles/style-palette-1-pastel.png`) | 9 | 7 | 10 | **8.7** |
+
 ## Nên dùng gì
 
 | Nhu cầu | Chọn | Vì sao |
