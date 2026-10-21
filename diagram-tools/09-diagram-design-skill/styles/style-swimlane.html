@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic Content · style-swimlane</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;family=Noto+Serif:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--paper:#f5f5f5;--ink:#2d3142;--muted:#4f5d75;--soft:#5a6580;--accent:#bf4520;
+      --sans:'Geist', system-ui, sans-serif;--mono:'Geist Mono', ui-monospace, monospace;--title:'Noto Serif', serif;}
+    body{font-family:var(--sans);background:#f5f5f5;color:var(--ink);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+    .frame{max-width:1352px;width:100%}
+    .eyebrow{font:500 .66rem var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem}
+    h1{font:400 clamp(1.5rem,2.4vw + .75rem,2rem)/1.15 var(--title);letter-spacing:-.02em;color:var(--ink);margin-bottom:1.5rem}
+    .subtitle{font-size:1rem;line-height:1.55;color:var(--muted);max-width:62ch;margin:-.75rem 0 1.75rem}
+    .diagram-container{width:100%;overflow-x:auto;}
+    svg{width:100%;min-width:1352px;max-width:1352px;margin:0 auto;display:block}
+    @media print{.diagram-container{overflow-x:visible}svg{min-width:0}}
+    .nn{font:600 12px var(--sans)}
+    .sl{font:400 9px var(--mono);fill:var(--muted)}
+    .al{font:400 8px var(--mono);letter-spacing:.1em}
+    .ey{font:500 8px var(--mono);letter-spacing:.18em;fill:var(--muted)}
+    .ln{font:500 9px var(--mono);letter-spacing:.16em;fill:var(--muted)}
+    .lg{font:400 8.5px var(--sans);fill:var(--muted)}
+    .callout{font:italic 400 14px 'Noto Serif',serif}
+    .hub-name{font:600 16px var(--sans)}
+    .big{font:600 14px var(--sans)}
+    .cards{display:grid;grid-template-columns:1.1fr 1fr .9fr;gap:1rem;margin-top:1.5rem}
+    .card{background:#ffffff;border-radius:6px;border:1px solid rgba(45,49,66,0.12);padding:1.25rem}
+    .card .ce{font:500 .62rem var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--soft);margin-bottom:.5rem}
+    .card h3{font:600 .875rem var(--sans);color:var(--ink);padding-bottom:.75rem;margin-bottom:.75rem;border-bottom:1px solid rgba(45,49,66,0.08);display:flex;gap:.6rem;align-items:center}
+    .dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+    .card ul{list-style:none;color:var(--muted);font-size:.8125rem;line-height:1.55}.card li{margin-bottom:.3rem}.card b{color:var(--ink);font-weight:600}
+    .footer{margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(45,49,66,0.1);font:.72rem var(--mono);letter-spacing:.06em;color:var(--soft);display:flex;justify-content:space-between}
+    .terminal{width:100%;max-width:1434px;background:#f5f5f5;border:1px solid #2b2b2b;border-radius:12px;overflow:hidden}
+    .titlebar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:#1b1b1b;border-bottom:1px solid #2b2b2b}
+    .tdot{width:10px;height:10px;border-radius:50%;background:#5c5c5c}.tdot.accent{background:#bf4520}
+    .titlebar-name{flex:1;text-align:center;color:#9a9a9a;font:500 .7rem var(--mono);letter-spacing:.04em;margin-right:46px}
+    .tframe{padding:2.25rem 2.5rem 2.5rem}.prompt{color:#9a9a9a;font:500 .8rem var(--mono);margin-bottom:.9rem}.prompt .sign{color:#bf4520}
+    .terminal h1{font:700 clamp(1.3rem,2vw + .7rem,1.8rem)/1.25 var(--mono)}.terminal h1::before{content:"# ";color:#5c5c5c}
+    </style>
+</head>
+<body>
+  <div class="frame"><p class="eyebrow">Swimlane · 3 giai đoạn + người duyệt</p><h1>Quy trình Agentic Content — Từ Chiến lược đến Thực thi và Phân phối</h1><div class="diagram-container">
+    <svg viewBox="0 0 1352 488" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="style-swimlane-title style-swimlane-desc">
+      <title id="style-swimlane-title">Agentic Content: agent và người duyệt theo giai đoạn</title>
+      <desc id="style-swimlane-desc">Swimlane: agent ba giai đoạn bàn giao qua hai điểm duyệt của con người; chưa đạt quay lại viết, kết quả đo lường quay về nghiên cứu.</desc>
+      <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="rgba(45,49,66,0.10)"/></pattern><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker><marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker><marker id="arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker><marker id="arrow-soft" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#5a6580"/></marker><marker id="arrow-open" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polyline points="0 0, 8 3, 0 6" fill="none" stroke="#4f5d75" stroke-width="1.2"/></marker></defs>
+      <rect width="1352" height="488" fill="#f5f5f5"/><rect width="1352" height="488" fill="url(#dots)" opacity="0.55"/>
+      <line x1="40" y1="80" x2="1312" y2="80" stroke="rgba(45,49,66,0.22)" stroke-width="1"/>
+      <line x1="40" y1="160" x2="1312" y2="160" stroke="rgba(45,49,66,0.1)" stroke-width="1"/>
+      <line x1="40" y1="240" x2="1312" y2="240" stroke="rgba(45,49,66,0.1)" stroke-width="1"/>
+      <line x1="40" y1="320" x2="1312" y2="320" stroke="rgba(45,49,66,0.1)" stroke-width="1"/>
+      <line x1="40" y1="400" x2="1312" y2="400" stroke="rgba(45,49,66,0.22)" stroke-width="1"/>
+      <line x1="184" y1="80" x2="184" y2="400" stroke="rgba(45,49,66,0.22)" stroke-width="1"/>
+      <line x1="328" y1="120" x2="360" y2="120" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <line x1="424" y1="144" x2="424" y2="176" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <path d="M 488,200 H 556 Q 564,200 564,208 V 256" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <line x1="648" y1="280" x2="680" y2="280" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <line x1="808" y1="280" x2="840" y2="280" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <path d="M 968,280 H 1036 Q 1044,280 1044,272 V 224" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <line x1="1084" y1="224" x2="1084" y2="336" stroke="#bf4520" stroke-width="1.4" marker-end="url(#arrow-accent)"/>
+      <path d="M 1000,212 H 612 Q 604,212 604,220 V 256" fill="none" stroke="#4f5d75" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+      <line x1="1128" y1="360" x2="1160" y2="360" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <path d="M 1288,360 H 1304 Q 1312,360 1312,352 V 60 Q 1312,52 1304,52 H 272 Q 264,52 264,60 V 96" fill="none" stroke="#4f5d75" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+      <rect x="1092" y="268" width="40" height="12" rx="2" fill="#f5f5f5"/>
+      <rect x="768" y="194" width="68" height="12" rx="2" fill="#f5f5f5"/>
+      <rect x="706" y="34" width="164" height="12" rx="2" fill="#f5f5f5"/>
+      <rect x="508" y="182" width="56" height="12" rx="2" fill="#f5f5f5"/>
+      <rect x="200" y="96" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="200" y="96" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="360" y="96" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="360" y="96" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="360" y="176" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="360" y="176" width="128" height="48" rx="6" fill="rgba(79,93,117,0.10)" stroke="#5a6580" stroke-width="1"/>
+      <rect x="520" y="256" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="520" y="256" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="680" y="256" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="680" y="256" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="840" y="256" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="840" y="256" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="1000" y="176" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="1000" y="176" width="128" height="48" rx="6" fill="rgba(191,69,32,0.08)" stroke="#bf4520" stroke-width="1.2"/>
+      <rect x="1000" y="336" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="1000" y="336" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="1160" y="336" width="128" height="48" rx="6" fill="#f5f5f5"/><rect x="1160" y="336" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <line x1="40" y1="428" x2="1312" y2="428" stroke="rgba(45,49,66,0.1)" stroke-width="0.8"/>
+      <rect x="40" y="458" width="14" height="10" rx="2" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <rect x="216" y="458" width="14" height="10" rx="2" fill="rgba(79,93,117,0.10)" stroke="#5a6580" stroke-width="1"/>
+      <rect x="392" y="458" width="14" height="10" rx="2" fill="rgba(191,69,32,0.08)" stroke="#bf4520" stroke-width="1"/>
+      <line x1="568" y1="463" x2="596" y2="463" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+      <line x1="744" y1="463" x2="772" y2="463" stroke="#4f5d75" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+      <line x1="920" y1="463" x2="948" y2="463" stroke="#bf4520" stroke-width="1.2" marker-end="url(#arrow-accent)"/>
+      <text x="52" y="124" class="ln">GĐ1 · CHIẾN LƯỢC</text>
+      <text x="52" y="204" class="ln">CON NGƯỜI DUYỆT</text>
+      <text x="52" y="284" class="ln">GĐ2 · THỰC THI</text>
+      <text x="52" y="364" class="ln">GĐ3 · PHÂN PHỐI</text>
+      <text x="1112" y="277.5" class="al" fill="#bf4520" text-anchor="middle">ĐẠT</text>
+      <text x="802" y="203.5" class="al" fill="#4f5d75" text-anchor="middle">CHƯA ĐẠT</text>
+      <text x="788" y="43.5" class="al" fill="#4f5d75" text-anchor="middle">KẾT QUẢ → CHU KỲ SAU</text>
+      <text x="536" y="191.5" class="al" fill="#4f5d75" text-anchor="middle">DUYỆT</text>
+      <text x="264" y="118" class="nn" fill="#2d3142" text-anchor="middle">Nghiên cứu &amp; SEO</text><text x="264" y="132" class="sl" text-anchor="middle">thị trường · từ khóa</text>
+      <text x="424" y="118" class="nn" fill="#2d3142" text-anchor="middle">Kế hoạch</text><text x="424" y="132" class="sl" text-anchor="middle">persona · lịch</text>
+      <text x="424" y="198" class="nn" fill="#2d3142" text-anchor="middle">Duyệt chiến lược</text><text x="424" y="212" class="sl" text-anchor="middle">human-in-the-loop</text>
+      <text x="584" y="278" class="nn" fill="#2d3142" text-anchor="middle">Brief &amp; Viết</text><text x="584" y="292" class="sl" text-anchor="middle">dàn ý → bản nháp</text>
+      <text x="744" y="278" class="nn" fill="#2d3142" text-anchor="middle">Hình ảnh &amp; Video</text><text x="744" y="292" class="sl" text-anchor="middle">thumbnail · reel</text>
+      <text x="904" y="278" class="nn" fill="#2d3142" text-anchor="middle">Biên tập</text><text x="904" y="292" class="sl" text-anchor="middle">SEO · kiểm chứng</text>
+      <text x="1064" y="198" class="nn" fill="#2d3142" text-anchor="middle">Duyệt nội dung</text><text x="1064" y="212" class="sl" text-anchor="middle">human-in-the-loop</text>
+      <text x="1064" y="358" class="nn" fill="#2d3142" text-anchor="middle">Chuyển thể &amp; Đăng</text><text x="1064" y="372" class="sl" text-anchor="middle">web · social · email</text>
+      <text x="1224" y="358" class="nn" fill="#2d3142" text-anchor="middle">Đo lường</text><text x="1224" y="372" class="sl" text-anchor="middle">traffic · chuyển đổi</text>
+      <text x="40" y="444" class="ey">CHÚ THÍCH</text>
+      <text x="60" y="466" class="lg">Agent AI</text>
+      <text x="236" y="466" class="lg">Người duyệt</text>
+      <text x="412" y="466" class="lg">Điểm duyệt trọng tâm</text>
+      <text x="604" y="466" class="lg">Bàn giao</text>
+      <text x="780" y="466" class="lg">Vòng sửa / phản hồi</text>
+      <text x="956" y="466" class="lg">Đạt → phân phối</text>
+    </svg>
+    </div></div>
+</body>
+</html>

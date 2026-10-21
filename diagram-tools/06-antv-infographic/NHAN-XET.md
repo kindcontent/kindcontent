@@ -78,3 +78,6 @@ Tôi render bằng Playwright + Chromium headless, rồi chụp phần tử `<sv
 | Miễn phí / offline | **7** | MIT, miễn phí. Chạy offline được, nhưng icon theo từ khóa và font mặc định cần server ngoài (weavefox.cn, antgroup CDN). |
 
 **Đáng dùng không?** Có. Đây là lựa chọn rất đáng dùng để biến dàn ý tiếng Việt thành infographic đẹp, nhất là khi để Claude viết cú pháp qua skill chính thức. Nên tự đặt font Inter, viết mô tả ngắn, và dùng `relation-dagre` khi cần vẽ vòng lặp.
+
+## Xem toàn bộ kiểu dáng
+Thư mục `styles/` có ảnh thu nhỏ của **cả 276 template** chạy bằng nội dung này, ảnh tổng hợp theo nhóm, và 31 ảnh theme/palette/font cho snake và roadmap (gồm cả lỗi font tiếng Việt của theme hand-drawn và cách sửa). Danh mục, top 15 và các lỗi nằm trong `styles/STYLES.md`.
