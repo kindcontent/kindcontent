@@ -6,9 +6,9 @@
   "status": "pass",
   "visualReview": "not-requested",
   "provenance": "current",
-  "deliveryReceiptId": "ae6b828b-40d3-4041-9236-3dbc2a2a7605",
+  "deliveryReceiptId": "f241763e-5d50-4cf2-b2d1-73200a421365",
   "artifact": {
-    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/thu-down/tree-down.html",
+    "path": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.html",
     "sha256": "da7bd54f55ac9dabce01164d6c516b9319f24c1787675d4d47a00212ed7cb0a1",
     "bytes": 837783
   },
@@ -691,7 +691,8 @@
     "contactSheet": null
   },
   "sidecars": {
-    "receipt": "tree-down.browser-check.json",
+    "directory": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/review-2-tree",
+    "receipt": "quy-trinh-agentic-content.tree.browser-check.json",
     "files": []
   }
 }

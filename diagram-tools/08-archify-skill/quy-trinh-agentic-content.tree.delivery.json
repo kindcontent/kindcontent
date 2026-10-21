@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "receiptId": "56cfd95a-7719-45ba-909d-a0fc5bb3522a",
+  "receiptId": "f241763e-5d50-4cf2-b2d1-73200a421365",
   "status": "current",
   "command": "deliver",
   "type": "tree",
   "input": "/home/user/kindcontent/diagram-tools/08-archify-skill/nguon/tree.candidate.json",
   "output": "/home/user/kindcontent/diagram-tools/08-archify-skill/quy-trinh-agentic-content.tree.html",
   "specification": {
-    "sha256": "b1be09e96942164c65f8852370a3a38e2af182b014ce6b22fa4d2b1f4f10d431",
-    "bytes": 35831
+    "sha256": "c8d2da54d1a8bd73435b93150d30c682ef10dbb812d9f75ea00fc5f93aa2d30c",
+    "bytes": 35830
   },
   "artifact": {
-    "sha256": "d4db5942d053fa111dc098a8054e70cd7020999416d52a26487b87677b20233a",
-    "bytes": 837204
+    "sha256": "da7bd54f55ac9dabce01164d6c516b9319f24c1787675d4d47a00212ed7cb0a1",
+    "bytes": 837783
   }
 }

@@ -8,8 +8,8 @@ vars: {
 
 grid-rows: 2
 grid-columns: 3
-horizontal-gap: 120
-vertical-gap: 70
+horizontal-gap: 200
+vertical-gap: 110
 
 title: |md
   # Quy trình Agentic Content
@@ -77,7 +77,7 @@ loop: "🔁 VÒNG LẶP PHẢN HỒI\nKết quả đo lường → quay lại Gi
 }
 g2: "" {class: ghost}
 
-s1 -> s2: "✅ Chiến lược\nđược duyệt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
-s2 -> s3: "✅ Nội dung\nđạt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
+s1 -> s2: "✅ Duyệt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
+s2 -> s3: "✅ Đạt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
 s3 -> loop: "đo lường" {style: {stroke: "#7C3AED"; stroke-dash: 5; stroke-width: 3; font-color: "#6D28D9"; font-size: 17}}
 loop -> s1: "tối ưu" {style: {stroke: "#7C3AED"; stroke-dash: 5; stroke-width: 3; font-color: "#6D28D9"; font-size: 17}}
