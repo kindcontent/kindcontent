@@ -1,0 +1,161 @@
+<mxfile host="drawio">
+<diagram name="sketch-font-itim">
+<mxGraphModel dx="1351" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="title" parent="1" style="text;fontSize=26;fontStyle=1;align=center;verticalAlign=middle;fontColor=#1a1a1a;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Quy trình Agentic Content — Từ Chiến lược đến Thực thi và Phân phối" vertex="1">
+      <mxGeometry height="44" width="1320" x="40" y="16" as="geometry" />
+    </mxCell>
+    <mxCell id="sub" parent="1" style="text;fontSize=14;align=center;verticalAlign=middle;fontColor=#555555;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="12 bước · 9 agent AI + 2 điểm duyệt của con người · vòng sửa bài · vòng lặp tối ưu chu kỳ sau" vertex="1">
+      <mxGeometry height="26" width="1320" x="40" y="56" as="geometry" />
+    </mxCell>
+    <mxCell id="L1" parent="1" style="swimlane;startSize=48;rounded=1;arcSize=3;fontSize=16;fontStyle=1;swimlaneLine=0;strokeWidth=2;horizontal=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#f3f8fe;fontColor=#1f4e8c;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="GIAI ĐOẠN 1 — CHIẾN LƯỢC (Strategy)" vertex="1">
+      <mxGeometry height="680" width="380" x="80" y="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n1" parent="L1" style="rounded=1;arcSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;1 · Agent Nghiên cứu&lt;/b&gt;&lt;br&gt;Phân tích thị trường, đối thủ, insight khách hàng" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="72" as="geometry" />
+    </mxCell>
+    <mxCell id="n2" parent="L1" style="rounded=1;arcSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;2 · Agent SEO &amp;amp; Từ khóa&lt;/b&gt;&lt;br&gt;Nghiên cứu từ khóa, search intent, khoảng trống nội dung" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="184" as="geometry" />
+    </mxCell>
+    <mxCell id="n3" parent="L1" style="rounded=1;arcSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;3 · Agent Kế hoạch&lt;/b&gt;&lt;br&gt;Persona, content pillar, lịch nội dung" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="296" as="geometry" />
+    </mxCell>
+    <mxCell id="n4" parent="L1" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;spacing=4;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b&gt;4 · Người duyệt&lt;br&gt;chiến lược&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;font-size:11px&quot;&gt;human-in-the-loop&lt;/i&gt;" vertex="1">
+      <mxGeometry height="130" width="220" x="100" y="408" as="geometry" />
+    </mxCell>
+    <mxCell id="L2" parent="1" style="swimlane;startSize=48;rounded=1;arcSize=3;fontSize=16;fontStyle=1;swimlaneLine=0;strokeWidth=2;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#f4faf3;fontColor=#2d6a22;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="GIAI ĐOẠN 2 — THỰC THI (Execution)" vertex="1">
+      <mxGeometry height="680" width="380" x="530" y="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n5" parent="L2" style="rounded=1;arcSize=14;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;5 · Agent Brief&lt;/b&gt;&lt;br&gt;Dàn ý, outline, thông điệp chính" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="72" as="geometry" />
+    </mxCell>
+    <mxCell id="n6" parent="L2" style="rounded=1;arcSize=14;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;6 · Agent Viết&lt;/b&gt;&lt;br&gt;Bản nháp bài blog, fanpage, PR" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="184" as="geometry" />
+    </mxCell>
+    <mxCell id="n7" parent="L2" style="rounded=1;arcSize=14;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;7 · Agent Hình ảnh &amp;amp; Video&lt;/b&gt;&lt;br&gt;Visual, thumbnail, kịch bản video ngắn" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="296" as="geometry" />
+    </mxCell>
+    <mxCell id="n8" parent="L2" style="rounded=1;arcSize=14;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;8 · Agent Biên tập&lt;/b&gt;&lt;br&gt;SEO on-page, kiểm chứng thông tin, giọng thương hiệu" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="408" as="geometry" />
+    </mxCell>
+    <mxCell id="n9" parent="L2" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;spacing=4;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b&gt;9 · Người duyệt&lt;br&gt;nội dung&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;font-size:11px&quot;&gt;human-in-the-loop&lt;/i&gt;" vertex="1">
+      <mxGeometry height="130" width="220" x="100" y="520" as="geometry" />
+    </mxCell>
+    <mxCell id="L3" parent="1" style="swimlane;startSize=48;rounded=1;arcSize=3;fontSize=16;fontStyle=1;swimlaneLine=0;strokeWidth=2;horizontal=1;fillColor=#e1d5e7;strokeColor=#9673a6;swimlaneFillColor=#f8f4fa;fontColor=#5b3a73;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="GIAI ĐOẠN 3 — PHÂN PHỐI (Distribution)" vertex="1">
+      <mxGeometry height="680" width="380" x="980" y="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n10" parent="L3" style="rounded=1;arcSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;10 · Agent Chuyển thể&lt;/b&gt;&lt;br&gt;1 bài gốc → nhiều định dạng (post, reel, email)" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="72" as="geometry" />
+    </mxCell>
+    <mxCell id="n11" parent="L3" style="rounded=1;arcSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;11 · Agent Đăng bài&lt;/b&gt;&lt;br&gt;Lên lịch &amp;amp; đăng: Website, Fanpage, TikTok, YouTube, Email" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="184" as="geometry" />
+    </mxCell>
+    <mxCell id="n12" parent="L3" style="rounded=1;arcSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;spacingLeft=8;spacingRight=8;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="&lt;b style=&quot;font-size:14px&quot;&gt;12 · Agent Đo lường&lt;/b&gt;&lt;br&gt;Traffic, tương tác, chuyển đổi" vertex="1">
+      <mxGeometry height="76" width="280" x="70" y="296" as="geometry" />
+    </mxCell>
+    <mxCell id="e12" edge="1" parent="1" source="n1" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e23" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e34" edge="1" parent="1" source="n3" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e56" edge="1" parent="1" source="n5" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n6">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e67" edge="1" parent="1" source="n6" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n7">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e78" edge="1" parent="1" source="n7" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n8">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e89" edge="1" parent="1" source="n8" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n9">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e1011" edge="1" parent="1" source="n10" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n11">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e1112" edge="1" parent="1" source="n11" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=block;endFill=1;strokeColor=#555555;strokeWidth=1.5;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n12">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e45" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=block;endFill=1;strokeColor=#2e7d32;strokeWidth=2;fontColor=#2e7d32;fontStyle=1;fontSize=12;labelBackgroundColor=#ffffff;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n5" value="Đạt ✓">
+      <mxGeometry relative="1" x="-0.83" as="geometry">
+        <mxPoint y="-12" as="offset" />
+        <Array as="points">
+          <mxPoint x="495" y="573" />
+          <mxPoint x="495" y="210" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e910" edge="1" parent="1" source="n9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=block;endFill=1;strokeColor=#2e7d32;strokeWidth=2;fontColor=#2e7d32;fontStyle=1;fontSize=12;labelBackgroundColor=#ffffff;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n10" value="Đạt ✓">
+      <mxGeometry relative="1" x="-0.85" as="geometry">
+        <mxPoint y="-12" as="offset" />
+        <Array as="points">
+          <mxPoint x="945" y="685" />
+          <mxPoint x="945" y="210" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e96" edge="1" parent="1" source="n9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;endArrow=block;endFill=1;strokeColor=#c62828;strokeWidth=2;dashed=1;fontColor=#c62828;fontStyle=1;fontSize=12;labelBackgroundColor=#ffffff;horizontal=0;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n6" value="Chưa đạt → sửa lại">
+      <mxGeometry relative="1" x="0.1" as="geometry">
+        <mxPoint as="offset" />
+        <Array as="points">
+          <mxPoint x="560" y="685" />
+          <mxPoint x="560" y="322" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="eloop" edge="1" parent="1" source="n12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;endArrow=block;endFill=1;strokeColor=#b85450;strokeWidth=2.5;dashed=1;dashPattern=8 4;fontColor=#b85450;fontStyle=1;fontSize=14;labelBackgroundColor=#ffffff;flowAnimation=1;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" target="n1" value="VÒNG LẶP: kết quả đo lường → quay lại Giai đoạn 1 – Chiến lược để tối ưu chu kỳ sau">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1190" y="820" />
+          <mxPoint x="45" y="820" />
+          <mxPoint x="45" y="210" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="lgA" parent="1" style="rounded=1;arcSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Agent AI" vertex="1">
+      <mxGeometry height="34" width="110" x="80" y="860" as="geometry" />
+    </mxCell>
+    <mxCell id="lgH" parent="1" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="" vertex="1">
+      <mxGeometry height="40" width="60" x="210" y="857" as="geometry" />
+    </mxCell>
+    <mxCell id="lgHt" parent="1" style="text;fontSize=12;verticalAlign=middle;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Người duyệt (human-in-the-loop)" vertex="1">
+      <mxGeometry height="34" width="210" x="276" y="860" as="geometry" />
+    </mxCell>
+    <mxCell id="lgR" edge="1" parent="1" style="endArrow=block;endFill=1;strokeColor=#c62828;strokeWidth=2;dashed=1;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="500" y="877" as="sourcePoint" />
+        <mxPoint x="560" y="877" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="lgRt" parent="1" style="text;fontSize=12;verticalAlign=middle;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Chưa đạt → quay lại sửa" vertex="1">
+      <mxGeometry height="34" width="170" x="566" y="860" as="geometry" />
+    </mxCell>
+    <mxCell id="lgG" edge="1" parent="1" style="endArrow=block;endFill=1;strokeColor=#2e7d32;strokeWidth=2;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="750" y="877" as="sourcePoint" />
+        <mxPoint x="810" y="877" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="lgGt" parent="1" style="text;fontSize=12;verticalAlign=middle;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Đạt → chuyển giai đoạn" vertex="1">
+      <mxGeometry height="34" width="170" x="816" y="860" as="geometry" />
+    </mxCell>
+    <mxCell id="lgL" edge="1" parent="1" style="endArrow=block;endFill=1;strokeColor=#b85450;strokeWidth=2.5;dashed=1;dashPattern=8 4;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1000" y="877" as="sourcePoint" />
+        <mxPoint x="1060" y="877" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="lgLt" parent="1" style="text;fontSize=12;verticalAlign=middle;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Itim;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DItim;" value="Vòng lặp phản hồi về Chiến lược" vertex="1">
+      <mxGeometry height="34" width="220" x="1066" y="860" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
+
+</diagram>
+</mxfile>

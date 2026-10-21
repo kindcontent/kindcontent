@@ -1,0 +1,452 @@
+[
+ {
+  "file": "style-palette-1-pastel.png",
+  "name": "Pastel mặc định (bảng màu 1)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 1: xanh dương/xanh lá/tím/cam)",
+  "note": "Rõ ràng, dịu mắt, dễ đọc nhất cho bài blog/slide — lựa chọn an toàn số 1."
+ },
+ {
+  "file": "style-palette-5-gradient.png",
+  "name": "Pastel chuyển màu (bảng màu 5)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 5: có gradient)",
+  "note": "Nổi khối nhẹ, hợp thumbnail/infographic; vẫn dễ đọc."
+ },
+ {
+  "file": "style-edge-curved.png",
+  "name": "Mũi tên cong",
+  "how": "Chọn các mũi tên → Định dạng → mục Đường thẳng → Điểm tham chiếu → Đường cong",
+  "note": "Mềm mại, hợp phong cách mạng xã hội; vòng lặp nhìn tự nhiên hơn."
+ },
+ {
+  "file": "style-shadow.png",
+  "name": "Đổ bóng",
+  "how": "Chọn hình → Phong cách → Hiệu ứng → Đổ bóng (hoặc tick 'Đổ bóng' toàn trang ở tab Phong cách khi không chọn gì)",
+  "note": "Thêm chiều sâu tinh tế, không làm rối chữ."
+ },
+ {
+  "file": "style-palette-4-pastel-dat.png",
+  "name": "Pastel trầm (bảng màu 4)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 4: xanh ngọc/xanh mòng két/tím than/cam đất)",
+  "note": "Tông lạnh, sang; hợp thương hiệu tối giản."
+ },
+ {
+  "file": "style-sketch-font-itim.png",
+  "name": "Vẽ tay + font Itim (có tiếng Việt)",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô; font: Phong cách → Văn bản → Font → thêm Google Font \"Itim\"",
+  "note": "Vẽ tay mà chữ tiếng Việt vẫn chuẩn — đẹp cho content \"thân thiện\"."
+ },
+ {
+  "file": "template-adapt-cycle.png",
+  "name": "Mẫu Vòng tròn lục giác (Cycle) – Agentic Content",
+  "how": "Sắp xếp → Chèn → Bản mẫu… → Khác → cycle_1, rồi sửa chữ",
+  "note": "Diễn tả vòng lặp cực trực quan, rất hợp ảnh post/carousel."
+ },
+ {
+  "file": "template-adapt-mindmap.png",
+  "name": "Mẫu Sơ đồ tư duy – Agentic Content",
+  "how": "Bản mẫu… → Bản đồ → mind_map, rồi sửa chữ",
+  "note": "Hợp để giới thiệu tổng quan 12 agent; mất thứ tự luồng."
+ },
+ {
+  "file": "template-adapt-processbar.png",
+  "name": "Mẫu Thanh quy trình (chevron) – Agentic Content",
+  "how": "Bản mẫu… → Sơ đồ → processbar, rồi sửa chữ",
+  "note": "Tóm tắt 4 bước trong 1 dòng — hợp banner/thumbnail."
+ },
+ {
+  "file": "style-palette-2-metro.png",
+  "name": "Màu đậm Metro (bảng màu 2)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 2: màu rực, chữ trắng)",
+  "note": "Nổi bật trên mobile; hơi chói nếu in."
+ },
+ {
+  "file": "style-palette-3-dam-tram.png",
+  "name": "Màu đậm trầm (bảng màu 3)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 3: xám xanh/rêu/tím trầm)",
+  "note": "Trang nhã, hợp báo cáo doanh nghiệp."
+ },
+ {
+  "file": "style-palette-6-vien-den.png",
+  "name": "Viền đen tươi sáng (bảng màu 6)",
+  "how": "Chọn từng hình → tab \"Phong cách\" → hàng ô màu ở đầu panel (6 bảng, đổi bằng dấu chấm/mũi tên); tôi tô theo từng giai đoạn (bảng 6: nền tươi, viền #36393d)",
+  "note": "Kiểu \"sticker\", vui mắt; viền đậm dễ in."
+ },
+ {
+  "file": "style-dark-mode.png",
+  "name": "Chế độ tối (adaptive colors)",
+  "how": "Tab Phong cách → biểu tượng ◐ Sáng/Tối (hoặc Xem/Giao diện → Tối); xuất ảnh giữ theme",
+  "note": "Tự đảo màu khá đẹp; nhưng chú giải màu đen trên nền tối bị chìm."
+ },
+ {
+  "file": "style-nextai-minimal.png",
+  "name": "next-ai-draw-io: kiểu \"Minimal\"",
+  "how": "next-ai-draw-io → Cài đặt → Drawing → Diagram style = Minimal (Claude vẽ theo luật Minimal, render qua MCP)",
+  "note": "Trắng đen tối giản, hợp tài liệu kỹ thuật; kém hấp dẫn cho mạng xã hội."
+ },
+ {
+  "file": "style-sketch-fill-hatch.png",
+  "name": "Vẽ tay – tô gạch chéo (Auto/Hatch, mặc định)",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô = Tự động / Kẻ sọc",
+  "note": "Phong cách bảng trắng; màu nhạt nên hơi \"bạc\"."
+ },
+ {
+  "file": "style-sketch-font-patrick-hand.png",
+  "name": "Vẽ tay + font Patrick Hand",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô; font Google \"Patrick Hand\"",
+  "note": "Chữ tay hẹp, đủ dấu tiếng Việt; nhỏ hơn nên khó đọc trên mobile."
+ },
+ {
+  "file": "style-sketch-fill-solid.png",
+  "name": "Vẽ tay – tô đặc",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô = Đường liền nét (solid)",
+  "note": "Giữ màu rõ như bản thường nhưng nét run tay — cân bằng tốt."
+ },
+ {
+  "file": "style-sketch-fill-zigzag-line.png",
+  "name": "Vẽ tay – tô zigzag",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô = Đường zíc zắc",
+  "note": "Vui mắt, nhưng nền hơi nhiễu."
+ },
+ {
+  "file": "style-sketch-fill-cross-hatch.png",
+  "name": "Vẽ tay – tô gạch chéo kép",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô = Đan chéo",
+  "note": "Nhiều nét nhất, file nặng; dễ rối."
+ },
+ {
+  "file": "style-sketch-fill-dashed.png",
+  "name": "Vẽ tay – tô nét đứt",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô = Nét đứt",
+  "note": "Nhạt, gần như không thấy màu."
+ },
+ {
+  "file": "style-sketch-font-architects-daughter.png",
+  "name": "Vẽ tay + font Architects Daughter (mặc định của draw.io Sketch)",
+  "how": "Bỏ chọn hết → tab \"Phong cách\" → tick \"Phác thảo\" (Sketch); rồi chọn các hình → mục \"Tô\" → ô kiểu tô; giao diện Sketch dùng font này",
+  "note": "Font không có bộ chữ tiếng Việt → các chữ như \"ế, ứ, ộ\" lấy từ font khác, nhìn lệch."
+ },
+ {
+  "file": "style-comic.png",
+  "name": "Nét truyện tranh (comic=1)",
+  "how": "Không có nút trên giao diện: chọn hình → Chỉnh sửa → Chỉnh sửa kiểu… → thêm comic=1",
+  "note": "Nét hơi lượn, khác biệt rất nhẹ so với bản thường."
+ },
+ {
+  "file": "style-glass.png",
+  "name": "Hiệu ứng kính (glass)",
+  "how": "Chọn hình → Phong cách → Hiệu ứng → Kính",
+  "note": "Bóng kính kiểu 2010, trông cũ."
+ },
+ {
+  "file": "style-sharp-corners.png",
+  "name": "Góc vuông (bỏ bo tròn)",
+  "how": "Bỏ chọn hết → tab Phong cách → bỏ tick 'Bo tròn' (Rounded)",
+  "note": "Nghiêm túc, kiểu kỹ thuật/doanh nghiệp."
+ },
+ {
+  "file": "style-edge-elbow-vertical.png",
+  "name": "Mũi tên khuỷu dọc (elbow vertical)",
+  "how": "Chọn mũi tên → Đường thẳng → Điểm tham chiếu → Khuỷu dọc (elbowEdgeStyle, elbow=vertical)",
+  "note": "Gần giống orthogonal, gọn gàng."
+ },
+ {
+  "file": "style-preset-01.png",
+  "name": "Mẫu phong cách sơ đồ #1 – Cát & cam đất, nền kem",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 2); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Ấm áp, hợp content lifestyle; nhãn trên đường mất nền trắng."
+ },
+ {
+  "file": "style-preset-18.png",
+  "name": "Mẫu phong cách sơ đồ #18 – Tím than trên nền hồng",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 9); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Tương phản đẹp, chữ trắng rõ."
+ },
+ {
+  "file": "style-preset-03.png",
+  "name": "Mẫu phong cách sơ đồ #3 – Navy đậm trên nền kem",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 4); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Sang, chữ trắng rõ."
+ },
+ {
+  "file": "style-preset-12.png",
+  "name": "Mẫu phong cách sơ đồ #12 – Xanh bạc hà, nền trắng xanh",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 3); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Mát, sạch, dễ đọc."
+ },
+ {
+  "file": "style-preset-09.png",
+  "name": "Mẫu phong cách sơ đồ #9 – Kem – viền teal – mũi tên đỏ, nền ghi hồng",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 10); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Cổ điển, dễ đọc."
+ },
+ {
+  "file": "style-preset-15.png",
+  "name": "Mẫu phong cách sơ đồ #15 – Hồng cam trên nền xanh ngọc",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 6); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Tươi trẻ, hợp mạng xã hội."
+ },
+ {
+  "file": "style-preset-02.png",
+  "name": "Mẫu phong cách sơ đồ #2 – Xanh cổ vịt đậm, chữ trắng",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 3); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Đậm, chuyên nghiệp."
+ },
+ {
+  "file": "style-preset-16.png",
+  "name": "Mẫu phong cách sơ đồ #16 – Cam, nền xám nhạt",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 7); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Năng lượng, dễ đọc."
+ },
+ {
+  "file": "style-preset-11.png",
+  "name": "Mẫu phong cách sơ đồ #11 – Hồng phấn",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 2); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Nhẹ nhàng, nữ tính."
+ },
+ {
+  "file": "style-preset-05.png",
+  "name": "Mẫu phong cách sơ đồ #5 – Xanh xô thơm (sage)",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 6); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Dịu, hơi nhạt."
+ },
+ {
+  "file": "style-preset-07.png",
+  "name": "Mẫu phong cách sơ đồ #7 – San hô trên nền cổ vịt đậm",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 8); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Bắt mắt nhưng các mũi tên tối khó thấy trên nền tối."
+ },
+ {
+  "file": "style-preset-08.png",
+  "name": "Mẫu phong cách sơ đồ #8 – Nâu cam trên nền rêu đậm",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 9); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Phong cách \"đất\", nhãn vòng lặp bị chìm."
+ },
+ {
+  "file": "style-preset-04.png",
+  "name": "Mẫu phong cách sơ đồ #4 – Xanh thép, chữ tối",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 5); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Trầm, chữ hơi khó đọc trên nền xanh."
+ },
+ {
+  "file": "style-preset-14.png",
+  "name": "Mẫu phong cách sơ đồ #14 – Ngọc lục bảo, chữ xám",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 5); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Chữ xám trên xanh khó đọc."
+ },
+ {
+  "file": "style-preset-13.png",
+  "name": "Mẫu phong cách sơ đồ #13 – Hồng neon + mũi tên xanh lá",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 4); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Rất chói, khó đọc."
+ },
+ {
+  "file": "style-preset-06.png",
+  "name": "Mẫu phong cách sơ đồ #6 – Vàng chanh, viền hồng, chữ xanh",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 7); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Tương phản chữ kém."
+ },
+ {
+  "file": "style-preset-00.png",
+  "name": "Mẫu phong cách sơ đồ #0 – Xóa màu (trắng/đen)",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 1, ô thứ 1); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Ô mẫu trống = bỏ hết màu về mặc định."
+ },
+ {
+  "file": "style-preset-17.png",
+  "name": "Mẫu phong cách sơ đồ #17 – Xanh nhạt trên nền cổ vịt",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 8); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Mũi tên/chữ trắng biến mất trong các lane nền nhạt — cần sửa tay."
+ },
+ {
+  "file": "style-preset-19.png",
+  "name": "Mẫu phong cách sơ đồ #19 – Xám trắng trên nền navy",
+  "how": "Định dạng (Format) → bỏ chọn hết → tab \"Phong cách\" (Style) → bấm ô mẫu (trang 2, ô thứ 10); tôi đặt thêm màu nền trang theo mẫu và sửa màu chữ tiêu đề cho dễ đọc",
+  "note": "Mũi tên trắng mất hẳn trên lane nhạt — không dùng được ngay."
+ },
+ {
+  "file": "style-edge-entity-relation.png",
+  "name": "Mũi tên kiểu Entity Relation",
+  "how": "Chọn mũi tên → Đường thẳng → Điểm tham chiếu → Mối quan hệ của đối tượng",
+  "note": "Bỏ qua điểm uốn, vòng lặp cắt ngang sơ đồ — không hợp."
+ },
+ {
+  "file": "style-edge-straight.png",
+  "name": "Mũi tên thẳng (xóa điểm uốn)",
+  "how": "Chọn mũi tên → Điểm tham chiếu → Thẳng, rồi Sắp xếp → Xóa điểm tham chiếu",
+  "note": "Đường chéo cắt qua hộp — không hợp sơ đồ nhiều vòng lặp."
+ },
+ {
+  "file": "style-edge-isometric.png",
+  "name": "Mũi tên Isometric",
+  "how": "Chọn mũi tên → Điểm tham chiếu → Đẳng cự (Isometric)",
+  "note": "Dành cho sơ đồ 3D isometric; ở đây rối hoàn toàn."
+ },
+ {
+  "file": "template-other-cycle_1.png",
+  "name": "Mẫu gốc draw.io: Cycle (vòng tròn)",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Khác → Cycle (vòng tròn)",
+  "note": "Hợp minh họa vòng lặp. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-maps-mind_map.png",
+  "name": "Mẫu gốc draw.io: Mind map",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Bản đồ → Mind map",
+  "note": "Sơ đồ tư duy màu sắc. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-charts-processbar.png",
+  "name": "Mẫu gốc draw.io: Process bar",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Sơ đồ → Process bar",
+  "note": "Thanh 4 bước chevron. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-other-infographic_1.png",
+  "name": "Mẫu gốc draw.io: Infographic 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Khác → Infographic 1",
+  "note": "Danh sách 5 bước có số, hợp carousel. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-other-infographic_2.png",
+  "name": "Mẫu gốc draw.io: Infographic 2",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Khác → Infographic 2",
+  "note": "Infographic dọc 4 giai đoạn có icon. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-other-infographic_4.png",
+  "name": "Mẫu gốc draw.io: Infographic 4",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Khác → Infographic 4",
+  "note": "Nền tối, 5 quy tắc đánh số. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-other-infographic_3.png",
+  "name": "Mẫu gốc draw.io: Infographic 3",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Khác → Infographic 3",
+  "note": "Infographic dài nhiều khối (bản gốc rất dài, đã thu nhỏ). (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-business-timeline_1.png",
+  "name": "Mẫu gốc draw.io: Timeline 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Kinh doanh → Timeline 1",
+  "note": "Dòng thời gian theo tháng. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-business-timeline_2.png",
+  "name": "Mẫu gốc draw.io: Timeline 2",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Kinh doanh → Timeline 2",
+  "note": "Timeline dọc 8 bước — đủ chỗ cho quy trình nhiều bước. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-basic-mindmap.png",
+  "name": "Mẫu gốc draw.io: Mindmap",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Cơ bản → Mindmap",
+  "note": "Mind map vẽ tay, chữ uốn theo nhánh. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-basic-kanban.png",
+  "name": "Mẫu gốc draw.io: Simple Kanban",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Cơ bản → Simple Kanban",
+  "note": "Bảng Kanban vẽ tay — hợp lịch nội dung. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-basic-flowchart.png",
+  "name": "Mẫu gốc draw.io: Flowchart",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Cơ bản → Flowchart",
+  "note": "Lưu đồ quyết định cơ bản. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-basic-swimlanes.png",
+  "name": "Mẫu gốc draw.io: Swimlanes",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Cơ bản → Swimlanes",
+  "note": "Pool/lane đen trắng. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-business-swimlane.png",
+  "name": "Mẫu gốc draw.io: Swimlane",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Kinh doanh → Swimlane",
+  "note": "Quy trình nhiều phòng ban có màu. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-flowcharts-cross_functional_flowchart_1.png",
+  "name": "Mẫu gốc draw.io: Cross-functional 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Lưu đồ → Cross-functional 1",
+  "note": "Lưu đồ liên phòng ban trống để điền. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-flowcharts-workflow_1.png",
+  "name": "Mẫu gốc draw.io: Workflow 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Lưu đồ → Workflow 1",
+  "note": "Workflow dài có nhiều nhánh quyết định. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-maps-concept_map_1.png",
+  "name": "Mẫu gốc draw.io: Concept map 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Bản đồ → Concept map 1",
+  "note": "Bản đồ khái niệm dạng nút tròn. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "template-tables-gantt_1.png",
+  "name": "Mẫu gốc draw.io: Gantt 1",
+  "how": "Sắp xếp → Chèn → Bản mẫu… (hoặc Tập tin → Mới…) → Bảng → Gantt 1",
+  "note": "Biểu đồ Gantt — hợp lập lịch chiến dịch. (bản gốc, chưa sửa chữ)"
+ },
+ {
+  "file": "ui-format-phong-cach-presets.png",
+  "name": "Giao diện: tab Phong cách (20 mẫu, Bo tròn/Phác thảo/Đổ bóng, ◐)",
+  "how": "Bỏ chọn hết → panel Định dạng bên phải → tab Phong cách",
+  "note": "Nơi chọn mẫu phong cách cho cả sơ đồ."
+ },
+ {
+  "file": "ui-format-shape-bang-mau.png",
+  "name": "Giao diện: bảng ô màu khi chọn 1 hình",
+  "how": "Chọn 1 hình → tab Phong cách",
+  "note": "6 bảng × 8 ô màu nhanh."
+ },
+ {
+  "file": "ui-mau-template-dialog.png",
+  "name": "Giao diện: hộp thoại Mẫu (Templates)",
+  "how": "Sắp xếp → Chèn → Bản mẫu…",
+  "note": "Danh mục mẫu tiếng Việt kèm số lượng."
+ },
+ {
+  "file": "ui-theme-kennedy.png",
+  "name": "Giao diện draw.io: Cổ điển (Kennedy)",
+  "how": "Xem/Bổ sung → Giao diện → Cổ điển",
+  "note": "Đầy đủ menu, quen thuộc."
+ },
+ {
+  "file": "ui-theme-simple.png",
+  "name": "Giao diện draw.io: Simple",
+  "how": "Giao diện → Simple",
+  "note": "Mặc định mới, gọn hơn."
+ },
+ {
+  "file": "ui-theme-sketch.png",
+  "name": "Giao diện draw.io: Sketch",
+  "how": "Giao diện → Sketch",
+  "note": "Chỉ đổi khung giao diện, không tự đổi nét sơ đồ."
+ },
+ {
+  "file": "ui-theme-min.png",
+  "name": "Giao diện draw.io: Tối giản (Minimal)",
+  "how": "Giao diện → Tối giản",
+  "note": "Panel nổi, nhiều chỗ cho canvas."
+ },
+ {
+  "file": "ui-theme-atlas.png",
+  "name": "Giao diện draw.io: Atlas",
+  "how": "Giao diện → Atlas",
+  "note": "Thanh xanh kiểu Atlassian."
+ },
+ {
+  "file": "ui-theme-kennedy-dark.png",
+  "name": "Giao diện draw.io: Cổ điển – Tối",
+  "how": "Giao diện → Tối",
+  "note": "Sơ đồ tự đổi màu theo chế độ tối."
+ },
+ {
+  "file": "ui-theme-simple-dark.png",
+  "name": "Giao diện draw.io: Simple – Tối",
+  "how": "Simple + Tối",
+  "note": "Như trên, giao diện Simple."
+ }
+]

@@ -30,7 +30,23 @@ Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Ag
 
 Số sao lấy ngày 21/10/2026. archify, diagram-design và fireworks mới ra từ tháng 4/2026 nhưng sao tăng rất nhanh: code thật và chạy được, nhưng số sao không phản ánh chất lượng.
 
+## Tất cả style
+Mỗi thư mục có `styles/` (ảnh + `STYLES.md` liệt kê đủ catalog + `manifest.json`). Xem trực quan: https://claude.ai/artifact/BsaCNoPNYXfZ3ZkifGSFkA#styles
+
+| Công cụ | Số ảnh | Có gì |
+|---|---|---|
+| markmap | 15 | Không có theme; chỉ màu nhánh, thu gọn, dark mode |
+| Mermaid | 40 | 12 theme, 3 look (classic, handDrawn, neo), 10 layout, 14 loại sơ đồ |
+| D2 | 31 | 20 theme, sketch, layout elk/dagre |
+| Excalidraw | 24 | 4 preset, fill, độ nguệch ngoạc, mũi tên, font (chỉ Nunito đúng dấu) |
+| Drawnix | 33 | 6 theme, 9 bố cục mind map (bố cục chỉ sửa được trong file) |
+| AntV Infographic | 45 + 276 mẫu | 276 template, 3 theme, 2 palette, 4 kiểu tô |
+| draw.io | 75 | 19 preset, 6 bảng màu, Sketch, comic, glass, kiểu đường nối, template |
+| archify | 21 | 7 loại sơ đồ, 4 preset × sáng/tối, 4 kiểu trang giải thích |
+| diagram-design | 31 | 13/45 loại sơ đồ, 9 tùy chọn style |
+| fireworks-tech-graph | 13 | 12 style + 1 bản metro map |
+
 ## Lỗi chung cần biết
-- Font vẽ tay của Excalidraw, font tiêu đề của diagram-design và theme hand-drawn của AntV đều thiếu dấu tiếng Việt: phải đổi font.
+- Font vẽ tay thường thiếu dấu tiếng Việt: Excalidraw (dùng Nunito), AntV hand-drawn (dùng Patrick Hand/Pangolin), draw.io Sketch (dùng Itim), tiêu đề diagram-design (dùng Noto Serif).
 - Mind map (markmap, Drawnix, mermaid mindmap) không vẽ được mũi tên vòng lặp, chỉ ghi chú bằng chữ.
 - Test trên máy cloud không có GPU và không có API key AI, nên các tính năng chat AI chỉ đọc tài liệu, không chạy thật.
