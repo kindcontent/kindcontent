@@ -1,0 +1,83 @@
+# Quy trình Agentic Content — vẽ bằng D2 (https://d2lang.com)
+# Bố cục: lưới 3 cột (3 giai đoạn) + hàng dưới cho vòng lặp phản hồi.
+vars: {
+  d2-config: {
+    layout-engine: dagre
+  }
+}
+
+grid-rows: 2
+grid-columns: 3
+horizontal-gap: 200
+vertical-gap: 110
+
+title: |md
+  # Quy trình Agentic Content
+  ### Từ Chiến lược → Thực thi → Phân phối
+| {near: top-center}
+
+classes: {
+  agent: {
+    style: {border-radius: 10; font-size: 18; stroke-width: 2; shadow: true}
+  }
+  human: {
+    shape: hexagon
+    style: {fill: "#FEF3C7"; stroke: "#D97706"; font-color: "#78350F"; stroke-width: 2; font-size: 18; shadow: true}
+  }
+  phase: {
+    style: {font-size: 24; stroke-width: 3; border-radius: 14; bold: true}
+  }
+  ghost: {
+    style: {opacity: 0}
+  }
+}
+
+s1: "🧭 GIAI ĐOẠN 1 — CHIẾN LƯỢC" {
+  class: phase
+  direction: down
+  style: {fill: "#F0F9FF"; stroke: "#0284C7"; font-color: "#075985"}
+  a1: "1. Agent Nghiên cứu\nphân tích thị trường, đối thủ,\ninsight khách hàng" {class: agent; style.fill: "#E0F2FE"; style.stroke: "#0284C7"}
+  a2: "2. Agent SEO & Từ khóa\ntừ khóa, search intent,\nkhoảng trống nội dung" {class: agent; style.fill: "#E0F2FE"; style.stroke: "#0284C7"}
+  a3: "3. Agent Kế hoạch\npersona, content pillar,\nlịch nội dung" {class: agent; style.fill: "#E0F2FE"; style.stroke: "#0284C7"}
+  h1: "👤 4. Người duyệt\nchiến lược" {class: human}
+  a1 -> a2 -> a3 -> h1
+}
+
+s2: "✍️ GIAI ĐOẠN 2 — THỰC THI" {
+  class: phase
+  direction: down
+  style: {fill: "#F0FDF4"; stroke: "#16A34A"; font-color: "#166534"}
+  b5: "5. Agent Brief\ndàn ý, outline,\nthông điệp chính" {class: agent; style.fill: "#DCFCE7"; style.stroke: "#16A34A"}
+  b6: "6. Agent Viết\nbản nháp blog,\nfanpage, PR" {class: agent; style.fill: "#DCFCE7"; style.stroke: "#16A34A"}
+  b7: "7. Agent Hình ảnh & Video\nvisual, thumbnail,\nkịch bản video ngắn" {class: agent; style.fill: "#DCFCE7"; style.stroke: "#16A34A"}
+  b8: "8. Agent Biên tập\nSEO on-page, kiểm chứng,\ngiọng thương hiệu" {class: agent; style.fill: "#DCFCE7"; style.stroke: "#16A34A"}
+  h2: "👤 9. Người duyệt\nnội dung\nĐạt chưa?" {
+    shape: diamond
+    style: {fill: "#FEF3C7"; stroke: "#D97706"; font-color: "#78350F"; stroke-width: 2; font-size: 18; shadow: true}
+  }
+  b5 -> b6 -> b7 -> b8 -> h2
+  h2 -> b6: "❌ Chưa đạt\n→ sửa lại" {style: {stroke: "#DC2626"; stroke-width: 3; font-color: "#B91C1C"; font-size: 17; italic: false; bold: true}}
+}
+
+s3: "📣 GIAI ĐOẠN 3 — PHÂN PHỐI" {
+  class: phase
+  direction: down
+  style: {fill: "#FDF2F8"; stroke: "#DB2777"; font-color: "#9D174D"}
+  c10: "10. Agent Chuyển thể\n1 bài gốc → nhiều định dạng\n(post, reel, email)" {class: agent; style.fill: "#FCE7F3"; style.stroke: "#DB2777"}
+  c11: "11. Agent Đăng bài\nlên lịch & đăng:\nWebsite · Fanpage · TikTok\nYouTube · Email" {class: agent; style.fill: "#FCE7F3"; style.stroke: "#DB2777"}
+  c12: "12. Agent Đo lường\ntraffic, tương tác,\nchuyển đổi" {class: agent; style.fill: "#FCE7F3"; style.stroke: "#DB2777"}
+  c10 -> c11 -> c12
+}
+
+# Hàng dưới: ô trống – vòng lặp – ô trống
+g1: "" {class: ghost}
+loop: "🔁 VÒNG LẶP PHẢN HỒI\nKết quả đo lường → quay lại Giai đoạn 1\nđể tối ưu chu kỳ sau" {
+  shape: oval
+  style: {fill: "#EDE9FE"; stroke: "#7C3AED"; font-color: "#5B21B6"; stroke-width: 3; font-size: 19; stroke-dash: 4}
+}
+g2: "" {class: ghost}
+
+s1 -> s2: "✅ Duyệt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
+s2 -> s3: "✅ Đạt" {style: {stroke-width: 4; font-size: 18; stroke: "#334155"; bold: true; italic: false}}
+s3 -> loop: "đo lường" {style: {stroke: "#7C3AED"; stroke-dash: 5; stroke-width: 3; font-color: "#6D28D9"; font-size: 17}}
+loop -> s1: "tối ưu" {style: {stroke: "#7C3AED"; stroke-dash: 5; stroke-width: 3; font-color: "#6D28D9"; font-size: 17}}

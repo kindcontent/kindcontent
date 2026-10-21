@@ -1,0 +1,188 @@
+[
+  {
+    "file": "style-mau-rieng-elk.png",
+    "name": "Màu tự chọn + ELK (bản chính)",
+    "how": "file ../quy-trinh-agentic-content.d2, vars.d2-config.layout-engine: elk",
+    "note": "Bản đẹp nhất: mỗi giai đoạn một màu, vòng sửa đỏ, vòng lặp tím."
+  },
+  {
+    "file": "style-sketch-mau-rieng.png",
+    "name": "Sketch mode + màu tự chọn",
+    "how": "d2 --sketch",
+    "note": "Phong cách vẽ tay kiểu Excalidraw, rất hợp mạng xã hội; tiếng Việt vẫn đúng dấu."
+  },
+  {
+    "file": "style-sketch-theme-104-everglade-green.png",
+    "name": "Sketch + Everglade Green",
+    "how": "d2 --sketch --theme 104",
+    "note": "Vẽ tay tông xanh ngọc tươi, dễ thương."
+  },
+  {
+    "file": "style-sketch-theme-200-dark-mauve.png",
+    "name": "Sketch + Dark Mauve (tối)",
+    "how": "d2 --sketch --theme 200",
+    "note": "Vẽ tay trên nền tối, hợp thumbnail/video."
+  },
+  {
+    "file": "style-theme-104-everglade-green.png",
+    "name": "Theme 104 Everglade Green",
+    "how": "d2 --theme 104",
+    "note": "Xanh ngọc tươi mát, rất hợp content."
+  },
+  {
+    "file": "style-theme-200-dark-mauve.png",
+    "name": "Theme 200 Dark Mauve (tối)",
+    "how": "d2 --theme 200",
+    "note": "Nền tối tím than, viền tím nhạt — bản dark đẹp."
+  },
+  {
+    "file": "style-extra-fill-dots-multiple.png",
+    "name": "Kiểu khối: fill-pattern dots + multiple",
+    "how": "style.fill-pattern: dots (khung), style.multiple: true (agent)",
+    "note": "Khung chấm bi, mỗi agent như một chồng thẻ — gợi ý 'nhiều agent'."
+  },
+  {
+    "file": "style-extra-3d-paper-double-border.png",
+    "name": "Kiểu khối: 3d + fill-pattern paper + double-border",
+    "how": "style.3d: true, fill-pattern: paper, double-border: true",
+    "note": "Khối 3D và nền giấy, nhìn 'vật lý' hơn; ảnh nặng nên thu nhỏ còn ~1230px."
+  },
+  {
+    "file": "style-sketch-theme-102-shirley-temple.png",
+    "name": "Sketch + Shirley Temple",
+    "how": "d2 --sketch --theme 102",
+    "note": "Vẽ tay tông hồng nổi bật."
+  },
+  {
+    "file": "style-sketch-theme-302-origami.png",
+    "name": "Sketch + Origami",
+    "how": "d2 --sketch --theme 302",
+    "note": "Giấy vân + nét tay, cực 'thủ công'; ảnh nhỏ hơn (~1110px) để dưới 350KB."
+  },
+  {
+    "file": "style-sketch-theme-000-neutral-default.png",
+    "name": "Sketch + Neutral Default",
+    "how": "d2 --sketch --theme 0",
+    "note": "Vẽ tay tông xanh mặc định."
+  },
+  {
+    "file": "style-sketch-theme-300-terminal.png",
+    "name": "Sketch + Terminal",
+    "how": "d2 --sketch --theme 300",
+    "note": "Terminal giữ font monospace in hoa, chỉ nét viền thành vẽ tay."
+  },
+  {
+    "file": "style-layout-dagre-mau-rieng.png",
+    "name": "Bố cục dagre (màu tự chọn)",
+    "how": "vars.d2-config.layout-engine: dagre (hoặc --layout dagre)",
+    "note": "Dagre cho mũi tên cong mềm hơn ELK, bố cục hơi cao hơn."
+  },
+  {
+    "file": "style-theme-101-orange-creamsicle.png",
+    "name": "Theme 101 Orange Creamsicle",
+    "how": "d2 --theme 101 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Cam kem ấm áp, bắt mắt trên mạng xã hội."
+  },
+  {
+    "file": "style-theme-003-flagship-terrastruct.png",
+    "name": "Theme 3 Flagship Terrastruct",
+    "how": "d2 --theme 3 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Tím–xanh thương hiệu Terrastruct, khá đậm."
+  },
+  {
+    "file": "style-theme-004-cool-classics.png",
+    "name": "Theme 4 Cool Classics",
+    "how": "d2 --theme 4 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Xanh da trời tươi, rõ ràng."
+  },
+  {
+    "file": "style-theme-005-mixed-berry-blue.png",
+    "name": "Theme 5 Mixed Berry Blue",
+    "how": "d2 --theme 5 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Xanh biển đậm hơn, tương phản tốt."
+  },
+  {
+    "file": "style-theme-006-grape-soda.png",
+    "name": "Theme 6 Grape Soda",
+    "how": "d2 --theme 6 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Tím nho nổi bật, hợp chủ đề sáng tạo."
+  },
+  {
+    "file": "style-theme-007-aubergine.png",
+    "name": "Theme 7 Aubergine",
+    "how": "d2 --theme 7 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Tím cà nhạt dịu mắt."
+  },
+  {
+    "file": "style-theme-008-colorblind-clear.png",
+    "name": "Theme 8 Colorblind Clear",
+    "how": "d2 --theme 8 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Bảng màu thân thiện người mù màu (xanh đậm)."
+  },
+  {
+    "file": "style-theme-000-neutral-default.png",
+    "name": "Theme 0 Neutral Default",
+    "how": "d2 --theme 0 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Xanh dương nhạt mặc định, sạch và an toàn."
+  },
+  {
+    "file": "style-theme-001-neutral-grey.png",
+    "name": "Theme 1 Neutral Grey",
+    "how": "d2 --theme 1 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Xám trung tính, hợp tài liệu nghiêm túc."
+  },
+  {
+    "file": "style-theme-102-shirley-temple.png",
+    "name": "Theme 102 Shirley Temple",
+    "how": "d2 --theme 102 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Hồng đậm nữ tính, nổi bật."
+  },
+  {
+    "file": "style-theme-103-earth-tones.png",
+    "name": "Theme 103 Earth Tones",
+    "how": "d2 --theme 103 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Màu đất trung tính."
+  },
+  {
+    "file": "style-theme-105-buttered-toast.png",
+    "name": "Theme 105 Buttered Toast",
+    "how": "d2 --theme 105 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Vàng bơ ấm, vui mắt."
+  },
+  {
+    "file": "style-theme-100-vanilla-nitro-cola.png",
+    "name": "Theme 100 Vanilla Nitro Cola",
+    "how": "d2 --theme 100 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Nâu be cổ điển, hơi tối."
+  },
+  {
+    "file": "style-theme-201-dark-flagship-terrastruct.png",
+    "name": "Theme 201 Dark Flagship Terrastruct (tối)",
+    "how": "d2 --theme 201 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Nền xanh đen, khối xanh navy đậm."
+  },
+  {
+    "file": "style-theme-302-origami.png",
+    "name": "Theme 302 Origami",
+    "how": "d2 --theme 302 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Nền giấy có vân + viền đôi, rất 'thủ công'; ảnh nặng nên thu nhỏ còn ~1230px."
+  },
+  {
+    "file": "style-theme-300-terminal.png",
+    "name": "Theme 300 Terminal",
+    "how": "d2 --theme 300 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Chữ in hoa monospace kiểu dòng lệnh, nét đậm; tiếng Việt in hoa vẫn đúng dấu."
+  },
+  {
+    "file": "style-theme-301-terminal-grayscale.png",
+    "name": "Theme 301 Terminal Grayscale",
+    "how": "d2 --theme 301 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Như Terminal nhưng đen trắng."
+  },
+  {
+    "file": "style-theme-303-c4.png",
+    "name": "Theme 303 C4",
+    "how": "d2 --theme 303 (file src/theme.d2, bỏ màu tự chọn)",
+    "note": "Theme cho sơ đồ kiến trúc C4: khung nét đứt xanh; LỖI: tiêu đề markdown bị chữ trắng trên nền trắng nên mất."
+  }
+]
