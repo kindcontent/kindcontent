@@ -41,6 +41,8 @@ Claude sẽ tự làm các bước: viết JSON → `fireworks.py validate` → 
 | `style4-notion-clean.svg/.png` | 4 · Notion Clean (tối giản, hợp chèn vào Notion/blog) | 2400×1515, ~205 KB |
 | `style5-glassmorphism.svg/.png` | 5 · Glassmorphism (nền tối, nổi bật khi đăng mạng xã hội) | 2400×1515, ~260 KB |
 
+Muốn xem đủ cả 12 style (thêm bản "bản đồ tàu điện" của style 11 và một file HTML tương tác), mở thư mục `styles/`, bắt đầu từ `STYLES.md` và `manifest.json`.
+
 Các file `*.input.json` là dữ liệu đầu vào Claude đã viết. Sửa chữ trong đó rồi render lại là được.
 
 Nội dung trên sơ đồ khớp với content.md: đủ 3 giai đoạn, 12 bước có đánh số, 2 điểm duyệt của con người (biểu tượng người, viền đậm), vòng "Chưa đạt → quay lại Agent Viết" (nét đứt), vòng "Kết quả đo lường → quay lại Chiến lược" (nét đứt chạy vòng dưới đáy) và chú thích màu. Tiếng Việt hiển thị đúng dấu ở mọi chỗ, kể cả chữ IN HOA ("GIAI ĐOẠN", "BƯỚC").

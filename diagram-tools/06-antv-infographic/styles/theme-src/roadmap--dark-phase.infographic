@@ -1,0 +1,46 @@
+infographic sequence-roadmap-vertical-badge-card
+data
+  title Quy trình Agentic Content · 12 bước
+  desc Từ Chiến lược đến Thực thi và Phân phối
+  sequences
+    - label Agent Nghiên cứu
+      desc Phân tích thị trường, đối thủ, insight khách hàng
+      icon lucide/search
+    - label Agent SEO & Từ khóa
+      desc Nghiên cứu từ khóa, search intent, khoảng trống nội dung
+      icon lucide/key-round
+    - label Agent Kế hoạch
+      desc Persona, content pillar, lịch nội dung
+      icon lucide/calendar-days
+    - label 👤 Người duyệt chiến lược
+      desc Human-in-the-loop: duyệt chiến lược
+      icon lucide/user-check
+    - label Agent Brief
+      desc Dàn ý, outline, thông điệp chính
+      icon lucide/clipboard-list
+    - label Agent Viết
+      desc Bản nháp bài blog, fanpage, PR
+      icon lucide/pen-line
+    - label Agent Hình ảnh & Video
+      desc Visual, thumbnail, kịch bản video ngắn
+      icon lucide/clapperboard
+    - label Agent Biên tập
+      desc SEO on-page, kiểm chứng thông tin, giọng thương hiệu
+      icon lucide/spell-check
+    - label 👤 Người duyệt nội dung
+      desc Chưa đạt thì quay lại Agent Viết
+      icon lucide/user-check
+    - label Agent Chuyển thể
+      desc 1 bài gốc → nhiều định dạng (post, reel, email)
+      icon lucide/shuffle
+    - label Agent Đăng bài
+      desc Lên lịch & đăng: Website, Fanpage, TikTok, YouTube, Email
+      icon lucide/send
+    - label Agent Đo lường
+      desc Traffic, tương tác, chuyển đổi → quay lại Chiến lược
+      icon lucide/chart-line
+theme dark
+  palette #60a5fa #60a5fa #60a5fa #60a5fa #a78bfa #a78bfa #a78bfa #a78bfa #a78bfa #34d399 #34d399 #34d399
+  base
+    text
+      font-family Inter
