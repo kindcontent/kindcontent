@@ -17,6 +17,6 @@
 - Nội dung mẫu chung: `diagram-tools/content.md`. Mỗi tool 1 thư mục `diagram-tools/NN-ten/` gồm source, PNG, `NHAN-XET.md` (điểm 1–10).
 - Tool: 01 markmap, 02 mermaid, 03 d2, 04 excalidraw, 05 drawnix, 06 antv-infographic, 07 next-ai-draw-io (+draw.io), 08 archify-skill, 09 diagram-design-skill, 10 fireworks-tech-graph-skill.
 - Lip sync: user từng thử, môi không khớp. Cần giọng tiếng Việt clone từ giọng user. Đề xuất: video thật → LatentSync 1.6; giọng: VieNeu-TTS / VoxCPM2 (Apache-2.0, có tiếng Việt). Test thật cần GPU + mở huggingface.co + file giọng/video của user.
-- Styles: mỗi `styles/` có `manifest.json` [{file,name,how,note}] + `STYLES.md`; gallery dựng từ manifest (script `build.py` + HTML ở scratchpad, mất khi hết session; artifact giữ nguyên URL, publish chia 2 lô vì giới hạn 255 file).
+- Styles: mỗi `styles/` có `manifest.json` [{file,name,how,note}] + `STYLES.md`; gallery dựng từ manifest (nguồn: `diagram-tools/gallery/` — chép index.html + build.py vào scratchpad rồi chạy build.py; artifact giữ nguyên URL, publish chia 2 lô vì giới hạn 255 file).
 - Kết luận diagram: Excalidraw (font Normal), draw.io + next-ai-draw-io MCP, AntV Infographic, Drawnix/markmap cho mind map, fireworks-tech-graph nếu dùng Claude Code.
 - Môi trường cloud: không GPU, huggingface.co bị chặn, không có API key LLM; tải release GitHub bị chặn (npm, pypi, proxy.golang.org, git clone OK). Cài đặt vào scratchpad, không để node_modules trong repo.
