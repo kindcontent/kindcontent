@@ -1,0 +1,230 @@
+{
+ "schema_version": 1,
+ "mode": "flowchart",
+ "style": 4,
+ "text_policy": "strict",
+ "composition": {
+  "profile": "showcase",
+  "max_total_bends": 40,
+  "max_bridged_crossings": 4
+ },
+ "width": 1080,
+ "height": 1080,
+ "title": "",
+ "style_overrides": {
+  "font_family": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+  "title_size": 34,
+  "subtitle_size": 18,
+  "subtitle_fill": "#6b7280",
+  "title_divider": false,
+  "type_label_size": 14,
+  "type_label_fill": "#6b7280",
+  "text_secondary": "#374151",
+  "arrow_width": 2.6,
+  "arrow_label_fill": "#374151",
+  "arrow_colors": {
+   "control": "#2563eb",
+   "write": "#2563eb",
+   "read": "#2563eb",
+   "data": "#2563eb",
+   "async": "#9ca3af",
+   "feedback": "#ea580c",
+   "neutral": "#d1d5db"
+  }
+ },
+ "containers": [],
+ "nodes": [
+  {
+   "id": "s1",
+   "kind": "rect",
+   "x": 568,
+   "y": 154,
+   "width": 300,
+   "height": 100,
+   "flat": true,
+   "label": "Khách để lại thông tin",
+   "sublabel": "Qua form đăng ký hoặc inbox",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 1"
+  },
+  {
+   "id": "s2",
+   "kind": "rect",
+   "x": 769,
+   "y": 398,
+   "width": 280,
+   "height": 100,
+   "flat": true,
+   "label": "Gọi tư vấn 15 phút",
+   "sublabel": "Hiểu nhu cầu, ngân sách",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 2"
+  },
+  {
+   "id": "s3",
+   "kind": "rect",
+   "x": 689,
+   "y": 724,
+   "width": 300,
+   "height": 100,
+   "flat": true,
+   "label": "Gửi đề xuất & báo giá",
+   "sublabel": "Gói Fanpage / gói TikTok",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 3"
+  },
+  {
+   "id": "s4",
+   "kind": "rect",
+   "x": 415,
+   "y": 870,
+   "width": 250,
+   "height": 100,
+   "flat": true,
+   "label": "Khách đồng ý?",
+   "sublabel": "Khách quyết định",
+   "title_size": 23,
+   "fill": "#fff7ed",
+   "stroke": "#f97316",
+   "stroke_width": 3,
+   "rx": 10,
+   "type_label": "BƯỚC 4 · KHÁCH QUYẾT ĐỊNH"
+  },
+  {
+   "id": "s5",
+   "kind": "rect",
+   "x": 91,
+   "y": 724,
+   "width": 300,
+   "height": 100,
+   "flat": true,
+   "label": "Ký hợp đồng & đặt cọc",
+   "sublabel": "Hai bên ký, khách đặt cọc",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 5"
+  },
+  {
+   "id": "s6",
+   "kind": "rect",
+   "x": 21,
+   "y": 398,
+   "width": 300,
+   "height": 100,
+   "flat": true,
+   "label": "Họp khởi động",
+   "sublabel": "Brief, lịch đăng tháng đầu",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 6"
+  },
+  {
+   "id": "s7",
+   "kind": "rect",
+   "x": 222,
+   "y": 154,
+   "width": 280,
+   "height": 100,
+   "flat": true,
+   "label": "Báo cáo & gia hạn",
+   "sublabel": "Báo cáo tháng, gia hạn hợp đồng",
+   "title_size": 23,
+   "fill": "#ffffff",
+   "stroke": "#e5e7eb",
+   "stroke_width": 1.6,
+   "rx": 10,
+   "type_label": "BƯỚC 7"
+  },
+  {
+   "id": "centre",
+   "kind": "rect",
+   "x": 370,
+   "y": 478,
+   "width": 340,
+   "height": 124,
+   "label": "Quy trình tư vấn dịch vụ content Social",
+   "sublabel": "Kind Content · 7 bước",
+   "title_size": 28,
+   "flat": true,
+   "fill": "#ffffff",
+   "stroke": "#ffffff",
+   "stroke_width": 0.1
+  }
+ ],
+ "arrows": [
+  {
+   "id": "f1-2",
+   "source": "s1",
+   "target": "s2",
+   "flow": "control"
+  },
+  {
+   "id": "f2-3",
+   "source": "s2",
+   "target": "s3",
+   "flow": "control"
+  },
+  {
+   "id": "f3-4",
+   "source": "s3",
+   "target": "s4",
+   "flow": "control"
+  },
+  {
+   "id": "f4-5",
+   "source": "s4",
+   "target": "s5",
+   "flow": "control"
+  },
+  {
+   "id": "f5-6",
+   "source": "s5",
+   "target": "s6",
+   "flow": "control"
+  },
+  {
+   "id": "f6-7",
+   "source": "s6",
+   "target": "s7",
+   "flow": "control"
+  },
+  {
+   "id": "loop-4-3",
+   "source": "s4",
+   "target": "s3",
+   "flow": "feedback",
+   "dashed": true,
+   "label": "Chưa đồng ý → chỉnh đề xuất",
+   "source_port": "top",
+   "target_port": "left"
+  },
+  {
+   "id": "loop-7-6",
+   "source": "s7",
+   "target": "s6",
+   "flow": "data",
+   "dashed": true,
+   "label": "Gia hạn xong → lên kế hoạch tháng mới",
+   "source_port": "bottom",
+   "target_port": "top"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="4" data-visual-theme="Notion Clean" data-diagram-type="flowchart" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="40" data-max-route-stretch="1.35" data-max-bridged-crossings="4" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowC" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowE" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowF" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ea580c"/>
+    </marker>
+    <marker id="arrowH" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d1d5db"/>
+    </marker>
+    <style>
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 34px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 18px; font-weight: 500; fill: #4b5563; }
+    .section { font-size: 13px; font-weight: 700; fill: #6b7280; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #4b5563; }
+    .node-title { font-weight: 700; fill: #111827; }
+    .node-sub { font-weight: 500; fill: #374151; }
+    .node-type { font-size: 14px; font-weight: 700; fill: #6b7280; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 16px; font-weight: 600; fill: #374151; }
+    .legend { font-size: 12px; font-weight: 500; fill: #4b5563; }
+    .footnote { font-size: 16px; font-weight: 500; fill: #4b5563; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #6b7280; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #111827; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="1080.0" height="1080.0" fill="#ffffff"/>
+  <circle data-graph-role="decoration" cx="540" cy="540" r="380" fill="none" stroke="#e5e7eb" stroke-width="2"/>
+  <path data-graph-role="decoration" d="M 592.9,163.7 A 380 380 0 0 1 916.3,592.9" fill="none" stroke="#dbeafe" stroke-width="22" stroke-linecap="round"/>
+  <path data-graph-role="decoration" d="M 905.3,644.7 A 380 380 0 0 1 174.7,644.7" fill="none" stroke="#dbeafe" stroke-width="22" stroke-linecap="round"/>
+  <path data-graph-role="decoration" d="M 163.7,592.9 A 380 380 0 0 1 487.1,163.7" fill="none" stroke="#dbeafe" stroke-width="22" stroke-linecap="round"/>
+  <text data-graph-role="decoration" x="1010" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="#64748b" letter-spacing="1">GIAI ĐOẠN 1</text>
+  <text data-graph-role="decoration" x="1010" y="288" text-anchor="middle" font-size="20" font-weight="700" fill="#1e40af">Tiếp nhận</text>
+  <text data-graph-role="decoration" x="540" y="1044" text-anchor="middle" font-size="18" font-weight="700" fill="#1e40af" letter-spacing="1">GIAI ĐOẠN 2 · ĐỀ XUẤT &amp; CHỐT</text>
+  <text data-graph-role="decoration" x="70" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="#64748b" letter-spacing="1">GIAI ĐOẠN 3</text>
+  <text data-graph-role="decoration" x="70" y="288" text-anchor="middle" font-size="20" font-weight="700" fill="#1e40af">Triển khai</text>
+  <text x="48.0" y="48" text-anchor="start" class="title"></text>
+  <path id="f1-2" data-graph-role="edge" data-edge-id="f1-2" data-source="s1" data-target="s2" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 793.78,257.16 A 380 380 0 0 1 889.14,390.00" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f2-3" data-graph-role="edge" data-edge-id="f2-3" data-source="s2" data-target="s3" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 918.02,501.27 A 380 380 0 0 1 876.91,715.76" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f3-4" data-graph-role="edge" data-edge-id="f3-4" data-source="s3" data-target="s4" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 789.05,827.01 A 380 380 0 0 1 673.08,895.94" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f4-5" data-graph-role="edge" data-edge-id="f4-5" data-source="s4" data-target="s5" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 411.90,897.76 A 380 380 0 0 1 297.01,832.16" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f5-6" data-graph-role="edge" data-edge-id="f5-6" data-source="s5" data-target="s6" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 205.73,720.74 A 380 380 0 0 1 161.50,506.22" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="f6-7" data-graph-role="edge" data-edge-id="f6-7" data-source="s6" data-target="s7" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 188.80,394.89 A 380 380 0 0 1 280.84,262.09" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="loop-4-3" data-graph-role="edge" data-edge-id="loop-4-3" data-source="s4" data-target="s3" data-edge-kind="flow" data-topic-id="" data-flow="feedback" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 668.15,945.22 A 425 425 0 0 0 848.79,832.01" fill="none" stroke="#ea580c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowG)" stroke-dasharray="6,4"/>
+  <path id="loop-7-6" data-graph-role="edge" data-edge-id="loop-7-6" data-source="s7" data-target="s6" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 355.17,257.01 A 338 338 0 0 0 237.12,389.98" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)" stroke-dasharray="6,4"/>
+  <g id="node-s1" data-graph-role="node" data-node-id="s1" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="568,154,868,254">
+  <rect x="568.0" y="154.0" width="300.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="718.0" y="178.2" text-anchor="middle" class="node-type">BƯỚC 1</text>
+  <text data-text-role="title" data-full-text="Khách để lại thông tin" data-text-max-width="276.0" x="718.0" y="211.4" text-anchor="middle" class="node-title" font-size="23.0">Khách để lại thông tin</text>
+  <text data-text-role="subtitle" data-full-text="Qua form đăng ký hoặc inbox" data-text-max-width="276.0" x="718.0" y="237.8" text-anchor="middle" class="node-sub" font-size="16">Qua form đăng ký hoặc inbox</text>
+  </g>
+  <g id="node-s2" data-graph-role="node" data-node-id="s2" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="769,398,1049,498">
+  <rect x="769.0" y="398.0" width="280.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="909.0" y="422.2" text-anchor="middle" class="node-type">BƯỚC 2</text>
+  <text data-text-role="title" data-full-text="Gọi tư vấn 15 phút" data-text-max-width="256.0" x="909.0" y="455.4" text-anchor="middle" class="node-title" font-size="23.0">Gọi tư vấn 15 phút</text>
+  <text data-text-role="subtitle" data-full-text="Hiểu nhu cầu, ngân sách" data-text-max-width="256.0" x="909.0" y="481.8" text-anchor="middle" class="node-sub" font-size="16">Hiểu nhu cầu, ngân sách</text>
+  </g>
+  <g id="node-s3" data-graph-role="node" data-node-id="s3" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="689,724,989,824">
+  <rect x="689.0" y="724.0" width="300.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="839.0" y="748.2" text-anchor="middle" class="node-type">BƯỚC 3</text>
+  <text data-text-role="title" data-full-text="Gửi đề xuất &amp; báo giá" data-text-max-width="276.0" x="839.0" y="781.4" text-anchor="middle" class="node-title" font-size="23.0">Gửi đề xuất &amp; báo giá</text>
+  <text data-text-role="subtitle" data-full-text="Gói Fanpage / gói TikTok" data-text-max-width="276.0" x="839.0" y="807.8" text-anchor="middle" class="node-sub" font-size="16">Gói Fanpage / gói TikTok</text>
+  </g>
+  <g id="node-s4" data-graph-role="node" data-node-id="s4" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="415,870,665,970">
+  <rect x="415.0" y="870.0" width="250.0" height="100.0" rx="10.0" fill="#fff7ed" stroke="#f97316" stroke-width="3.0"/>
+  <text x="540.0" y="894.2" text-anchor="middle" class="node-type"><tspan fill="#ea580c">BƯỚC 4 · KHÁCH QUYẾT ĐỊNH</tspan></text>
+  <text data-text-role="title" data-full-text="Khách đồng ý?" data-text-max-width="226.0" x="540.0" y="927.4" text-anchor="middle" class="node-title" font-size="23.0">Khách đồng ý?</text>
+  <text data-text-role="subtitle" data-full-text="Khách quyết định" data-text-max-width="226.0" x="540.0" y="953.8" text-anchor="middle" class="node-sub" font-size="16">Khách quyết định</text>
+  </g>
+  <g id="node-s5" data-graph-role="node" data-node-id="s5" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="91,724,391,824">
+  <rect x="91.0" y="724.0" width="300.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="241.0" y="748.2" text-anchor="middle" class="node-type">BƯỚC 5</text>
+  <text data-text-role="title" data-full-text="Ký hợp đồng &amp; đặt cọc" data-text-max-width="276.0" x="241.0" y="781.4" text-anchor="middle" class="node-title" font-size="22.57">Ký hợp đồng &amp; đặt cọc</text>
+  <text data-text-role="subtitle" data-full-text="Hai bên ký, khách đặt cọc" data-text-max-width="276.0" x="241.0" y="807.8" text-anchor="middle" class="node-sub" font-size="16">Hai bên ký, khách đặt cọc</text>
+  </g>
+  <g id="node-s6" data-graph-role="node" data-node-id="s6" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="21,398,321,498">
+  <rect x="21.0" y="398.0" width="300.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="171.0" y="422.2" text-anchor="middle" class="node-type">BƯỚC 6</text>
+  <text data-text-role="title" data-full-text="Họp khởi động" data-text-max-width="276.0" x="171.0" y="455.4" text-anchor="middle" class="node-title" font-size="23.0">Họp khởi động</text>
+  <text data-text-role="subtitle" data-full-text="Brief, lịch đăng tháng đầu" data-text-max-width="276.0" x="171.0" y="481.8" text-anchor="middle" class="node-sub" font-size="16">Brief, lịch đăng tháng đầu</text>
+  </g>
+  <g id="node-s7" data-graph-role="node" data-node-id="s7" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="222,154,502,254">
+  <rect x="222.0" y="154.0" width="280.0" height="100.0" rx="10.0" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.6"/>
+  <text x="362.0" y="178.2" text-anchor="middle" class="node-type">BƯỚC 7</text>
+  <text data-text-role="title" data-full-text="Báo cáo &amp; gia hạn" data-text-max-width="256.0" x="362.0" y="211.4" text-anchor="middle" class="node-title" font-size="23.0">Báo cáo &amp; gia hạn</text>
+  <text data-text-role="subtitle" data-full-text="Báo cáo tháng, gia hạn hợp đồng" data-text-max-width="256.0" x="362.0" y="237.8" text-anchor="middle" class="node-sub" font-size="16">Báo cáo tháng, gia hạn hợp đồng</text>
+  </g>
+  <g id="node-centre" data-graph-role="node" data-node-id="centre" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="370,478,710,602">
+  <rect x="370.0" y="478.0" width="340.0" height="124.0" rx="4.0" fill="#ffffff" stroke="#ffffff" stroke-width="0.1"/>
+  <text data-text-role="title" data-full-text="Quy trình tư vấn dịch vụ content Social" data-text-max-width="316.0" x="540.0" y="522" text-anchor="middle" class="node-title" font-size="30"><tspan x="540" y="522">Quy trình tư vấn</tspan><tspan x="540" y="560">dịch vụ content Social</tspan></text>
+  <text data-text-role="subtitle" data-full-text="Kind Content · 7 bước" data-text-max-width="316.0" x="540.0" y="592" text-anchor="middle" class="node-sub" font-size="17">Kind Content · 7 bước</text>
+  </g>
+  <g id="loop-4-3-label" data-graph-role="label" data-owner="loop-4-3" data-graph-bounds="803.8,925.0,940.2,979.0">
+  <rect x="803.8" y="925.0" width="136.5" height="54" rx="8" fill="#ffffff" opacity="0.96"/>
+  <text x="872" y="947.2" text-anchor="middle" class="arrow-label">Chưa đồng ý →</text>
+  <text x="872" y="969.2" text-anchor="middle" class="arrow-label">chỉnh đề xuất</text>
+  </g>
+  <g id="loop-7-6-label" data-graph-role="label" data-owner="loop-7-6" data-graph-bounds="283.4,325.0,500.6,379.0">
+  <rect x="283.4" y="325.0" width="217.1" height="54" rx="8" fill="#ffffff" opacity="0.96"/>
+  <text x="392" y="347.2" text-anchor="middle" class="arrow-label">Gia hạn xong →</text>
+  <text x="392" y="369.2" text-anchor="middle" class="arrow-label">lên kế hoạch tháng mới</text>
+  </g>
+</svg>
