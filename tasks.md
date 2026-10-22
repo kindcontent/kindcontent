@@ -10,7 +10,8 @@
 - [x] Tổng hợp so sánh + chấm điểm → `diagram-tools/README.md` + gallery https://claude.ai/artifact/BsaCNoPNYXfZ3ZkifGSFkA
 - [x] Render tất cả style/theme/template của từng repo diagram (328 ảnh + 276 mẫu AntV) → `diagram-tools/NN-*/styles/` + gallery mục "Tất cả style"
 - [x] Lọc Top 3 cho đăng bài (clean, ai cũng hiểu): chấm theo cả kho repo (8 tiêu chí) → draw.io 8.3 > Excalidraw 8.1 > fireworks 7.6
-- [x] Benchmark: 3 agent mới, mỗi agent 1 repo (draw.io, Excalidraw, fireworks), cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người) → `diagram-tools/benchmark/`; đo token, thời gian, RAM, dung lượng; giám khảo chấm mù → draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3; token: Excalidraw 126k < draw.io 135k < fireworks 241k (`benchmark/KET-QUA.md`)
+- [x] Benchmark: 3 agent mới, mỗi agent 1 repo (draw.io, Excalidraw, fireworks), cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người) → `diagram-tools/benchmark/`; đo token, thời gian, RAM, dung lượng; giám khảo chấm mù → draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3; token: Excalidraw 126k < draw.io 135k < fireworks 241k (`benchmark/KET-QUA.md`). User chấm lại P3: fireworks 9, 2 cái kia 6 (hàng dài, thừa khoảng trắng) → draw.io 7.9 > Excalidraw 7.5 > fireworks 7.3
+- [ ] Benchmark vòng 2: quy trình Marketing phức tạp (A) + tư vấn content Social đơn giản (B), cùng 3 cấu trúc, cùng bộ "Bài học vòng 1" cho cả 3 tool → `benchmark/PROMPTS-V2.md`, `benchmark/round2/`; 6 agent + giám khảo mù
 - [x] Nghiên cứu lip sync (khớp môi) + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 
@@ -21,5 +22,6 @@
 - Lip sync: user từng thử, môi không khớp. Cần giọng tiếng Việt clone từ giọng user. Đề xuất: video thật → LatentSync 1.6; giọng: VieNeu-TTS / VoxCPM2 (Apache-2.0, có tiếng Việt). Test thật cần GPU + mở huggingface.co + file giọng/video của user.
 - Styles: mỗi `styles/` có `manifest.json` [{file,name,how,note}] + `STYLES.md`; gallery dựng từ manifest (nguồn: `diagram-tools/gallery/` — chép index.html + build.py vào scratchpad rồi chạy build.py; artifact giữ nguyên URL, publish chia 2 lô vì giới hạn 255 file).
 - "Style" với user = CẤU TRÚC bố cục (cột, hàng, timeline, vòng tròn, metro…), không phải đổi màu. 11 cấu trúc S01–S11: cột dọc, hàng ngang, timeline ngang, timeline dọc, rắn lượn, vòng tròn, trục trung tâm, metro, làn vai trò, bậc thang, chevron. Bắt buộc đủ 12 bước, 2 điểm duyệt, 2 mũi tên vòng lặp; nhãn đời thường.
+- Sở thích user khi chấm: lấp đầy khung, ít khoảng trắng; ghét 1 hàng dài nhiều ô; đúng cấu trúc đề quan trọng.
 - Kết luận diagram: Excalidraw (font Normal), draw.io + next-ai-draw-io MCP, AntV Infographic, Drawnix/markmap cho mind map, fireworks-tech-graph nếu dùng Claude Code.
 - Môi trường cloud: không GPU, huggingface.co bị chặn, không có API key LLM; tải release GitHub bị chặn (npm, pypi, proxy.golang.org, git clone OK). Cài đặt vào scratchpad, không để node_modules trong repo.

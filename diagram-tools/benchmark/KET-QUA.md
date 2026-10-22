@@ -9,6 +9,14 @@
 | Excalidraw | 8.6 🥈 | 7.8 🥈 | 7.8 🥉 | 10 | 9.0 | 8.0 | 7.0 | 6.3 | **8.1** |
 | fireworks-tech-graph | 6.6 🥉 | 6.4 🥉 | 8.8 🥈 | 9.3 | 6.0 | 6.7 | 7.3 | 7.0 | **7.3** |
 
+## Điểm sau khi người dùng chấm lại P3
+Người dùng: ở P3, fireworks xếp các bước theo cột trong từng giai đoạn nên lấp đầy khung, đẹp hơn → 9. draw.io và Excalidraw dàn 10 ô AI thành một hàng dài, thừa khoảng trắng, xấu → 6.
+| Repo | P1 | P2 | P3 (người dùng) | **TB** |
+|---|---|---|---|---|
+| draw.io | 9.4 | 8.4 | 6 | **7.9** |
+| Excalidraw | 8.6 | 7.8 | 6 | **7.5** |
+| fireworks | 6.6 | 6.4 | 9 | **7.3** |
+
 ## Chi phí
 | Repo | Token agent (cài + 3 prompt) | Lượt gọi tool | Thời gian agent | Cài đặt | Dung lượng | Giây P1 / P2 / P3 | Số lần sửa P1/P2/P3 | RAM đỉnh / lần render |
 |---|---|---|---|---|---|---|---|---|
