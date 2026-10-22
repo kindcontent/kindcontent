@@ -1,0 +1,517 @@
+{
+ "schema_version": 1,
+ "mode": "flowchart",
+ "style": 4,
+ "text_policy": "strict",
+ "composition": {
+  "profile": "showcase",
+  "max_total_bends": 30,
+  "min_node_gap": 16
+ },
+ "width": 800,
+ "height": 800,
+ "title": "",
+ "style_overrides": {
+  "font_family": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+  "title_size": 26,
+  "subtitle_size": 13,
+  "subtitle_fill": "#6b7280",
+  "type_label_size": 12,
+  "type_label_fill": "#6b7280",
+  "title_divider": false,
+  "arrow_label_fill": "#374151",
+  "arrow_colors": {
+   "control": "#3b82f6",
+   "write": "#3b82f6",
+   "read": "#3b82f6",
+   "data": "#3b82f6",
+   "async": "#3b82f6",
+   "feedback": "#ea580c",
+   "neutral": "#d1d5db"
+  }
+ },
+ "containers": [
+  {
+   "id": "ph1",
+   "x": 612,
+   "y": 18,
+   "width": 174,
+   "height": 26,
+   "rx": 13.0,
+   "label": "",
+   "fill": "#f3f4f6",
+   "stroke": "none",
+   "side_label": "GIAI ĐOẠN 1 · NGHIÊN CỨU",
+   "side_label_x": 699.0,
+   "side_label_y": 31.5,
+   "side_label_anchor": "middle",
+   "side_label_size": 12,
+   "side_label_weight": "700",
+   "side_label_fill": "#374151"
+  },
+  {
+   "id": "ph2",
+   "x": 606,
+   "y": 606,
+   "width": 174,
+   "height": 26,
+   "rx": 13.0,
+   "label": "",
+   "fill": "#f3f4f6",
+   "stroke": "none",
+   "side_label": "GIAI ĐOẠN 2 · CHIẾN LƯỢC",
+   "side_label_x": 693.0,
+   "side_label_y": 619.5,
+   "side_label_anchor": "middle",
+   "side_label_size": 12,
+   "side_label_weight": "700",
+   "side_label_fill": "#374151"
+  },
+  {
+   "id": "ph3",
+   "x": 30,
+   "y": 642,
+   "width": 172,
+   "height": 26,
+   "rx": 13.0,
+   "label": "",
+   "fill": "#f3f4f6",
+   "stroke": "none",
+   "side_label": "GIAI ĐOẠN 3 · TRIỂN KHAI",
+   "side_label_x": 116.0,
+   "side_label_y": 655.5,
+   "side_label_anchor": "middle",
+   "side_label_size": 12,
+   "side_label_weight": "700",
+   "side_label_fill": "#374151"
+  },
+  {
+   "id": "ph4",
+   "x": 14,
+   "y": 14,
+   "width": 222,
+   "height": 26,
+   "rx": 13.0,
+   "label": "",
+   "fill": "#f3f4f6",
+   "stroke": "none",
+   "side_label": "GIAI ĐOẠN 4 · ĐO LƯỜNG & TỐI ƯU",
+   "side_label_x": 125.0,
+   "side_label_y": 27.5,
+   "side_label_anchor": "middle",
+   "side_label_size": 12,
+   "side_label_weight": "700",
+   "side_label_fill": "#374151"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "s1",
+   "kind": "rect",
+   "flat": true,
+   "x": 264,
+   "y": 62,
+   "width": 348,
+   "height": 40,
+   "label": "1 · Phân tích thị trường & đối thủ",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s2",
+   "kind": "rect",
+   "flat": true,
+   "x": 449,
+   "y": 132,
+   "width": 284,
+   "height": 40,
+   "label": "2 · Vẽ chân dung khách hàng",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s3",
+   "kind": "rect",
+   "flat": true,
+   "x": 493,
+   "y": 196,
+   "width": 291,
+   "height": 40,
+   "label": "3 · Đặt mục tiêu & chỉ số KPI",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s4",
+   "kind": "rect",
+   "flat": true,
+   "x": 454,
+   "y": 264,
+   "width": 310,
+   "height": 40,
+   "label": "4 · Định vị & thông điệp chính",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s5",
+   "kind": "rect",
+   "flat": true,
+   "x": 454,
+   "y": 395,
+   "width": 310,
+   "height": 40,
+   "label": "5 · Chọn kênh & chia ngân sách",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s6",
+   "kind": "rect",
+   "flat": true,
+   "x": 484,
+   "y": 472,
+   "width": 279,
+   "height": 58,
+   "label": "6 · Giám đốc duyệt kế hoạch",
+   "title_size": 16.5,
+   "fill": "#fff7ed",
+   "stroke": "#f97316",
+   "sublabel": "Chưa đạt → quay lại bước 4",
+   "stroke_width": 2.5
+  },
+  {
+   "id": "s7",
+   "kind": "rect",
+   "flat": true,
+   "x": 332,
+   "y": 554,
+   "width": 423,
+   "height": 40,
+   "label": "7 · Sản xuất nội dung & hình ảnh quảng cáo",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s8",
+   "kind": "rect",
+   "flat": true,
+   "x": 268,
+   "y": 610,
+   "width": 264,
+   "height": 40,
+   "label": "8 · Chạy song song 4 kênh",
+   "title_size": 16.5,
+   "fill": "#eff6ff",
+   "stroke": "#93c5fd",
+   "stroke_width": 1.6
+  },
+  {
+   "id": "s8a",
+   "kind": "rect",
+   "flat": true,
+   "x": 60,
+   "y": 676,
+   "width": 300,
+   "height": 40,
+   "label": "8a · Quảng cáo trả phí",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s8b",
+   "kind": "rect",
+   "flat": true,
+   "x": 440,
+   "y": 676,
+   "width": 300,
+   "height": 40,
+   "label": "8b · SEO & Website",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s8c",
+   "kind": "rect",
+   "flat": true,
+   "x": 60,
+   "y": 740,
+   "width": 300,
+   "height": 40,
+   "label": "8c · Mạng xã hội",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s8d",
+   "kind": "rect",
+   "flat": true,
+   "x": 440,
+   "y": 740,
+   "width": 300,
+   "height": 40,
+   "label": "8d · Email & chăm sóc khách",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s9",
+   "kind": "rect",
+   "flat": true,
+   "x": 30,
+   "y": 476,
+   "width": 353,
+   "height": 58,
+   "label": "9 · Duyệt chất lượng trước khi đăng",
+   "title_size": 16.5,
+   "fill": "#fff7ed",
+   "stroke": "#f97316",
+   "sublabel": "Chưa đạt → quay lại bước 7",
+   "stroke_width": 2.5
+  },
+  {
+   "id": "s10",
+   "kind": "rect",
+   "flat": true,
+   "x": 30,
+   "y": 396,
+   "width": 307,
+   "height": 40,
+   "label": "10 · Theo dõi số liệu hằng ngày",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db"
+  },
+  {
+   "id": "s11",
+   "kind": "rect",
+   "flat": true,
+   "x": 30,
+   "y": 220,
+   "width": 353,
+   "height": 58,
+   "label": "11 · Thử nghiệm A/B & dời ngân sách",
+   "title_size": 16.5,
+   "fill": "#ffffff",
+   "stroke": "#d1d5db",
+   "sublabel": "Liên tục tối ưu các kênh ở bước 8"
+  },
+  {
+   "id": "s12",
+   "kind": "rect",
+   "flat": true,
+   "x": 84,
+   "y": 120,
+   "width": 270,
+   "height": 58,
+   "label": "12 · Báo cáo tháng",
+   "title_size": 16.5,
+   "fill": "#fff7ed",
+   "stroke": "#f97316",
+   "sublabel": "Đạt KPI → nhân rộng · Chưa đạt → bước 4",
+   "stroke_width": 2.5
+  },
+  {
+   "id": "centre",
+   "kind": "rect",
+   "flat": true,
+   "x": 221,
+   "y": 321,
+   "width": 358,
+   "height": 58,
+   "label": "Quy trình Marketing tổng thể",
+   "title_size": 19.5,
+   "sublabel": "Khung cam = người duyệt · Nét đứt = vòng lặp",
+   "fill": "#f9fafb",
+   "stroke": "#e5e7eb"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "f08a",
+   "source": "s8",
+   "target": "s8a",
+   "flow": "control",
+   "source_port": "left",
+   "target_port": "top",
+   "route_points": [
+    [
+     210.0,
+     638.0
+    ]
+   ],
+   "routing_padding": 8,
+   "port_clearance": 16
+  },
+  {
+   "id": "f08b",
+   "source": "s8",
+   "target": "s8b",
+   "flow": "control",
+   "source_port": "right",
+   "target_port": "top",
+   "route_points": [
+    [
+     590.0,
+     630.0
+    ]
+   ],
+   "routing_padding": 8,
+   "port_clearance": 16
+  },
+  {
+   "id": "f08c",
+   "source": "s8",
+   "target": "s8c",
+   "flow": "control",
+   "source_port": "bottom",
+   "target_port": "right",
+   "route_points": [
+    [
+     391.0,
+     760.0
+    ]
+   ],
+   "routing_padding": 8,
+   "port_clearance": 16
+  },
+  {
+   "id": "f08d",
+   "source": "s8",
+   "target": "s8d",
+   "flow": "control",
+   "source_port": "bottom",
+   "target_port": "left",
+   "route_points": [
+    [
+     409.0,
+     760.0
+    ]
+   ],
+   "routing_padding": 8,
+   "port_clearance": 16
+  },
+  {
+   "id": "l064",
+   "source": "s6",
+   "target": "s4",
+   "flow": "feedback",
+   "source_port": "right",
+   "target_port": "right",
+   "route_points": [
+    [
+     780,
+     501.0
+    ],
+    [
+     780,
+     284.0
+    ]
+   ],
+   "dashed": true,
+   "label": "Chưa đạt",
+   "routing_padding": 8,
+   "port_clearance": 16,
+   "label_dx": -18.48,
+   "label_dy": 61.5
+  },
+  {
+   "id": "k124",
+   "source": "s12",
+   "target": "s4",
+   "flow": "feedback",
+   "source_port": "right",
+   "target_port": "left",
+   "route_points": [
+    [
+     432,
+     149.0
+    ],
+    [
+     432,
+     284.0
+    ]
+   ],
+   "dashed": true,
+   "label": "Chưa đạt KPI",
+   "routing_padding": 8,
+   "port_clearance": 16,
+   "label_dx": -14.44,
+   "label_dy": -18.5
+  },
+  {
+   "id": "l097",
+   "source": "s9",
+   "target": "s7",
+   "flow": "feedback",
+   "source_port": "bottom",
+   "target_port": "left",
+   "route_points": [
+    [
+     206.5,
+     574.0
+    ]
+   ],
+   "dashed": true,
+   "label": "Chưa đạt",
+   "routing_padding": 8,
+   "port_clearance": 16,
+   "label_dx": 2.75,
+   "label_dy": 1.0
+  },
+  {
+   "id": "e118",
+   "source": "s11",
+   "target": "s8",
+   "flow": "async",
+   "source_port": "left",
+   "target_port": "left",
+   "route_points": [
+    [
+     14,
+     249.0
+    ],
+    [
+     14,
+     622.0
+    ]
+   ],
+   "dashed": true,
+   "label": "Tối ưu liên tục",
+   "routing_padding": 8,
+   "port_clearance": 16,
+   "label_dx": 167.56,
+   "label_dy": 168.5
+  },
+  {
+   "id": "m121",
+   "source": "s12",
+   "target": "s1",
+   "flow": "async",
+   "source_port": "top",
+   "target_port": "left",
+   "route_points": [
+    [
+     219.0,
+     82.0
+    ]
+   ],
+   "dashed": true,
+   "label": "Hết quý → nghiên cứu lại",
+   "routing_padding": 8,
+   "port_clearance": 16,
+   "label_dx": -101.5,
+   "label_dy": -3.0
+  }
+ ]
+}
