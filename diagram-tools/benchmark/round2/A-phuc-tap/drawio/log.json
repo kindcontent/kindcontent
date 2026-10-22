@@ -1,0 +1,153 @@
+{
+ "tool": "drawio",
+ "process": "A",
+ "pipeline": "Claude writes draw.io XML (Python generator) -> @next-ai-drawio/mcp-server create_new_diagram + export_diagram (2x PNG, 20px margin) via stdio MCP client + headless Chromium preview tab (port 4316) -> PIL LANCZOS downscale to exact size + 256-colour palette",
+ "prompts": {
+  "P1": {
+   "seconds": 214,
+   "attempts": 2,
+   "fixes": [
+    "attempt1: export 2166px wide (right lane + stroke past the 1040 canvas) -> moved 3 right loop lanes inward",
+    "attempt1: PNG 423KB > 400KB -> palette quantization (149KB)",
+    "attempt1: stray 'cùng lúc' text cut by the axis stub inside the step-8 block -> removed",
+    "attempt1: 'Hết quý' label touching quarter-loop lane -> shifted left"
+   ],
+   "limits": [
+    "edge-edge crossing between loop 9->7 and loop 11->8 on the left margin is topologically unavoidable with strict left/right alternation (jumpStyle=arc gave no visible hop)",
+    "step-8 parallel block is full width so steps 7 and 9 sit on the same side of the axis",
+    "layout planned by hand in coordinates (draw.io has no auto-layout through this MCP); several dry-run height checks before first render"
+   ]
+  },
+  "P2": {
+   "seconds": 480,
+   "attempts": 3,
+   "fixes": [
+    "attempt1: labels for steps 3/4/9/10 overflowed canvas -> export 2208px; clamp label widths to canvas",
+    "attempt1: quarter-loop label inside ring collided with dots 12/1 and loop 12->4 -> moved above the ring arc under the GIAI ĐOẠN 1 pill",
+    "attempt1: step-7 label wrapped leaving single word 'cáo' and overlapped GIAI ĐOẠN 3 pill -> wider label, pill moved down",
+    "attempt1: loop 12->4 spline with 6 waypoints wobbled -> 3 waypoints",
+    "attempt1: loop labels 9->7 / 6->4 sat on loop 11->8 -> moved under the centre title",
+    "attempt2: left labels had negative x so export grew leftwards (top-left pad would misalign) -> clamp left labels; attempt3 exact 2160x2160"
+   ],
+   "limits": [
+    "4 channels shown as hub (step 8 on ring) fanning to 4 chips in bottom-left corner, not as split arcs on the ring (draw.io curved edges cannot draw true concentric arcs easily)",
+    "loop 11->8 crosses loop 9->7 inside the ring (unavoidable topology)",
+    "loop labels 6->4 and 9->7 sit near, not on, their dashed arrows; GIAI ĐOẠN pills slightly overlap the grey phase band",
+    "3-attempt cap reached; remaining minor issues left as is"
+   ]
+  },
+  "P3": {
+   "seconds": 115,
+   "attempts": 2,
+   "fixes": [
+    "attempt1: legend ran past right edge (export 3276px) -> legend moved left",
+    "attempt1: step 7 title wrapped 'nội / dung' and several 16px descriptions wrapped leaving one word ('nào','đâu','quý','hàng') -> manual line breaks + shorter descriptions"
+   ],
+   "limits": [
+    "loop lanes in phase-4 column have only ~14px clearance from cards",
+    "quarter-loop label 'Hết quý' sits in the empty phase-1 reviewer cell, above (not on) the bottom return line"
+   ]
+  }
+ },
+ "measure": [
+  {
+   "label": "P1-render1",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.7,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P1-resize1",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.5,
+   "peak_ram_mb": 61
+  },
+  {
+   "label": "P1-render2",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.7,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P1-resize2",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.4,
+   "peak_ram_mb": 61
+  },
+  {
+   "label": "P2-render1",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 10.1,
+   "peak_ram_mb": 180
+  },
+  {
+   "label": "P2-resize1",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.3,
+   "peak_ram_mb": 53
+  },
+  {
+   "label": "P2-render2",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.7,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P2-resize2",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.3,
+   "peak_ram_mb": 53
+  },
+  {
+   "label": "P2-render3",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.7,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P2-resize3",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.3,
+   "peak_ram_mb": 52
+  },
+  {
+   "label": "P3-render1",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.7,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P3-resize1",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.4,
+   "peak_ram_mb": 62
+  },
+  {
+   "label": "P3-render2",
+   "cmd": "timeout 180 node client.mjs render /tmp/claude-0/-home-user-kindcontent/7da89d85-3d54-54c3-b9",
+   "rc": 0,
+   "seconds": 9.8,
+   "peak_ram_mb": 181
+  },
+  {
+   "label": "P3-resize2",
+   "cmd": "python3 -",
+   "rc": 0,
+   "seconds": 0.4,
+   "peak_ram_mb": 60
+  }
+ ],
+ "peak_ram_mb": 181
+}

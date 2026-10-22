@@ -1,0 +1,117 @@
+{
+ "tool": "excalidraw",
+ "process": "A",
+ "prompts": {
+  "P1": {
+   "seconds": 137,
+   "attempts": 3,
+   "fixes": [
+    "render1: loop labels (6->4, 12->4) touched card borders; 8d channel name overflowed its box; card 7 description touched bottom border",
+    "render2: shrank normal cards to 78px, added larger gaps before cards 6 and 12 for loop labels, channel boxes 100px tall; last card ended 12px from bottom",
+    "render3: tightened header/pill spacing so the whole timeline fits with ~28px bottom margin (final)"
+   ],
+   "limits": [
+    "11->8 loop line crosses the 9->7 loop line once in the left margin (lines only, no text/box crossed)",
+    "12->1 quarterly loop ends at the Phase 1 label on the axis rather than at card 1",
+    "Nunito renders the -> arrow glyph small; step names 22px, descriptions 17px",
+    "Design planning for all three structures was largely done before the P1 start timestamp, so P1 seconds under-count design time"
+   ]
+  },
+  "P2": {
+   "seconds": 121,
+   "attempts": 3,
+   "fixes": [
+    "render1: curved (roundness) multi-point arrows overshot into wild curves; card 7 title wrapped leaving orphan '&'; Phase 4 pill text overflowed",
+    "render2: switched all ring/loop arrows to straight-segment polylines, widened card 7, widened Phase 4 pill; found 9->7 loop drawn the long way round (angle direction bug)",
+    "render3: fixed 9->7 arc direction, moved quarterly-loop label outside the ring (final, attempt cap reached)"
+   ],
+   "limits": [
+    "Inner loop arcs (6->4, 9->7, 11->8, 12->4) start/end at radius ~220 with a short radial hop, so their starts float slightly off the badges",
+    "11->8 loop crosses the 9->7 loop inside the ring; 12->4 dashed arc is partly masked by its own label",
+    "Phase 2 pill sits very close to card 3's bottom edge",
+    "Excalidraw has no curved text, so phase labels are dark pills placed next to each card group instead of along the arc; phase bands are grey only",
+    "Step 8's 4 channels hang below the ring as a fork/join row that rejoins at card 9; the ring segment 8->9 has no arrowhead"
+   ]
+  },
+  "P3": {
+   "seconds": 228,
+   "attempts": 3,
+   "fixes": [
+    "render1: export was 1704px wide because rotated lane-label text was offset (convertToExcalidrawElements re-centres text on x)",
+    "render2: fixed rotated text x; seen issues: Phase 4 header wrapped out of its pill, '8d Email & chăm sóc khách' wrapped with orphan word, 9->7 label wrapped with orphan '7'",
+    "render3: narrowed card 7, widened channel boxes to 300px, mixed-case headers, explicit 3-line 9->7 label (final)"
+   ],
+   "limits": [
+    "6->4 and 12->4 loops share the same vertical segment into card 4 (two arrowheads at one entry)",
+    "Fork arrows into 8a-8d and the 9->10 elbow are short (arrowheads small)",
+    "11->12 flow arrow runs down the right canvas edge (8px margin)",
+    "Human lane has some empty area between cards 6 and 9 (used by loop routes/labels)"
+   ]
+  }
+ },
+ "measure": [
+  {
+   "label": "P1-render1",
+   "cmd": "node render.mjs p1.json out/P1",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 176
+  },
+  {
+   "label": "P1-render2",
+   "cmd": "node render.mjs p1.json out/P1",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 177
+  },
+  {
+   "label": "P1-render3",
+   "cmd": "node render.mjs p1.json out/P1",
+   "rc": 0,
+   "seconds": 1.6,
+   "peak_ram_mb": 177
+  },
+  {
+   "label": "P2-render1",
+   "cmd": "node render.mjs p2.json out/P2",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 176
+  },
+  {
+   "label": "P2-render2",
+   "cmd": "node render.mjs p2.json out/P2",
+   "rc": 0,
+   "seconds": 1.4,
+   "peak_ram_mb": 177
+  },
+  {
+   "label": "P2-render3",
+   "cmd": "node render.mjs p2.json out/P2",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 177
+  },
+  {
+   "label": "P3-render1",
+   "cmd": "node render.mjs p3.json out/P3",
+   "rc": 0,
+   "seconds": 1.5,
+   "peak_ram_mb": 177
+  },
+  {
+   "label": "P3-render2",
+   "cmd": "node render.mjs p3.json out/P3",
+   "rc": 0,
+   "seconds": 1.8,
+   "peak_ram_mb": 178
+  },
+  {
+   "label": "P3-render3",
+   "cmd": "node render.mjs p3.json out/P3",
+   "rc": 0,
+   "seconds": 1.8,
+   "peak_ram_mb": 177
+  }
+ ]
+}
