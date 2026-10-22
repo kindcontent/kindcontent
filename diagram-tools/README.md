@@ -5,6 +5,10 @@ Mọi công cụ đều vẽ cùng một nội dung: `content.md` (Quy trình Ag
 ## Benchmark thực tế (quan trọng nhất)
 Cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người), agent mới, chấm mù: **draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3**. Token: Excalidraw 126k, draw.io 135k, fireworks 241k. Chi tiết: `benchmark/KET-QUA.md`.
 
+Vòng 2 (quy trình phức tạp + đơn giản): **draw.io 9.0 > Excalidraw 8.2 > fireworks 7.7**; draw.io nhất 5/6 nhóm. Token phức tạp: draw.io 191k, Excalidraw 188k, fireworks 392k. Chi tiết: `benchmark/round2/KET-QUA.md`.
+
+**Kết luận: dùng draw.io qua next-ai-draw-io MCP.**
+
 ## Top 3 để đăng bài truyền thông
 Chấm trên cả kho của repo (mọi style/theme/template trong `styles/`), không chỉ 1 ảnh. Điểm cao = tốt (Đơn giản: cao = ít bước). Tổng = trung bình 8 mục. Loại: mind map, bản gộp bớt bước (diagram-design), bỏ mũi tên vòng lặp (AntV, mind map), rối/chữ bị cắt (archify, Mermaid, D2).
 

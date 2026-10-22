@@ -11,7 +11,7 @@
 - [x] Render tất cả style/theme/template của từng repo diagram (328 ảnh + 276 mẫu AntV) → `diagram-tools/NN-*/styles/` + gallery mục "Tất cả style"
 - [x] Lọc Top 3 cho đăng bài (clean, ai cũng hiểu): chấm theo cả kho repo (8 tiêu chí) → draw.io 8.3 > Excalidraw 8.1 > fireworks 7.6
 - [x] Benchmark: 3 agent mới, mỗi agent 1 repo (draw.io, Excalidraw, fireworks), cùng 3 prompt (timeline dọc, vòng tròn, 2 làn AI/Người) → `diagram-tools/benchmark/`; đo token, thời gian, RAM, dung lượng; giám khảo chấm mù → draw.io 8.9 > Excalidraw 8.1 > fireworks 7.3; token: Excalidraw 126k < draw.io 135k < fireworks 241k (`benchmark/KET-QUA.md`). User chấm lại P3: fireworks 9, 2 cái kia 6 (hàng dài, thừa khoảng trắng) → draw.io 7.9 > Excalidraw 7.5 > fireworks 7.3
-- [ ] Benchmark vòng 2: quy trình Marketing phức tạp (A) + tư vấn content Social đơn giản (B), cùng 3 cấu trúc, cùng bộ "Bài học vòng 1" cho cả 3 tool → `benchmark/PROMPTS-V2.md`, `benchmark/round2/`; 6 agent + giám khảo mù
+- [x] Benchmark vòng 2: Marketing phức tạp (A) + tư vấn content Social đơn giản (B) → `benchmark/round2/KET-QUA.md`: draw.io 9.0 > Excalidraw 8.2 > fireworks 7.7 (fireworks phức tạp chỉ 6.5, tốn 392k token)
 - [x] Nghiên cứu lip sync (khớp môi) + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 

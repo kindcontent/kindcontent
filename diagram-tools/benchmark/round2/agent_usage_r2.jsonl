@@ -1,0 +1,6 @@
+{"tool":"drawio","process":"B","agent_tokens":133627,"tool_uses":24,"agent_seconds":569}
+{"tool":"excalidraw","process":"B","agent_tokens":138360,"tool_uses":33,"agent_seconds":624}
+{"tool":"fireworks","process":"B","agent_tokens":226028,"tool_uses":61,"agent_seconds":987}
+{"tool":"drawio","process":"A","agent_tokens":191483,"tool_uses":34,"agent_seconds":1139}
+{"tool":"excalidraw","process":"A","agent_tokens":188259,"tool_uses":36,"agent_seconds":1145}
+{"tool":"fireworks","process":"A","agent_tokens":391752,"tool_uses":89,"agent_seconds":2635}
