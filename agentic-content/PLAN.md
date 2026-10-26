@@ -1,8 +1,51 @@
 # Hệ thống Agentic Content · Kind Content
 
-Sơ đồ: `he-thong-agentic-content.drawio` (mở và sửa trên app.diagrams.net) · ảnh xem nhanh: `he-thong-agentic-content.png`.
+Sơ đồ: `he-thong-agentic-content.drawio` gồm 6 tab, mở và sửa trên app.diagrams.net. Ảnh xem nhanh từng tab:
+- `trang-0-tong-quan.png`: toàn bộ hệ thống trên 1 trang.
+- `trang-1-chien-luoc.png` → `trang-4-do-luong-toi-uu.png`: mỗi giai đoạn một trang. Mỗi agent là một khung lớn, các skill là ô riêng bên trong có ghi từng bước, kèm đầu vào, file bàn giao và tiêu chí đạt.
+- `trang-5-dieu-phoi-kho.png`: Agent Điều phối, 6 trạng thái trên Content Board, Kho dữ liệu chung (ai đọc, ai ghi).
 
 1 agent điều phối + 13 agent chuyên trách, 22 skill, 3 điểm người duyệt. Mỗi agent chỉ làm một việc, đọc **Kho dữ liệu chung** trước khi làm, và bàn giao kết quả bằng **một file có tên cố định**. Agent sau chỉ đọc file đó, không đọc lại toàn bộ lịch sử, nên tiết kiệm token.
+
+## Agent và skill khác nhau thế nào
+- **Agent = người làm.** Một vị trí công việc: biết khi nào bắt đầu, đọc file đầu vào, làm xong bàn giao 1 file. Trong Claude Code là file `.claude/agents/<tên>.md` (vai trò, mức AI, được dùng công cụ nào, được dùng skill nào).
+- **Skill = cách làm.** Bài hướng dẫn nghề gồm các bước, tiêu chí, mẫu. Không tự chạy; agent cầm ra để làm. Trong Claude Code là thư mục `.claude/skills/kc-<tên>/` có `SKILL.md` + ví dụ, template.
+- **1 agent dùng nhiều skill:** Agent Viết có 3 skill.
+- **1 skill dùng lại cho nhiều agent:** `kc-brand-voice-check` dùng ở Agent 7, 8, 10.
+- **Cách agent chạy skill (ghi trên sơ đồ chi tiết):**
+  - **nối tiếp:** skill này xong mới tới skill kia.
+  - **song song:** các skill chạy cùng lúc.
+  - **chọn 1:** chỉ dùng skill hợp với loại bài.
+- **Mới bắt đầu:** 1 agent cầm nhiều skill là đủ chạy. Khi nhiều việc hoặc cần tiết kiệm token mới tách thành nhiều agent như sơ đồ.
+
+## 14 agent → 22 skill
+| Agent (người làm) | Skill (cách làm) | Skill đó làm gì | Cách chạy |
+|---|---|---|---|
+| 0. Điều phối | `kc-orchestrator` | Đọc lịch + Board, gọi agent, nhắc người duyệt, giới hạn token, chạy lại khi lỗi | 1 skill |
+| 1. Nghiên cứu | `kc-market-research` | Tin ngành, xu hướng, câu khách hay hỏi → 5–7 insight có nguồn | song song |
+| | `kc-competitor-watch` | 10 bài tốt nhất của mỗi đối thủ → khoảng trống bị bỏ qua | |
+| 2. SEO & Từ khóa | `kc-keyword-intel` | Mở rộng, gom cụm, gắn ý định, chọn từ khóa dễ lên top | 1 skill |
+| 3. Kế hoạch | `kc-content-planner` | Lịch 4 tuần theo tỷ lệ trụ cột, gắn KPI, tạo việc trên Board | 1 skill |
+| 4. Brief | `kc-brief-writer` | Góc tiếp cận, dàn ý, từ khóa, CTA, nguồn | 1 skill |
+| 5. Viết | `kc-blog-writer` | Blog SEO 1.200–2.000 chữ + FAQ + meta | chọn 1 theo loại bài |
+| | `kc-social-writer` | Post fanpage / LinkedIn: hook, thân ngắn, CTA | |
+| | `kc-pr-writer` | Bài PR / báo, giọng trung lập | |
+| 6. Hình ảnh & Video | `kc-visual-maker` | Ảnh bìa, thumbnail, ảnh trong bài đúng khổ | song song |
+| | `kc-video-script` | Kịch bản reel / TikTok 30–60 giây | |
+| | `kc-drawio-diagram` | Sơ đồ quy trình / so sánh bằng draw.io | |
+| 7. Biên tập (QA) | `kc-brand-voice-check` | Giọng, xưng hô, từ cấm, chính tả · /40 điểm | nối tiếp |
+| | `kc-fact-check` | Số liệu, tên riêng, trích dẫn · /30 điểm | |
+| | `kc-seo-check` | Từ khóa, tiêu đề, meta, heading, link, alt · /30 điểm | |
+| 8. Chuyển thể | `kc-repurpose` | 1 bài gốc → 6–8 bản cho từng kênh + UTM | nối tiếp |
+| | *dùng lại* `kc-brand-voice-check` | Kiểm giọng từng bản | |
+| 9. Đăng bài | `kc-prepublish-check` | Link, UTM, kích thước ảnh, chính tả, đúng lịch | nối tiếp |
+| | `kc-publisher` | Đăng / lên lịch qua API, ghi link | |
+| 10. Tương tác | `kc-community-reply` | Phân loại, trả lời trong 30 phút, ghi lead, đẩy G3 | nối tiếp |
+| | *dùng lại* `kc-brand-voice-check` | Kiểm giọng trước khi gửi | |
+| 11. Đo lường | `kc-analytics-report` | Số liệu từng bài so với KPI, top 5 / bottom 5 | 1 skill |
+| 12. Tối ưu | `kc-content-optimizer` | Vì sao tốt / kém → bài học, việc làm mới bài cũ | 1 skill |
+| 13. Báo cáo khách hàng | `kc-client-report` | Báo cáo tháng slide / PDF | nối tiếp |
+| | *dùng lại* `kc-drawio-diagram` | Sơ đồ kết quả, phễu traffic | |
 
 ## Luồng chạy
 | Nhịp | Giai đoạn | Agent |

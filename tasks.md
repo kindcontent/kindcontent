@@ -5,7 +5,7 @@
 ## Checklist
 - [x] Xóa dự án cũ; repo dùng để test repo GitHub cho user
 - [x] Test 10 repo diagram + benchmark 2 vòng → **chốt draw.io (qua next-ai-draw-io MCP)**; đã xóa toàn bộ dữ liệu test
-- [x] Thiết kế Hệ thống Agentic Content (1 điều phối + 13 agent, 22 skill `kc-*`, 3 điểm duyệt) → `agentic-content/` (sơ đồ .drawio/.png + PLAN.md)
+- [x] Thiết kế Hệ thống Agentic Content (1 điều phối + 13 agent, 22 skill `kc-*`, 3 điểm duyệt) → `agentic-content/` (1 file .drawio 6 tab: tổng quan + 4 giai đoạn chi tiết (agent = khung, skill = ô có từng bước) + điều phối & kho; PNG từng tab; PLAN.md có bảng 14 agent → 22 skill)
 - [x] Quy trình bán hàng: A · tư vấn & bán dịch vụ Agency (13 agent, 16 skill, 4 điểm người) + B · phễu khóa học Agentic Content tự động (12 agent, 14 skill, 2 điểm người) → `ban-hang/`
 - [x] Nghiên cứu lip sync + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
