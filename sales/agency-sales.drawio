@@ -1,0 +1,279 @@
+<mxfile host="localhost">
+  <diagram id="ujvdc2qr-c70r" name="Page-1">
+    <mxGraphModel dx="1886" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;fillColor=#ffffff;strokeColor=none;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1452" width="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;align=left;verticalAlign=middle;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:40px;color:#0F172A&quot;&gt;Quy trình Tư vấn &amp;amp; Bán dịch vụ Agency&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:20px;color:#475569&quot;&gt;Content Marketing đa kênh bằng Agentic Content · hướng tới free traffic · 13 agent · 15 skill · 4 điểm có người&lt;/span&gt;" vertex="1">
+          <mxGeometry height="96" width="1560" x="40" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=right;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size:15px;color:#0F172A&quot;&gt;&lt;b style=&quot;color:#2563EB&quot;&gt;kc-skill&lt;/b&gt; = tên skill · Mức AI: &lt;b style=&quot;color:#7C3AED&quot;&gt;mạnh&lt;/b&gt; / &lt;b style=&quot;color:#2563EB&quot;&gt;vừa&lt;/b&gt; / &lt;b style=&quot;color:#0D9488&quot;&gt;nhẹ&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;color:#EA580C&quot;&gt;Khung cam&lt;/b&gt; = người làm/duyệt · &lt;b style=&quot;color:#DC2626&quot;&gt;Đỏ đứt&lt;/b&gt; = làm lại · &lt;b style=&quot;color:#7C3AED&quot;&gt;Tím đứt&lt;/b&gt; = vòng quay lại phễu&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="880" x="1500" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="in" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;spacingLeft=16;spacingRight=12;fontFamily=Inter;verticalAlign=middle;spacingTop=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;NGUỒN FREE TRAFFIC&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;SEO blog · Fanpage · TikTok&lt;br&gt;YouTube · LinkedIn · Cộng đồng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="116" width="330" x="40" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="bar" parent="1" style="rounded=1;arcSize=10;fillColor=#0F172A;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=24;spacingRight=16;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:25px;color:#ffffff&quot;&gt;0. Agent Điều phối Sales&lt;/b&gt; &amp;nbsp;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#CBD5E1&quot;&gt;sales-orchestrator.md&lt;/font&gt; &lt;span style=&quot;font-size:14px;color:#C4B5FD&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:17px;color:#E2E8F0&quot;&gt;Nhận lead từ Hệ thống Agentic Content của chính agency · giao việc · nhắc người đúng hạn · cập nhật CRM · báo cáo phễu hằng tuần&lt;/span&gt;" vertex="1">
+          <mxGeometry height="116" width="1490" x="410" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="crm" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;spacingLeft=16;spacingRight=12;fontFamily=Inter;verticalAlign=middle;spacingTop=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;CRM&lt;/b&gt; &lt;span style=&quot;font-size:13px;color:#475569&quot;&gt;(HubSpot / Pipedrive / Sheet)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Lead mới → Đủ điều kiện → Đã tư vấn&lt;br&gt;→ Đã gửi đề xuất → Chốt / Mất&lt;/span&gt;" vertex="1">
+          <mxGeometry height="116" width="440" x="1940" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="e_in" edge="1" parent="1" source="in" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" target="bar" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_crm" edge="1" parent="1" source="bar" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=block;startFill=1;html=1;" target="crm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="col0" parent="1" style="rounded=1;arcSize=2;fillColor=#F8FAFC;strokeColor=none;fontFamily=Inter;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="922" width="452" x="40" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="head0" parent="1" style="rounded=1;arcSize=30;fillColor=#0F172A;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px&quot;&gt;1 · THU HÚT&lt;/b&gt; &lt;span style=&quot;font-size:14px;color:#CBD5E1&quot;&gt;· 24/7&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="408" x="62" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;1. Agent Lead Magnet&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#2563EB&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-lead-magnet&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Tài liệu miễn phí đổi lấy liên hệ: checklist audit kênh, template lịch nội dung, báo cáo ngành&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Khi: mỗi tháng 1 tài liệu mới&lt;br&gt;Công cụ: Hệ thống Agentic Content, Canva&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="62" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;2. Agent Thu lead&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-lead-capture&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Chatbot trên web, fanpage, Zalo OA hỏi 4 câu: ngành, kênh đang có, mục tiêu, ngân sách → đẩy vào CRM&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Khi: có người tải tài liệu / nhắn tin&lt;br&gt;Công cụ: Meta inbox, Zalo OA, form web&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="62" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" parent="1" style="rounded=1;arcSize=6;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;dashed=1;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:20px;color:#0F172A&quot;&gt;Lead đến từ đâu&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Bài SEO xếp hạng → tải tài liệu · video TikTok / YouTube → link bio · LinkedIn → inbox · group cộng đồng · khách cũ giới thiệu · học viên khóa Agentic Content&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="62" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" parent="1" style="rounded=1;arcSize=6;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;dashed=1;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:20px;color:#0F172A&quot;&gt;Lead magnet gợi ý&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Checklist audit 6 kênh · template lịch nội dung 30 ngày · báo cáo ngành theo quý · bộ prompt Agentic Content · khóa email 5 ngày&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="62" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="disp0" edge="1" parent="1" source="bar" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;exitX=0.027;exitY=1;entryX=0.951;entryY=0;html=1;" target="head0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="col1" parent="1" style="rounded=1;arcSize=2;fillColor=#F8FAFC;strokeColor=none;fontFamily=Inter;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="922" width="452" x="512" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="head1" parent="1" style="rounded=1;arcSize=30;fillColor=#0F172A;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px&quot;&gt;2 · ĐÁNH GIÁ LEAD&lt;/b&gt; &lt;span style=&quot;font-size:14px;color:#CBD5E1&quot;&gt;· trong 1 giờ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="408" x="534" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" parent="1" style="rounded=1;arcSize=6;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;dashed=1;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:20px;color:#0F172A&quot;&gt;Tiêu chí Nóng / Ấm / Lạnh&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;&lt;b&gt;Nóng:&lt;/b&gt; đúng ngành, có ngân sách, cần trong 30 ngày · &lt;b&gt;Ấm:&lt;/b&gt; hợp nhưng chưa gấp · &lt;b&gt;Lạnh:&lt;/b&gt; chưa có ngân sách hoặc chỉ tìm hiểu&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="534" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;3. Agent Làm giàu dữ liệu&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-lead-enrich&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Hồ sơ lead: website, fanpage, traffic ước tính, ngành, quy mô, đối thủ chính&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Khi: lead vào CRM&lt;br&gt;Công cụ: web search, SimilarWeb, Meta Ad Library&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="534" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;4. Agent Chấm điểm&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-lead-score&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Nóng / Ấm / Lạnh theo độ hợp (ngành, ngân sách, số kênh) + mức sẵn sàng mua&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Khi: có hồ sơ lead&lt;br&gt;Công cụ: CRM, bảng tiêu chí khách lý tưởng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="534" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;5. Agent Nuôi dưỡng&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#2563EB&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-nurture&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Lead Ấm/Lạnh: chuỗi email + Zalo 6 tuần (case study, mẹo free traffic) và mời học khóa Agentic Content miễn phí&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Khi: lead Ấm/Lạnh hoặc mất deal&lt;br&gt;Công cụ: Email, Zalo OA, CRM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="534" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="disp1" edge="1" parent="1" source="bar" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;exitX=0.220;exitY=1;entryX=0.500;entryY=0;html=1;" target="head1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="col2" parent="1" style="rounded=1;arcSize=2;fillColor=#F8FAFC;strokeColor=none;fontFamily=Inter;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="922" width="452" x="984" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="head2" parent="1" style="rounded=1;arcSize=30;fillColor=#0F172A;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px&quot;&gt;3 · TƯ VẤN &amp;amp; AUDIT&lt;/b&gt; &lt;span style=&quot;font-size:14px;color:#CBD5E1&quot;&gt;· trong 48 giờ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="408" x="1006" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;6. Agent Đặt lịch&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-meeting-booker&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Gửi link chọn giờ trong 1 giờ, nhắc hẹn trước 24h và 1h, tự đổi lịch&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: Google Calendar, Zalo, Email&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1006" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;7. Agent Audit &amp;amp; chuẩn bị&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#2563EB&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-channel-audit&lt;/span&gt; · &lt;span style=&quot;white-space:nowrap&quot;&gt;kc-call-prep&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Audit 1 trang: điểm từng kênh + 3 cơ hội free traffic lớn nhất; brief cho tư vấn viên&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: Ahrefs, fanpage, TikTok, YouTube&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1006" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="rounded=1;arcSize=6;fillColor=#FFF7ED;strokeColor=#EA580C;strokeWidth=3;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size:13px;font-weight:bold;color:#EA580C;letter-spacing:1px&quot;&gt;NGƯỜI LÀM · TƯ VẤN VIÊN&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;font-size:22px;color:#EA580C&quot;&gt;Buổi tư vấn 30–45 phút&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Trình bày audit, hỏi mục tiêu, ngân sách, người quyết định&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Dùng bộ câu hỏi khám phá + audit của Agent 7&lt;br&gt;Chưa hợp → chuyển Agent Nuôi dưỡng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1006" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;8. Agent Ghi chú cuộc gọi&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-call-notes&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Tóm tắt nhu cầu, phản đối, người quyết định, bước tiếp → cập nhật CRM&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: ghi âm / transcript, CRM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1006" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="disp2" edge="1" parent="1" source="bar" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;exitX=0.537;exitY=1;entryX=0.500;entryY=0;html=1;" target="head2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="col3" parent="1" style="rounded=1;arcSize=2;fillColor=#F8FAFC;strokeColor=none;fontFamily=Inter;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="922" width="452" x="1456" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="head3" parent="1" style="rounded=1;arcSize=30;fillColor=#0F172A;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px&quot;&gt;4 · ĐỀ XUẤT &amp;amp; CHỐT&lt;/b&gt; &lt;span style=&quot;font-size:14px;color:#CBD5E1&quot;&gt;· trong 7 ngày&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="408" x="1478" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;9. Agent Đề xuất&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#7C3AED&quot;&gt;● mạnh&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-proposal-writer&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Đề xuất: kế hoạch 90 ngày, dự báo traffic, 3 gói Khởi động / Tăng trưởng / Toàn diện&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: thư viện case study, bảng giá, mẫu đề xuất&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1478" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="rounded=1;arcSize=6;fillColor=#FFF7ED;strokeColor=#EA580C;strokeWidth=3;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size:13px;font-weight:bold;color:#EA580C;letter-spacing:1px&quot;&gt;NGƯỜI DUYỆT · TRƯỞNG NHÓM&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;font-size:22px;color:#EA580C&quot;&gt;Duyệt đề xuất &amp;amp; giá&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Trong 24 giờ, trước khi gửi khách&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Kiểm: đúng nhu cầu? giá đúng bảng? cam kết làm được?&lt;br&gt;Chưa đạt → Agent 9 sửa&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1478" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;10. Agent Bám đuổi&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-followup&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Nhắc ngày 2 / 5 / 10, gửi case study cùng ngành, trả lời phản đối theo kịch bản&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: Email, Zalo, CRM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1478" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="rounded=1;arcSize=6;fillColor=#FFF7ED;strokeColor=#EA580C;strokeWidth=3;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size:13px;font-weight:bold;color:#EA580C;letter-spacing:1px&quot;&gt;NGƯỜI LÀM · SALES&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;font-size:22px;color:#EA580C&quot;&gt;Chốt deal &amp;amp; ký hợp đồng&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Đàm phán, ký, nhận cọc&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Hỗ trợ: kc-contract soạn hợp đồng + hóa đơn cọc&lt;br&gt;Mất deal → Agent Nuôi dưỡng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1478" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="disp3" edge="1" parent="1" source="bar" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;exitX=0.854;exitY=1;entryX=0.500;entryY=0;html=1;" target="head3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="col4" parent="1" style="rounded=1;arcSize=2;fillColor=#F8FAFC;strokeColor=none;fontFamily=Inter;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="922" width="452" x="1928" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="head4" parent="1" style="rounded=1;arcSize=30;fillColor=#0F172A;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px&quot;&gt;5 · ONBOARDING &amp;amp; GIỮ CHÂN&lt;/b&gt; &lt;span style=&quot;font-size:14px;color:#CBD5E1&quot;&gt;· suốt hợp đồng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="408" x="1950" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;11. Agent Onboarding&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#2563EB&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-client-onboarding&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Thu Brand Kit, quyền truy cập kênh, lịch kick-off → bàn giao cho Hệ thống Agentic Content&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: form, Google Drive, Content Board&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1950" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;12. Agent Giữ chân khách&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#0D9488&quot;&gt;● nhẹ&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-account-health&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Điểm sức khỏe hằng tuần: KPI traffic, phản hồi, tín hiệu rời bỏ&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: báo cáo tuần, CRM&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1950" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" parent="1" style="rounded=1;arcSize=6;fillColor=#FFF7ED;strokeColor=#EA580C;strokeWidth=3;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size:13px;font-weight:bold;color:#EA580C;letter-spacing:1px&quot;&gt;NGƯỜI LÀM · ACCOUNT MANAGER&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;font-size:22px;color:#EA580C&quot;&gt;Gia hạn / nâng gói&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;Gặp khách tháng 3 và tháng 6&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Ưu tiên khách có tín hiệu rời bỏ hoặc vượt KPI&lt;br&gt;Kết quả tốt → Agent Case study&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1950" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" parent="1" style="rounded=1;arcSize=6;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=16;spacingRight=12;spacingTop=12;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:22px;color:#0F172A&quot;&gt;13. Agent Case study&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:14px;font-weight:bold;color:#2563EB&quot;&gt;● vừa&lt;/span&gt;&lt;br&gt;&lt;font face=&quot;JetBrains Mono&quot; style=&quot;font-size:15px&quot; color=&quot;#2563EB&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space:nowrap&quot;&gt;kc-case-study&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;color:#0F172A&quot;&gt;→ Viết case study từ kết quả thật, xin review và lời giới thiệu&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px;color:#475569&quot;&gt;Công cụ: Thư viện nội dung, Google review&lt;/span&gt;" vertex="1">
+          <mxGeometry height="178" width="408" x="1950" y="1022" as="geometry" />
+        </mxCell>
+        <mxCell id="disp4" edge="1" parent="1" source="crm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;strokeColor=#94A3B8;strokeWidth=1.5;dashed=1;exitX=0.486;exitY=1;entryX=0.500;entryY=0;html=1;" target="head4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a1_a2" edge="1" parent="1" source="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a3_a4" edge="1" parent="1" source="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a4_a5" edge="1" parent="1" source="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a5" value="Ấm / Lạnh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a6_a7" edge="1" parent="1" source="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a7_h1" edge="1" parent="1" source="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="h1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_h1_a8" edge="1" parent="1" source="h1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a9_h2" edge="1" parent="1" source="a9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="h2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_h2_a10" edge="1" parent="1" source="h2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#16A34A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a10" value="Đạt → gửi khách">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a10_h3" edge="1" parent="1" source="a10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="h3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a11_a12" edge="1" parent="1" source="a11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_a12_h4" edge="1" parent="1" source="a12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0F172A;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontColor=#0F172A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="h4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_h4_a13" edge="1" parent="1" source="h4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#16A34A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=0;html=1;" target="a13" value="Kết quả tốt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_a2_a3" edge="1" parent="1" source="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#2563EB;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" target="a3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="663" />
+              <mxPoint x="502" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_a4_a6" edge="1" parent="1" source="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#2563EB;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.3;entryX=0;entryY=0.5;html=1;" target="a6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="974" y="851" />
+              <mxPoint x="974" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_a8_a9" edge="1" parent="1" source="a8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#2563EB;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" target="a9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1446" y="1111" />
+              <mxPoint x="1446" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_h3_a11" edge="1" parent="1" source="h3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#16A34A;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;fontFamily=Inter;exitX=1;exitY=0.5;entryX=0;entryY=0.5;html=1;" target="a11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1918" y="1111" />
+              <mxPoint x="1918" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_a5_a4" edge="1" parent="1" source="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;strokeWidth=2.5;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;endSize=8;fontColor=#DC2626;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;horizontal=0;fontFamily=Inter;exitX=1;exitY=0.5;entryX=1;entryY=0.75;html=1;" target="a4" value="Có tín hiệu mua → chấm lại">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="953" y="1111" />
+              <mxPoint x="953" y="932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_h2_a9" edge="1" parent="1" source="h2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;strokeWidth=2.5;dashed=1;dashPattern=8 5;endArrow=block;endFill=1;endSize=8;fontColor=#DC2626;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;horizontal=0;fontFamily=Inter;exitX=1;exitY=0.5;entryX=1;entryY=0.6;html=1;" target="a9" value="Cần sửa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1897" y="663" />
+              <mxPoint x="1897" y="457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="big1" edge="1" parent="1" source="h3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#7C3AED;strokeWidth=3;dashed=1;dashPattern=10 6;endArrow=block;endFill=1;endSize=9;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0.5;entryY=1;html=1;" target="a5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1682" y="1230" />
+              <mxPoint x="738" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="big2" edge="1" parent="1" source="a13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#7C3AED;strokeWidth=3;dashed=1;dashPattern=10 6;endArrow=block;endFill=1;endSize=9;fontFamily=Inter;exitX=0.5;exitY=1;entryX=0;entryY=0.5;html=1;" target="a1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2154" y="1250" />
+              <mxPoint x="55" y="1250" />
+              <mxPoint x="55" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bandhead" parent="1" style="text;align=left;verticalAlign=middle;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:19px;color:#0F172A&quot;&gt;KHO DÙNG CHUNG&lt;/b&gt; &amp;nbsp;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;mọi agent đọc · Agent Case study và Ghi chú cuộc gọi cập nhật sau mỗi deal&lt;/span&gt;" vertex="1">
+          <mxGeometry height="34" width="1800" x="40" y="1274" as="geometry" />
+        </mxCell>
+        <mxCell id="band0" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Chân dung khách lý tưởng&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Ngành, quy mô, ngân sách, dấu hiệu sẵn sàng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="40" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="band1" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Thư viện case study&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Theo ngành, kèm số liệu traffic&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="433" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="band2" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Bảng giá &amp;amp; 3 gói&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Khởi động / Tăng trưởng / Toàn diện&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="827" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="band3" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Mẫu đề xuất &amp;amp; hợp đồng&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Kế hoạch 90 ngày, điều khoản, hóa đơn&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="1220" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="band4" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Bộ câu hỏi khám phá&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Mục tiêu, kênh, ngân sách, người quyết định&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="1613" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="band5" parent="1" style="rounded=1;arcSize=8;fillColor=#ffffff;strokeColor=#CBD5E1;strokeWidth=1.5;align=left;verticalAlign=top;spacingLeft=14;spacingRight=10;spacingTop=10;fontFamily=Inter;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:18px;color:#0F172A&quot;&gt;Kịch bản xử lý phản đối&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;color:#475569&quot;&gt;Giá cao, chưa tin AI, tự làm được&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="373" x="2007" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="lab1" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:13px;color:#2563EB&quot;&gt;Lead&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="472" y="629" as="geometry" />
+        </mxCell>
+        <mxCell id="lab2" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:13px;color:#2563EB&quot;&gt;Nóng&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="944" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="lab3" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:13px;color:#2563EB&quot;&gt;Đủ ý&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1416" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="lab4" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:13px;color:#16A34A&quot;&gt;Đã ký&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="60" x="1888" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="lb1" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:14px;color:#7C3AED&quot;&gt;Mất deal → nuôi dưỡng, liên hệ lại sau 90 ngày&lt;/b&gt;" vertex="1">
+          <mxGeometry height="22" width="440" x="990" y="1219" as="geometry" />
+        </mxCell>
+        <mxCell id="lb2" parent="1" style="text;verticalAlign=middle;fontFamily=Inter;align=center;fillColor=#ffffff;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-size:14px;color:#7C3AED&quot;&gt;Case study mới → làm tài liệu miễn phí thu lead mới&lt;/b&gt;" vertex="1">
+          <mxGeometry height="22" width="480" x="1500" y="1239" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
