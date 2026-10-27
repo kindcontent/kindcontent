@@ -5,9 +5,10 @@
 ## Checklist
 - [x] Xóa dự án cũ; repo dùng để test repo GitHub cho user
 - [x] Test 10 repo diagram + benchmark 2 vòng → **chốt draw.io (qua next-ai-draw-io MCP)**; đã xóa toàn bộ dữ liệu test
-- [x] Thiết kế Hệ thống Agentic Content (1 điều phối + 13 agent, 22 skill `kc-*`, 3 điểm duyệt) → `agentic-content/` (1 file .drawio 6 tab: tổng quan + 4 giai đoạn chi tiết (agent = khung, skill = ô có từng bước) + điều phối & kho; PNG từng tab; PLAN.md có bảng 14 agent → 22 skill)
-- [x] Quy trình bán hàng: A · tư vấn & bán dịch vụ Agency (13 agent, 16 skill, 4 điểm người) + B · phễu khóa học Agentic Content tự động (12 agent, 14 skill, 2 điểm người) → `ban-hang/`
-- [x] Nghiên cứu lip sync + clone giọng tiếng Việt → `lipsync-voice/NGHIEN-CUU.md`
+- [x] Thiết kế Hệ thống Agentic Content (1 điều phối + 13 agent, 21 skill `kc-*`, 3 điểm duyệt) → `agentic-content/` (`agentic-content-system.drawio` 6 tab + `page-*.png` + PLAN.md: file agent, skill, cấu trúc thư mục, operations.yaml)
+- [x] Quy trình bán hàng: A · tư vấn & bán dịch vụ Agency (13 agent, 15 skill, 4 điểm người) + B · phễu khóa học Agentic Content tự động (12 agent, 13 skill, 2 điểm người) → `sales/`
+- [x] Đổi tên file/thư mục sang tiếng Anh; bỏ skill điều phối (luật nằm trong file agent)
+- [x] Nghiên cứu lip sync + clone giọng tiếng Việt → `lipsync-voice/RESEARCH.md`
 - [ ] Test thật lip sync + giọng (chờ: GPU, mở huggingface.co, file giọng + video của user)
 
 ## Ngữ cảnh cho Agent
@@ -15,6 +16,7 @@
 - Công cụ vẽ sơ đồ đã chốt: draw.io qua MCP `@next-ai-drawio/mcp-server` (Claude Code: `claude mcp add --scope user drawio -- npx @next-ai-drawio/mcp-server@latest`). Sửa sơ đồ: load_diagram file `.drawio` → edit_diagram → export_diagram.
 - Gu thiết kế của user: clean, tối giản, lấp đầy khung (ghét khoảng trắng lớn, ghét 1 hàng dài nhiều ô), chữ đậm đủ to, đúng cấu trúc, nhãn đời thường, vòng lặp vẽ bằng mũi tên.
 - Agency: Content Marketing đa kênh bằng Agentic Content, hướng free traffic; khóa học Agentic Content bán tự động (Free → Pro / Team). 2 phễu nối chéo: lead chưa sẵn sàng → khóa Free; học viên chủ doanh nghiệp → lead Agency.
-- `agentic-content/PLAN.md`, `ban-hang/PLAN.md` là nguồn sự thật: bảng agent/skill, file bàn giao, điểm duyệt, vòng lặp, lộ trình. Sửa PLAN thì sửa sơ đồ cho khớp. Skill đặt tên `kc-*`.
+- `agentic-content/PLAN.md`, `sales/PLAN.md` là nguồn sự thật: bảng agent/skill, file bàn giao, điểm duyệt, vòng lặp, lộ trình. Sửa PLAN thì sửa sơ đồ cho khớp. Skill đặt tên `kc-*`.
+- Quy ước: tên file/thư mục tiếng Anh, nội dung bên trong tiếng Việt. Agent = `.claude/agents/<name>.md` (vai trò + luật); skill = `.claude/skills/kc-*/SKILL.md` (tay nghề cố định, dùng lặp lại); con số hay đổi = `operations.yaml`; kho = `shared/`. Điều phối không có skill riêng.
 - Lip sync: đề xuất video thật → LatentSync 1.6; giọng: VieNeu-TTS / VoxCPM2.
 - Môi trường cloud: không GPU, huggingface.co bị chặn, không API key LLM; npm/pypi/git clone OK. Cài vào scratchpad, không để node_modules trong repo.

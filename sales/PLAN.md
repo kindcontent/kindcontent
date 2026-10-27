@@ -1,8 +1,8 @@
 # Quy trình bán hàng · Agency Content Marketing + Khóa học Agentic Content
 
-Hai sơ đồ (mở và sửa trên app.diagrams.net):
-- `quy-trinh-tu-van-agency.drawio` / `.png`: **A · Tư vấn & bán dịch vụ Agency**. Bán kiểu tư vấn, có người ở các điểm quyết định.
-- `pheu-khoa-hoc.drawio` / `.png`: **B · Phễu khóa học Agentic Content**. Tự động hoàn toàn: học Free ngay, tự nâng cấp.
+Quy ước: tên file tiếng Anh, nội dung tiếng Việt. Hai sơ đồ (mở và sửa trên app.diagrams.net):
+- `agency-sales.drawio` / `.png`: **A · Tư vấn & bán dịch vụ Agency**. Bán kiểu tư vấn, có người ở các điểm quyết định.
+- `course-funnel.drawio` / `.png`: **B · Phễu khóa học Agentic Content**. Tự động hoàn toàn: học Free ngay, tự nâng cấp.
 
 Cả hai lấy free traffic từ **Hệ thống Agentic Content của chính agency** (`../agentic-content/`). Hai phễu nối với nhau:
 - **Lead Agency chưa sẵn sàng thuê:** Agent Nuôi dưỡng mời họ học khóa Free.
@@ -11,7 +11,7 @@ Cả hai lấy free traffic từ **Hệ thống Agentic Content của chính age
 ---
 
 ## A · Tư vấn & bán dịch vụ Agency
-1 agent điều phối (`kc-sales-orchestrator`) + 13 agent · 16 skill · 4 điểm có người.
+1 agent điều phối (`sales-orchestrator.md`, luật nằm trong file agent, không có skill riêng) + 13 agent · 15 skill · 4 điểm có người.
 
 | # | Agent | Skill | Khi chạy | Kết quả | Mức AI |
 |---|---|---|---|---|---|
@@ -56,7 +56,7 @@ Hợp đồng và hóa đơn cọc do skill `kc-contract` soạn từ mẫu khi 
 ---
 
 ## B · Phễu khóa học Agentic Content
-1 agent điều phối (`kc-course-orchestrator`) + 12 agent · 14 skill · 2 điểm có người. Không có bước tư vấn.
+1 agent điều phối (`course-orchestrator.md`, luật nằm trong file agent) + 12 agent · 13 skill · 2 điểm có người. Không có bước tư vấn.
 
 | # | Agent | Skill | Khi chạy | Kết quả | Mức AI |
 |---|---|---|---|---|---|
@@ -77,7 +77,7 @@ Hợp đồng và hóa đơn cọc do skill `kc-contract` soạn từ mẫu khi 
 
 **Gói:**
 - **Free:** 5 bài nền tảng, 3 template agent (Brief, Viết, Biên tập), cộng đồng, trợ giảng AI có giới hạn câu hỏi mỗi ngày.
-- **Pro:** toàn bộ khóa, bộ 22 skill mẫu, chứng chỉ.
+- **Pro:** toàn bộ khóa, bộ 21 skill mẫu, chứng chỉ.
 - **Team:** nhiều tài khoản cho doanh nghiệp, báo cáo tiến độ nhóm.
 
 **Điểm có người:**
